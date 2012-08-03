@@ -1,0 +1,5 @@
+D:\WorkShop\MyTest\WebApp\bin\WebApp.dll
+D:\WorkShop\MyTest\WebApp\bin\WebApp.pdb
+D:\WorkShop\MyTest\WebApp\obj\Release\ResolveAssemblyReference.cache
+D:\WorkShop\MyTest\WebApp\obj\Release\WebApp.dll
+D:\WorkShop\MyTest\WebApp\obj\Release\WebApp.pdb

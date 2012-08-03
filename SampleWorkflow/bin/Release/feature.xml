@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Feature  Id="413db16e-a005-4594-a733-6ae1419518e1"
+      Title="SampleWorkflow feature"
+      Description="My SharePoint Workflow Feature"
+      Version="12.0.0.0"
+      Scope="Site"
+      xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="workflow.xml" />
+  </ElementManifests>
+  <Properties>
+    <Property Key="GloballyAvailable" Value="true" />
+  </Properties>
+</Feature>

@@ -1,0 +1,10 @@
+c:\users\administrator\documents\visual studio 2010\Projects\PorterWang\PorterWang\obj\Debug\ResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2010\Projects\PorterWang\PorterWang\bin\Debug\PorterWang.dll
+c:\users\administrator\documents\visual studio 2010\Projects\PorterWang\PorterWang\bin\Debug\PorterWang.pdb
+c:\users\administrator\documents\visual studio 2010\Projects\PorterWang\PorterWang\obj\Debug\PorterWang.dll
+c:\users\administrator\documents\visual studio 2010\Projects\PorterWang\PorterWang\obj\Debug\PorterWang.pdb
+D:\WorkShop\MyTest\PorterWang\obj\Debug\ResolveAssemblyReference.cache
+D:\WorkShop\MyTest\PorterWang\obj\Debug\PorterWang.dll
+D:\WorkShop\MyTest\PorterWang\bin\Debug\PorterWang.dll
+D:\WorkShop\MyTest\PorterWang\bin\Debug\PorterWang.pdb
+D:\WorkShop\MyTest\PorterWang\obj\Debug\PorterWang.pdb

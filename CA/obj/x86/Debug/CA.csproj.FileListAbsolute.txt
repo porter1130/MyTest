@@ -1,0 +1,9 @@
+C:\Users\Administrator\documents\visual studio 2010\Projects\PorterWang\CA\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\WorkShop\MyTest\CA\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\WorkShop\MyTest\CA\bin\Debug\CA.exe.config
+D:\WorkShop\MyTest\CA\bin\Debug\CA.exe
+D:\WorkShop\MyTest\CA\bin\Debug\CA.pdb
+D:\WorkShop\MyTest\CA\obj\x86\Debug\CA.exe
+D:\WorkShop\MyTest\CA\obj\x86\Debug\CA.pdb
+D:\WorkShop\MyTest\CA\bin\Debug\PorterWang.dll
+D:\WorkShop\MyTest\CA\bin\Debug\PorterWang.pdb

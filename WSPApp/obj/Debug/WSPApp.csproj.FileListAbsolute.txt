@@ -1,0 +1,5 @@
+D:\WorkShop\MyTest\WSPApp\GAC\WSPApp.dll
+D:\WorkShop\MyTest\WSPApp\GAC\WSPApp.pdb
+D:\WorkShop\MyTest\WSPApp\obj\Debug\ResolveAssemblyReference.cache
+D:\WorkShop\MyTest\WSPApp\obj\Debug\WSPApp.dll
+D:\WorkShop\MyTest\WSPApp\obj\Debug\WSPApp.pdb

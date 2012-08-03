@@ -1,0 +1,12 @@
+D:\WorkShop\MyTest\ConsoleApp\bin\Release\ConsoleApp.exe.config
+D:\WorkShop\MyTest\ConsoleApp\bin\Release\ConsoleApp.exe
+D:\WorkShop\MyTest\ConsoleApp\bin\Release\ConsoleApp.XmlSerializers.dll
+D:\WorkShop\MyTest\ConsoleApp\bin\Release\ConsoleApp.pdb
+D:\WorkShop\MyTest\ConsoleApp\bin\Release\CA.SAP.APP.dll
+D:\WorkShop\MyTest\ConsoleApp\bin\Release\sapnco.dll
+D:\WorkShop\MyTest\ConsoleApp\bin\Release\sapnco_utils.dll
+D:\WorkShop\MyTest\ConsoleApp\bin\Release\CA.SAP.APP.pdb
+D:\WorkShop\MyTest\ConsoleApp\obj\x86\Release\ResolveAssemblyReference.cache
+D:\WorkShop\MyTest\ConsoleApp\obj\x86\Release\ConsoleApp.exe
+D:\WorkShop\MyTest\ConsoleApp\obj\x86\Release\ConsoleApp.pdb
+D:\WorkShop\MyTest\ConsoleApp\obj\x86\Release\ConsoleApp.XmlSerializers.dll

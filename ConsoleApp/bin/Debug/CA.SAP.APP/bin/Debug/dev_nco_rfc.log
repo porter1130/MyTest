@@ -1,0 +1,97 @@
+**** Trace file opened at 2012-03-06 10:26:03+08:00 (中国标准时间)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: D:\work\CA.SAP.APP\CA.SAP.APP\bin\Debug, Program: D:\work\CA.SAP.APP\CA.SAP.APP\bin\Debug\CA.SAP.APP.vshost.exe
+	Hardware: PC with Windows NT, Processor: 4x Intel 80686 (Mod 42 Step 7), Operating system: Microsoft Windows NT 5.2.3790 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: VANCEINF-GMD0AG, IP address: 192.166.10.7, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2012-03-06 10:26:03.687
+Could not initialize configuration:
+System.Configuration.ConfigurationErrorsException: An error occurred creating the configuration section handler for SAP.Middleware.Connector/ClientSettings/DestinationConfiguration: Could not load file or assembly 'sapnco' or one of its dependencies. 系统找不到指定的文件。 (D:\work\CA.SAP.APP\CA.SAP.APP\bin\Debug\CA.SAP.APP.vshost.exe.Config line 6) ---> System.IO.FileNotFoundException: Could not load file or assembly 'sapnco' or one of its dependencies. 系统找不到指定的文件。
+File name: 'sapnco'
+   at System.Configuration.TypeUtil.GetTypeWithReflectionPermission(IInternalConfigHost host, String typeString, Boolean throwOnError)
+   at System.Configuration.MgmtConfigurationRecord.CreateSectionFactory(FactoryRecord factoryRecord)
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+
+=== Pre-bind state information ===
+LOG: User = VANCEINF-GMD0AG\Administrator
+LOG: DisplayName = sapnco
+ (Partial)
+LOG: Appbase = file:///D:/work/CA.SAP.APP/CA.SAP.APP/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: D:\work\CA.SAP.APP\CA.SAP.APP\bin\Debug\CA.SAP.APP.vshost.exe.Config
+LOG: Using machine configuration file from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\config\machine.config.
+LOG: Policy not being applied to reference at this time (private, custom, partial, or location-based assembly bind).
+LOG: Attempting download of new URL file:///D:/work/CA.SAP.APP/CA.SAP.APP/bin/Debug/sapnco.DLL.
+LOG: Attempting download of new URL file:///D:/work/CA.SAP.APP/CA.SAP.APP/bin/Debug/sapnco/sapnco.DLL.
+LOG: Attempting download of new URL file:///D:/work/CA.SAP.APP/CA.SAP.APP/bin/Debug/sapnco.EXE.
+LOG: Attempting download of new URL file:///D:/work/CA.SAP.APP/CA.SAP.APP/bin/Debug/sapnco/sapnco.EXE.
+
+   --- End of inner exception stack trace ---
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey, Boolean getLkg, Boolean checkPermission)
+   at System.Configuration.ConfigurationSectionCollection.Get(String name)
+   at System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   at SAP.Middleware.Connector.RfcConfigParameters..cctor()
+**** Trace file opened at 2012-03-08 13:16:49+08:00 (中国标准时间)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: D:\work\CA.SAP.APP\CA.SAP.APP\bin\Debug, Program: D:\work\CA.SAP.APP\CA.SAP.APP\bin\Debug\CA.SAP.APP.vshost.exe
+	Hardware: PC with Windows NT, Processor: 4x Intel 80686 (Mod 42 Step 7), Operating system: Microsoft Windows NT 5.2.3790 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: VANCEINF-GMD0AG, IP address: 192.166.10.4, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2012-03-08 13:16:49.672
+error when calling DDIF_FIELDINFO_GET via destination NCO_TESTS_WITHOUT_POOL_300 (possibly caused by temporary unavailability of system QAS)
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       client with wrong appc header version rejected
+TIME        Thu Mar 08 13:16:49 2012
+RELEASE     720
+COMPONENT   CPIC (TCP/IP) with Unicode
+VERSION     3
+RC          246
+MODULE      r3cpic.c
+LINE        8553
+DETAIL      client version 6, gateway version 120 (192.168.6.105/3300)
+COUNTER     2
+
+   at SAP.Middleware.Connector.CpicConnection.CpicReceive(Int32 timeout)
+   at SAP.Middleware.Connector.CpicConnection.Read(Byte* buffer, Int32 offset, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcRepository.Execute(RfcFunction function)
+>> Error entry 2012-03-08 13:16:49.672
+SAP.Middleware.Connector.RfcInvalidStateException: Lookup of function Z_EWF_ACCOUNT_DISPLAY  metadata failed for destination NCO_TESTS_WITHOUT_POOL_300 ---> SAP.Middleware.Connector.RfcInvalidStateException: Lookup of StructureOrTable ZEWF01 metadata failed for destination NCO_TESTS_WITHOUT_POOL_300 ---> SAP.Middleware.Connector.RfcCommunicationException: destination NCO_TESTS_WITHOUT_POOL_300 failed when calling DDIF_FIELDINFO_GET -- see log for details
+   at SAP.Middleware.Connector.RfcRepository.Execute(RfcFunction function)
+   at SAP.Middleware.Connector.RfcRepository.LookupRecordMetadataClassic(String name, RecordType recordType)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcRepository.LookupRecordMetadataClassic(String name, RecordType recordType)
+   at SAP.Middleware.Connector.RfcRepository.LookupRecordMetadata(String name, RecordType recordType)
+   at SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataClassic(String name)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataClassic(String name)
+   at SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   at SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2012-03-08 13:16:49.672
+SAP.Middleware.Connector.RfcInvalidStateException: Lookup of function Z_EWF_ACCOUNT_DISPLAY  metadata failed for destination NCO_TESTS_WITHOUT_POOL_300 ---> SAP.Middleware.Connector.RfcInvalidStateException: Lookup of StructureOrTable ZEWF01 metadata failed for destination NCO_TESTS_WITHOUT_POOL_300 ---> SAP.Middleware.Connector.RfcCommunicationException: destination NCO_TESTS_WITHOUT_POOL_300 failed when calling DDIF_FIELDINFO_GET -- see log for details
+   at SAP.Middleware.Connector.RfcRepository.Execute(RfcFunction function)
+   at SAP.Middleware.Connector.RfcRepository.LookupRecordMetadataClassic(String name, RecordType recordType)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcRepository.LookupRecordMetadataClassic(String name, RecordType recordType)
+   at SAP.Middleware.Connector.RfcRepository.LookupRecordMetadata(String name, RecordType recordType)
+   at SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataClassic(String name)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataClassic(String name)
+   at SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   at SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   at SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)

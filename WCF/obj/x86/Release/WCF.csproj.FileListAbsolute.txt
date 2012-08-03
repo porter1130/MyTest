@@ -1,0 +1,5 @@
+D:\WorkShop\MyTest\WCF\bin\Release\WCF.exe
+D:\WorkShop\MyTest\WCF\bin\Release\WCF.pdb
+D:\WorkShop\MyTest\WCF\obj\x86\Release\ResolveAssemblyReference.cache
+D:\WorkShop\MyTest\WCF\obj\x86\Release\WCF.exe
+D:\WorkShop\MyTest\WCF\obj\x86\Release\WCF.pdb

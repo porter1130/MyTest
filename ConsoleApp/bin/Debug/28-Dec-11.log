@@ -1,0 +1,114 @@
+
+Log written at : 12/28/2011 8:39:20 PM
+ContractID/BlockName : GetWorkflowInfo
+Friendly Message : Task XML
+
+Info Details 
+------------------------------
+Message : <xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema"><rs:data ItemCount="3"><z:row ows_ContentTypeId='0x01080100B46A15499317437594DC283203F9F639004E5029679E2C4B4BB7870AD4FD38C2C9' ows_Title='Vivian Tao&#39;s Purchase Request  &quot;PR000060&quot; needs check' ows_Priority='(2) Normal' ows_Status='Completed' ows_PercentComplete='1.00000000000000' ows_AssignedTo='476;#Shining Xu' ows_StartDate='2011-12-05 14:28:35' ows_WorkflowLink='https://portal.c-and-a.cn/WorkFlowCenter/Lists/PurchaseRequestWorkflow/DispForm.aspx?ID=60, PR000060' ows_WorkflowOutcome='Confirm' ows_WorkflowName='Purchase Request Workflow' ows_TaskType='-1' ows_EmailBody='&lt;HTML&gt;
+  &lt;HEAD&gt;
+    &lt;STYLE&gt;
+TABLE.mail
+{
+    border-collapse:collapse; width:100%;
+    font: 8pt Tahoma;
+}
+
+TD.header { background:#F8F8F9; border:1px solid #E8EAEC;              padding: 12pt 10px 20px 10px; font: 16pt Verdana}
+TD.body { border-top:1px solid #E8EAEC; border-bottom:1px solid #E8EAEC; padding: 12pt 10px 24pt 10px; }
+TD.footer { border-top:1px solid #E8EAEC; border-bottom:1px solid #9CA3AD; padding: 4pt 10px 4pt 10px; }
+A { color:#003399; text-decoration:none; }
+A:visited { color:#aa00aa; }.bodytext
+{
+    font: 8pt Tahoma;
+    color: #000000;
+}
+
+    &lt;/STYLE&gt;
+  &lt;/HEAD&gt;
+  &lt;BODY class=bodytext&gt;
+    &lt;TABLE class=mail cellspacing=0 dir=ltr&gt;
+      &lt;TR class=header&gt;
+        &lt;TD class=header&gt;Task assigned by Vivian Tao on 12/5/2011.&lt;br&gt;&lt;/TD&gt;
+      &lt;/TR&gt;
+      &lt;TR class=body&gt;
+        &lt;TD class=body&gt;&lt;/TD&gt;
+      &lt;/TR&gt;
+      &lt;TR class=footer&gt;&lt;TD class=footer&gt;To complete this task:&lt;br&gt;&lt;ol&gt;&lt;li&gt;Review &lt;a href=&quot;https://portal.c-and-a.cn/WorkFlowCenter/Lists/PurchaseRequestWorkflow/DispForm.aspx?ID=60&quot;&gt;PR000060&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;Perform the specific activities required for this task.&lt;/li&gt;&lt;li&gt;&lt;!--[if gte mso 12]&gt;Use the &lt;b&gt;Edit this task&lt;/b&gt; button to mark the task as completed. (If you cannot update this task, you might not have access to it. Click &lt;a href=&quot;https://portal.c-and-a.cn/WorkFlowCenter/Lists/Tasks/DispForm.aspx?ID=14494&quot;&gt;here&lt;/a&gt; to request access.)&lt;![endif]--&gt;&lt;![if !(gte mso 12)]&gt;&lt;a href=&quot;https://portal.c-and-a.cn/WorkFlowCenter/Lists/Tasks/DispForm.aspx?ID=14494&quot;&gt;Edit this task&lt;/a&gt; to mark the task as completed.&lt;![endif]&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/TD&gt;&lt;/TR&gt;
+
+    &lt;/TABLE&gt;
+    
+  &lt;/BODY&gt;
+&lt;/HTML&gt;' ows_HasCustomEmailBody='0' ows_SendEmailNotification='0' ows_PendingModTime='2011-12-05 15:52:19' ows_Completed='1' ows_WorkflowListId='{127F1D0E-490C-47DF-A3E9-A274503F766E}' ows_WorkflowItemId='60' ows___TaskActions='Confirm;Reject' ows___TaskOutcome='Confirm' ows_TaskStep='CheckTask' ows___TaskActionsDescription='Confirm;Reject' ows_TaskFormURL='/_Layouts/CA/WorkFlows/PurchaseRequest/CheckForm.aspx' ows___Action='Commit' ows___WorkflowVaribales='&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&lt;Data&gt;&lt;item type=&quot;QuickFlow.NameCollection, QuickFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ec1e0fe6e1745628&quot;&gt;&lt;key&gt;&lt;string&gt;ApproveTaskUsers&lt;/string&gt;&lt;/key&gt;&lt;value&gt;&lt;ArrayOfString xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;string&gt;CNAIDC\john.zhang&lt;/string&gt;&lt;/ArrayOfString&gt;&lt;/value&gt;&lt;/item&gt;&lt;/Data&gt;' ows___Body='' ows_ContentType='QuickFlowTaskContentType' ows__UIVersion='1536' ows__UIVersionString='3.0' ows_ID='14494' ows_Modified='2011-12-05 15:52:21' ows_Created='2011-12-05 14:28:36' ows_Author='87;#Vivian Tao' ows_Editor='1073741823;#System Account' ows_owshiddenversion='3' ows_WorkflowVersion='1' ows_Attachments='0' ows__ModerationStatus='0' ows_LinkTitleNoMenu='Vivian Tao&#39;s Purchase Request  &quot;PR000060&quot; needs check' ows_LinkTitle='Vivian Tao&#39;s Purchase Request  &quot;PR000060&quot; needs check' ows_SelectTitle='14494' ows_Order='1449400.00000000' ows_GUID='{9EDF2E13-7A39-4F7E-B5AD-539BC33E4F42}' ows_WorkflowInstanceID='{E27761C1-8CB7-4009-9C7C-F73C2EF172EC}' ows_FileRef='14494;#WorkFlowCenter/Lists/Tasks/14494_.000' ows_FileDirRef='14494;#WorkFlowCenter/Lists/Tasks' ows_Last_x0020_Modified='14494;#2011-12-05 14:28:36' ows_Created_x0020_Date='14494;#2011-12-05 14:28:36' ows_FSObjType='14494;#0' ows_PermMask='0x7fffffffffffffff' ows_FileLeafRef='14494;#14494_.000' ows_UniqueId='14494;#{497D7CAC-C5CC-4270-9435-F6CD61279353}' ows_ProgId='14494;#' ows_ScopeId='14494;#{F641FEE3-BA8B-4B71-8D4D-E864B694CC57}' ows__EditMenuTableStart='14494_.000' ows__EditMenuTableEnd='14494' ows_LinkFilenameNoMenu='14494_.000' ows_LinkFilename='14494_.000' ows_ServerUrl='/WorkFlowCenter/Lists/Tasks/14494_.000' ows_EncodedAbsUrl='https://portal.c-and-a.cn/WorkFlowCenter/Lists/Tasks/14494_.000' ows_BaseName='14494_' ows__Level='1' ows__IsCurrentVersion='1' ows_MetaInfo_vti_versionhistory='0411fa7ba251429aac43c5d21057934c:3' ows_MetaInfo_WorkflowCreationPath='2b4a51e2-336d-4cd7-a46e-e756347416e5;' ows_TaskListId='0411fa7b-a251-429a-ac43-c5d21057934c' ows_EditFormURL='_layouts/QuickFlow/TaskForm.aspx' />
+<z:row ows_ContentTypeId='0x01080100B46A15499317437594DC283203F9F639004E5029679E2C4B4BB7870AD4FD38C2C9' ows_Title='Vivian Tao&#39;s Purchase Request  &quot;PR000060&quot; needs approval' ows_Priority='(2) Normal' ows_Status='Completed' ows_PercentComplete='1.00000000000000' ows_AssignedTo='86;#John Zhang' ows_StartDate='2011-12-05 15:52:21' ows_WorkflowLink='https://portal.c-and-a.cn/WorkFlowCenter/Lists/PurchaseRequestWorkflow/DispForm.aspx?ID=60, PR000060' ows_WorkflowOutcome='Approve' ows_WorkflowName='Purchase Request Workflow' ows_TaskType='-1' ows_EmailBody='&lt;HTML&gt;
+  &lt;HEAD&gt;
+    &lt;STYLE&gt;
+TABLE.mail
+{
+    border-collapse:collapse; width:100%;
+    font: 8pt Tahoma;
+}
+
+TD.header { background:#F8F8F9; border:1px solid #E8EAEC;              padding: 12pt 10px 20px 10px; font: 16pt Verdana}
+TD.body { border-top:1px solid #E8EAEC; border-bottom:1px solid #E8EAEC; padding: 12pt 10px 24pt 10px; }
+TD.footer { border-top:1px solid #E8EAEC; border-bottom:1px solid #9CA3AD; padding: 4pt 10px 4pt 10px; }
+A { color:#003399; text-decoration:none; }
+A:visited { color:#aa00aa; }.bodytext
+{
+    font: 8pt Tahoma;
+    color: #000000;
+}
+
+    &lt;/STYLE&gt;
+  &lt;/HEAD&gt;
+  &lt;BODY class=bodytext&gt;
+    &lt;TABLE class=mail cellspacing=0 dir=ltr&gt;
+      &lt;TR class=header&gt;
+        &lt;TD class=header&gt;Task assigned by Vivian Tao on 12/5/2011.&lt;br&gt;&lt;/TD&gt;
+      &lt;/TR&gt;
+      &lt;TR class=body&gt;
+        &lt;TD class=body&gt;&lt;/TD&gt;
+      &lt;/TR&gt;
+      &lt;TR class=footer&gt;&lt;TD class=footer&gt;To complete this task:&lt;br&gt;&lt;ol&gt;&lt;li&gt;Review &lt;a href=&quot;https://portal.c-and-a.cn/WorkFlowCenter/Lists/PurchaseRequestWorkflow/DispForm.aspx?ID=60&quot;&gt;PR000060&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;Perform the specific activities required for this task.&lt;/li&gt;&lt;li&gt;&lt;!--[if gte mso 12]&gt;Use the &lt;b&gt;Edit this task&lt;/b&gt; button to mark the task as completed. (If you cannot update this task, you might not have access to it. Click &lt;a href=&quot;https://portal.c-and-a.cn/WorkFlowCenter/Lists/Tasks/DispForm.aspx?ID=14536&quot;&gt;here&lt;/a&gt; to request access.)&lt;![endif]--&gt;&lt;![if !(gte mso 12)]&gt;&lt;a href=&quot;https://portal.c-and-a.cn/WorkFlowCenter/Lists/Tasks/DispForm.aspx?ID=14536&quot;&gt;Edit this task&lt;/a&gt; to mark the task as completed.&lt;![endif]&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/TD&gt;&lt;/TR&gt;
+
+    &lt;/TABLE&gt;
+    
+  &lt;/BODY&gt;
+&lt;/HTML&gt;' ows_HasCustomEmailBody='0' ows_SendEmailNotification='0' ows_PendingModTime='2011-12-05 17:23:47' ows_Completed='1' ows_WorkflowListId='{127F1D0E-490C-47DF-A3E9-A274503F766E}' ows_WorkflowItemId='60' ows___TaskActions='Approve;Reject' ows___TaskOutcome='Approve' ows_TaskStep='ApproveTask' ows___TaskActionsDescription='Approve;Reject' ows_TaskFormURL='/_Layouts/CA/WorkFlows/PurchaseRequest/ApproveForm.aspx' ows___Action='Commit' ows___WorkflowVaribales='&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&lt;Data&gt;&lt;item type=&quot;QuickFlow.NameCollection, QuickFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ec1e0fe6e1745628&quot;&gt;&lt;key&gt;&lt;string&gt;ConfirmTaskUsers&lt;/string&gt;&lt;/key&gt;&lt;value&gt;&lt;ArrayOfString xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;string&gt;CNAIDC\Shining.Xu&lt;/string&gt;&lt;/ArrayOfString&gt;&lt;/value&gt;&lt;/item&gt;&lt;item type=&quot;System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&lt;key&gt;&lt;string&gt;IsContinue&lt;/string&gt;&lt;/key&gt;&lt;value&gt;&lt;boolean&gt;false&lt;/boolean&gt;&lt;/value&gt;&lt;/item&gt;&lt;/Data&gt;' ows___Body='' ows_ContentType='QuickFlowTaskContentType' ows__UIVersion='1536' ows__UIVersionString='3.0' ows_ID='14536' ows_Modified='2011-12-05 17:23:50' ows_Created='2011-12-05 15:53:07' ows_Author='87;#Vivian Tao' ows_Editor='1073741823;#System Account' ows_owshiddenversion='3' ows_WorkflowVersion='1' ows_Attachments='0' ows__ModerationStatus='0' ows_LinkTitleNoMenu='Vivian Tao&#39;s Purchase Request  &quot;PR000060&quot; needs approval' ows_LinkTitle='Vivian Tao&#39;s Purchase Request  &quot;PR000060&quot; needs approval' ows_SelectTitle='14536' ows_Order='1453600.00000000' ows_GUID='{3B722A7F-7CAB-420E-B95D-DFD437FE89D9}' ows_WorkflowInstanceID='{E27761C1-8CB7-4009-9C7C-F73C2EF172EC}' ows_FileRef='14536;#WorkFlowCenter/Lists/Tasks/14536_.000' ows_FileDirRef='14536;#WorkFlowCenter/Lists/Tasks' ows_Last_x0020_Modified='14536;#2011-12-05 15:53:08' ows_Created_x0020_Date='14536;#2011-12-05 15:53:08' ows_FSObjType='14536;#0' ows_PermMask='0x7fffffffffffffff' ows_FileLeafRef='14536;#14536_.000' ows_UniqueId='14536;#{42616430-E667-4D1B-91F0-1C17F91DB116}' ows_ProgId='14536;#' ows_ScopeId='14536;#{FE8011F6-01CA-4D63-A389-EFC555B4B55F}' ows__EditMenuTableStart='14536_.000' ows__EditMenuTableEnd='14536' ows_LinkFilenameNoMenu='14536_.000' ows_LinkFilename='14536_.000' ows_ServerUrl='/WorkFlowCenter/Lists/Tasks/14536_.000' ows_EncodedAbsUrl='https://portal.c-and-a.cn/WorkFlowCenter/Lists/Tasks/14536_.000' ows_BaseName='14536_' ows__Level='1' ows__IsCurrentVersion='1' ows_MetaInfo_vti_versionhistory='0411fa7ba251429aac43c5d21057934c:3' ows_MetaInfo_WorkflowCreationPath='2b4a51e2-336d-4cd7-a46e-e756347416e5,2;2b4a51e2-336d-4cd7-a46e-e756347416e5;' ows_TaskListId='0411fa7b-a251-429a-ac43-c5d21057934c' ows_EditFormURL='_layouts/QuickFlow/TaskForm.aspx' />
+<z:row ows_ContentTypeId='0x01080100B46A15499317437594DC283203F9F639004E5029679E2C4B4BB7870AD4FD38C2C9' ows_Title='Vivian Tao&#39;s Purchase Request  &quot;PR000060&quot; needs generate PO' ows_Priority='(2) Normal' ows_Status='Completed' ows_PercentComplete='1.00000000000000' ows_AssignedTo='476;#Shining Xu' ows_StartDate='2011-12-05 17:23:49' ows_WorkflowLink='https://portal.c-and-a.cn/WorkFlowCenter/Lists/PurchaseRequestWorkflow/DispForm.aspx?ID=60, PR000060' ows_WorkflowOutcome='To PO' ows_WorkflowName='Purchase Request Workflow' ows_TaskType='-1' ows_EmailBody='&lt;HTML&gt;
+  &lt;HEAD&gt;
+    &lt;STYLE&gt;
+TABLE.mail
+{
+    border-collapse:collapse; width:100%;
+    font: 8pt Tahoma;
+}
+
+TD.header { background:#F8F8F9; border:1px solid #E8EAEC;              padding: 12pt 10px 20px 10px; font: 16pt Verdana}
+TD.body { border-top:1px solid #E8EAEC; border-bottom:1px solid #E8EAEC; padding: 12pt 10px 24pt 10px; }
+TD.footer { border-top:1px solid #E8EAEC; border-bottom:1px solid #9CA3AD; padding: 4pt 10px 4pt 10px; }
+A { color:#003399; text-decoration:none; }
+A:visited { color:#aa00aa; }.bodytext
+{
+    font: 8pt Tahoma;
+    color: #000000;
+}
+
+    &lt;/STYLE&gt;
+  &lt;/HEAD&gt;
+  &lt;BODY class=bodytext&gt;
+    &lt;TABLE class=mail cellspacing=0 dir=ltr&gt;
+      &lt;TR class=header&gt;
+        &lt;TD class=header&gt;Task assigned by Vivian Tao on 12/5/2011.&lt;br&gt;&lt;/TD&gt;
+      &lt;/TR&gt;
+      &lt;TR class=body&gt;
+        &lt;TD class=body&gt;&lt;/TD&gt;
+      &lt;/TR&gt;
+      &lt;TR class=footer&gt;&lt;TD class=footer&gt;To complete this task:&lt;br&gt;&lt;ol&gt;&lt;li&gt;Review &lt;a href=&quot;https://portal.c-and-a.cn/WorkFlowCenter/Lists/PurchaseRequestWorkflow/DispForm.aspx?ID=60&quot;&gt;PR000060&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;Perform the specific activities required for this task.&lt;/li&gt;&lt;li&gt;&lt;!--[if gte mso 12]&gt;Use the &lt;b&gt;Edit this task&lt;/b&gt; button to mark the task as completed. (If you cannot update this task, you might not have access to it. Click &lt;a href=&quot;https://portal.c-and-a.cn/WorkFlowCenter/Lists/Tasks/DispForm.aspx?ID=14562&quot;&gt;here&lt;/a&gt; to request access.)&lt;![endif]--&gt;&lt;![if !(gte mso 12)]&gt;&lt;a href=&quot;https://portal.c-and-a.cn/WorkFlowCenter/Lists/Tasks/DispForm.aspx?ID=14562&quot;&gt;Edit this task&lt;/a&gt; to mark the task as completed.&lt;![endif]&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/TD&gt;&lt;/TR&gt;
+
+    &lt;/TABLE&gt;
+    
+  &lt;/BODY&gt;
+&lt;/HTML&gt;' ows_HasCustomEmailBody='0' ows_SendEmailNotification='0' ows_PendingModTime='2011-12-05 17:29:16' ows_Completed='1' ows_WorkflowListId='{127F1D0E-490C-47DF-A3E9-A274503F766E}' ows_WorkflowItemId='60' ows___TaskActions='To PO;Confirm;Reject' ows___TaskOutcome='To PO' ows_TaskStep='ConfirmTask' ows___TaskActionsDescription='To PO;Confirm;Reject' ows_TaskFormURL='/_Layouts/CA/WorkFlows/PurchaseRequest/ConfirmForm.aspx' ows___Action='Commit' ows___Body='' ows_ContentType='QuickFlowTaskContentType' ows__UIVersion='1536' ows__UIVersionString='3.0' ows_ID='14562' ows_Modified='2011-12-05 17:29:16' ows_Created='2011-12-05 17:23:50' ows_Author='87;#Vivian Tao' ows_Editor='1073741823;#System Account' ows_owshiddenversion='3' ows_WorkflowVersion='1' ows_Attachments='0' ows__ModerationStatus='0' ows_LinkTitleNoMenu='Vivian Tao&#39;s Purchase Request  &quot;PR000060&quot; needs generate PO' ows_LinkTitle='Vivian Tao&#39;s Purchase Request  &quot;PR000060&quot; needs generate PO' ows_SelectTitle='14562' ows_Order='1456200.00000000' ows_GUID='{0F55974C-1BFB-4347-A16F-413B471EAF41}' ows_WorkflowInstanceID='{E27761C1-8CB7-4009-9C7C-F73C2EF172EC}' ows_FileRef='14562;#WorkFlowCenter/Lists/Tasks/14562_.000' ows_FileDirRef='14562;#WorkFlowCenter/Lists/Tasks' ows_Last_x0020_Modified='14562;#2011-12-05 17:23:50' ows_Created_x0020_Date='14562;#2011-12-05 17:23:50' ows_FSObjType='14562;#0' ows_PermMask='0x7fffffffffffffff' ows_FileLeafRef='14562;#14562_.000' ows_UniqueId='14562;#{010A13BC-BFB6-4482-9F75-825647DAF266}' ows_ProgId='14562;#' ows_ScopeId='14562;#{68A087DF-C081-4F8D-8DA2-43E1A1B27141}' ows__EditMenuTableStart='14562_.000' ows__EditMenuTableEnd='14562' ows_LinkFilenameNoMenu='14562_.000' ows_LinkFilename='14562_.000' ows_ServerUrl='/WorkFlowCenter/Lists/Tasks/14562_.000' ows_EncodedAbsUrl='https://portal.c-and-a.cn/WorkFlowCenter/Lists/Tasks/14562_.000' ows_BaseName='14562_' ows__Level='1' ows__IsCurrentVersion='1' ows_MetaInfo_vti_versionhistory='0411fa7ba251429aac43c5d21057934c:3' ows_MetaInfo_WorkflowCreationPath='2b4a51e2-336d-4cd7-a46e-e756347416e5,2;2b4a51e2-336d-4cd7-a46e-e756347416e5,4;2b4a51e2-336d-4cd7-a46e-e756347416e5;' ows_TaskListId='0411fa7b-a251-429a-ac43-c5d21057934c' ows_EditFormURL='_layouts/QuickFlow/TaskForm.aspx' />
+</rs:data></xml>
+==========================================

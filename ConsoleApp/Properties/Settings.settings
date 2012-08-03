@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ConsoleApp.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConsoleApp_ExcelService_ExcelService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://porter:1130/_vti_bin/ExcelService.asmx</Value>
+    </Setting>
+    <Setting Name="ConsoleApp_ListService_Lists" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://cnashsptest.cnaidc.cn:91/_vti_bin/Lists.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

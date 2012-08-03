@@ -1,0 +1,7 @@
+D:\WorkShop\MyTest\MyWCFClient\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\WorkShop\MyTest\MyWCFClient\bin\Debug\MyWCFClient.exe
+D:\WorkShop\MyTest\MyWCFClient\bin\Debug\MyWCFClient.pdb
+D:\WorkShop\MyTest\MyWCFClient\bin\Debug\MyWCFService.exe
+D:\WorkShop\MyTest\MyWCFClient\bin\Debug\MyWCFService.pdb
+D:\WorkShop\MyTest\MyWCFClient\obj\x86\Debug\MyWCFClient.exe
+D:\WorkShop\MyTest\MyWCFClient\obj\x86\Debug\MyWCFClient.pdb

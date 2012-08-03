@@ -1,0 +1,3318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+	<assembly>
+		<name>Microsoft.SharePoint.WorkflowActions</name>
+	</assembly>
+	<members>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.ActivityToolboxDisplayAttribute">
+			<summary>
+Used to automatically display additional activities in the Visual Studio design toolbox.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.ActivityToolboxDisplayAttribute.#ctor(System.String,System.Boolean)">
+			<summary>
+Initializes a new instance of the ActivityToolboxDisplayAttribute class.
+</summary>
+			<param name="display">
+A Boolean value that designates whether the activity should be displayed.
+</param>
+			<param name="toolboxTabNameKey">
+A string that is used to designate the tab name in Visual Studio toolbox where the activity appears.
+</param>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.ActivityToolboxDisplayAttribute.DisplayByDefault">
+			<summary>
+true if workflow activity is visible; otherwise the value is false.
+</summary>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.ActivityToolboxDisplayAttribute.IntlToolboxTabName">
+			<summary>
+Property is read-only. Used to retrieve the internationalized name of the tab within Visual Studio.
+</summary>
+			<returns>
+The internationalized name of the target tab in Visual Studio where the activity appears.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.ActivityToolboxDisplayAttribute.ToolboxTabNameKey">
+			<summary>
+Property is read-only. Used to retrieve the toolbox tab name where the activity is being placed.
+</summary>
+			<returns>
+The toolbox tab name where the activity appears.
+</returns>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.AddArrayToArrayListActivity">
+			<summary>
+Merges the two specified array lists, to create one list that is the sum of the original two.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.AddArrayToArrayListActivity.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<param name="provider">
+  
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.AddArrayToArrayListActivityValidator">
+			<summary>
+Provides the <see cref="T:Microsoft.SharePoint.WorkflowActions.AddArrayToArrayListActivity"></see> class with a validator that can be used to check for and prevent invalid input values and also to prevent potential unhandled exceptions.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.AddArrayToArrayListActivityValidator.#ctor">
+			<summary>
+Initializes a new instance of the <see cref="T:Microsoft.SharePoint.WorkflowActions.AddArrayToArrayListActivityValidator"></see> class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.AddArrayToArrayListActivityValidator.Validate(System.Workflow.ComponentModel.Compiler.ValidationManager,System.Object)">
+			<summary>
+Verifies that the specified activity is valid.
+</summary>
+			<returns>
+A ValidationErrorCollection object that contains a collection of ValidationError objects. Any errors or warnings encountered during the validation of the workflow activity are stored in the collection.
+</returns>
+			<param name="obj">
+The workflow activity that must be validated.
+</param>
+			<param name="manager">
+A ValidationManager object that contains contextual information such as property validation, parent and child activity relationships, and so on.
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.AddTimeToDateActivity">
+			<summary>
+Adds the specified number of days, hours, and minutes to a DateTime object.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.AddTimeToDateActivity.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<param name="provider">
+  
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.AddTimeToDateActivityValidator">
+			<summary>
+Provides the <see cref="T:Microsoft.SharePoint.WorkflowActions.AddTimeToDateActivity"></see> class with a validator that can be used to check for and prevent invalid input values and also to prevent potential unhandled exceptions.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.AddTimeToDateActivityValidator.#ctor">
+			<summary>
+Initializes a new instance of the <see cref="T:Microsoft.SharePoint.WorkflowActions.AddTimeToDateActivityValidator"></see> class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.AddTimeToDateActivityValidator.Validate(System.Workflow.ComponentModel.Compiler.ValidationManager,System.Object)">
+			<summary>
+Verifies that the specified activity is valid.
+</summary>
+			<returns>
+A ValidationErrorCollection object that contains a collection of ValidationError objects. Any errors or warnings encountered during the validation of the workflow activity are stored in the collection.
+</returns>
+			<param name="obj">
+The workflow activity that must be validated.
+</param>
+			<param name="manager">
+A ValidationManager object that contains contextual information such as property validation, parent and child activity relationships, and so on.
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.AddToArrayListActivity">
+			<summary>
+Adds the specified value to the array list, using the ArrayList.Add method.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.AddToArrayListActivity.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<param name="provider">
+  
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.AddToArrayListActivityValidator">
+			<summary>
+Provides the <see cref="T:Microsoft.SharePoint.WorkflowActions.AddToArrayListActivity"></see> class with a validator that can be used to check for and prevent invalid input values and also to prevent potential unhandled exceptions.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.AddToArrayListActivityValidator.#ctor">
+			<summary>
+Initializes a new instance of the <see cref="T:Microsoft.SharePoint.WorkflowActions.AddToArrayListActivityValidator"></see> class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.AddToArrayListActivityValidator.Validate(System.Workflow.ComponentModel.Compiler.ValidationManager,System.Object)">
+			<summary>
+Verifies that the specified activity is valid.
+</summary>
+			<returns>
+A ValidationErrorCollection object that contains a collection of ValidationError objects. Any errors or warnings encountered during the validation of the workflow activity will be stored in the collection.
+</returns>
+			<param name="obj">
+The workflow activity that must be validated.
+</param>
+			<param name="manager">
+A ValidationManager object that contains contextual information such as property validation, parent and child activity relationships, and so on.
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.AddToHashtableActivity">
+			<summary>
+Adds the specified object and String to a hashtable as a name-value pair.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.AddToHashtableActivity.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<param name="context">
+  
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.AddToHashtableActivity.System.Workflow.ComponentModel.IDynamicPropertyTypeProvider.GetAccessType(System.IServiceProvider,System.String)">
+			<param name="serviceProvider">
+  
+</param>
+			<param name="propertyName">
+  
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.AddToHashtableActivity.System.Workflow.ComponentModel.IDynamicPropertyTypeProvider.GetPropertyType(System.IServiceProvider,System.String)">
+			<param name="serviceProvider">
+  
+</param>
+			<param name="propertyName">
+  
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.AddToHashtableActivityValidator">
+			<summary>
+Provides the <see cref="T:Microsoft.SharePoint.WorkflowActions.AddToHashtableActivity"></see> class with a validator that can be used to check for and prevent invalid input values and also to prevent potential unhandled exceptions.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.AddToHashtableActivityValidator.#ctor">
+			<summary>
+Initializes a new instance of the <see cref="T:Microsoft.SharePoint.WorkflowActions.AddToHashtableActivityValidator"></see> class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.AddToHashtableActivityValidator.Validate(System.Workflow.ComponentModel.Compiler.ValidationManager,System.Object)">
+			<summary>
+Verifies that the specified activity is valid.
+</summary>
+			<returns>
+A ValidationErrorCollection object that contains a collection of ValidationError objects. Any errors or warnings encountered during the validation of the workflow activity are stored in the collection.
+</returns>
+			<param name="obj">
+The workflow activity that must be validated.
+</param>
+			<param name="manager">
+A ValidationManager object that contains contextual information such as property validation, parent and child activity relationships, and so on.
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.ApplyActivation">
+			<summary>
+Updates the initial workflow status with information that is contained in the <see cref="SPWorkflowActivationProperties"></see> class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.ApplyActivation.#ctor">
+			<summary>
+Initializes a new instance of the ApplyActivation class.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.ApplyActivation.__ContextProperty">
+			<summary>
+Dependency property that contains a <see cref="T:Microsoft.SharePoint.WorkflowActions.WorkflowContext"></see> object
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.ApplyActivation.__WorkflowPropertiesProperty">
+			<summary>
+Dependency property that contains a <see cref="T:Microsoft.SharePoint.Workflow.SPWorkflowActivationProperties"></see> object.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.ApplyActivation.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<summary>
+Called by the workflow runtime to execute the activity.
+</summary>
+			<returns>
+The 
+ActivityExecutionStatushttp://msdn.microsoft.com/en-us/library/system.workflow.componentmodel.activityexecutioncontext.aspx
+of the task that is currently running.
+</returns>
+			<param name="provider">
+Used to retrieve information about the workflow activity that is currently running, in addition to obtaining services from the runtime environment.
+</param>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.ApplyActivation.__Context">
+			<summary>
+Provides context of the activity that is currently being executed.
+</summary>
+			<returns>
+A <see cref="T:Microsoft.SharePoint.WorkflowActions.WorkflowContext"></see> object.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.ApplyActivation.__WorkflowProperties">
+			<summary>
+Workflow properties that are initially associated with a specified workflow.
+</summary>
+			<returns>
+An <see cref="T:Microsoft.SharePoint.Workflow.SPWorkflowActivationProperties"></see>object.
+</returns>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.BuildStringActivity">
+			<summary>
+Takes the specified build string expression, evaluates the parameters encoded in the expression, and returns a string that has the dynamic areas filled in.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.BuildStringActivity.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<param name="context">
+  
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.BuildStringActivityValidator">
+			<summary>
+Provides the <see cref="T:Microsoft.SharePoint.WorkflowActions.BuildStringActivity"></see> class with a validator that can be used to check for and prevent invalid input values and also to prevent potential unhandled exceptions.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.BuildStringActivityValidator.#ctor">
+			<summary>
+Initializes a new instance of the <see cref="T:Microsoft.SharePoint.WorkflowActions.BuildStringActivityValidator"></see> class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.BuildStringActivityValidator.Validate(System.Workflow.ComponentModel.Compiler.ValidationManager,System.Object)">
+			<summary>
+Verifies that the specified activity is valid.
+</summary>
+			<returns>
+A ValidationErrorCollection object that contains a collection of ValidationError objects. Any errors or warnings encountered during the validation of the workflow activity are stored in the collection.
+</returns>
+			<param name="obj">
+The workflow activity that must be validated.
+</param>
+			<param name="manager">
+A ValidationManager object that contains contextual information such as property validation, parent and child activity relationships, and so on.
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.CheckInItemActivity">
+			<summary>
+Checks in the specified document into its document library.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.CheckInItemActivity.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<param name="context">
+  
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.CheckInItemActivityValidator">
+			<summary>
+Provides the <see cref="T:Microsoft.SharePoint.WorkflowActions.CheckInItemActivity"></see> class with a validator that can be used to check for and prevent invalid input values and also to prevent potential unhandled exceptions.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.CheckInItemActivityValidator.#ctor">
+			<summary>
+Initializes a new instance of the <see cref="T:Microsoft.SharePoint.WorkflowActions.CheckInItemActivityValidator"></see> class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.CheckInItemActivityValidator.Validate(System.Workflow.ComponentModel.Compiler.ValidationManager,System.Object)">
+			<summary>
+Verifies that the specified activity is valid.
+</summary>
+			<returns>
+A ValidationErrorCollection object that contains a collection of ValidationError objects. Any errors or warnings encountered during the validation of the workflow activity are stored in the collection.
+</returns>
+			<param name="obj">
+The workflow activity that must be validated.
+</param>
+			<param name="manager">
+A ValidationManager object that contains contextual information such as property validation, parent and child activity relationships, and so on.
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.CheckOutItemActivity">
+			<summary>
+Checks out the specified document from its document library.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.CheckOutItemActivity.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<param name="context">
+  
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.CheckOutItemActivityValidator">
+			<summary>
+Provides the <see cref="T:Microsoft.SharePoint.WorkflowActions.CheckOutItemActivity"></see> class with a validator that can be used to check for and prevent invalid input values and also to prevent potential unhandled exceptions.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.CheckOutItemActivityValidator.#ctor">
+			<summary>
+Initializes a new instance of the <see cref="T:Microsoft.SharePoint.WorkflowActions.CheckOutItemActivityValidator"></see> class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.CheckOutItemActivityValidator.Validate(System.Workflow.ComponentModel.Compiler.ValidationManager,System.Object)">
+			<summary>
+Verifies that the specified activity is valid.
+</summary>
+			<returns>
+A ValidationErrorCollection object that contains a collection of ValidationError objects. Any errors or warnings encountered during the validation of the workflow activity are stored in the collection.
+</returns>
+			<param name="obj">
+The workflow activity that must be validated.
+</param>
+			<param name="manager">
+A ValidationManager object that contains contextual information such as property validation, parent and child activity relationships, and so on.
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.ClearArrayListActivity">
+			<summary>
+Removes all items from the specified array list.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.ClearArrayListActivity.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<param name="provider">
+  
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.ClearArrayListActivityValidator">
+			<summary>
+Provides the <see cref="T:Microsoft.SharePoint.WorkflowActions.ClearArrayListActivity"></see> class with a validator that can be used to check for and prevent invalid input values and also to prevent potential unhandled exceptions.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.ClearArrayListActivityValidator.#ctor">
+			<summary>
+Initializes a new instance of the <see cref="T:Microsoft.SharePoint.WorkflowActions.ClearArrayListActivityValidator"></see> class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.ClearArrayListActivityValidator.Validate(System.Workflow.ComponentModel.Compiler.ValidationManager,System.Object)">
+			<summary>
+Verifies that the specified activity is valid.
+</summary>
+			<returns>
+A ValidationErrorCollection object that contains a collection of ValidationError objects. Any errors or warnings encountered during the validation of the workflow activity are stored in the collection.
+</returns>
+			<param name="obj">
+The workflow activity that must be validated.
+</param>
+			<param name="manager">
+A ValidationManager object that contains contextual information such as property validation, parent and child activity relationships, and so on.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.ClearHashtableActivity.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<param name="context">
+  
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.ClearHashtableActivityValidator">
+			<summary>
+Provides the <see cref="T:Microsoft.SharePoint.WorkflowActions.ClearHashtableActivity"></see> class with a validator that can be used to check for and prevent invalid input values and also to prevent potential unhandled exceptions.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.ClearHashtableActivityValidator.#ctor">
+			<summary>
+Initializes a new instance of the <see cref="T:Microsoft.SharePoint.WorkflowActions.ClearHashtableActivityValidator"></see> class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.ClearHashtableActivityValidator.Validate(System.Workflow.ComponentModel.Compiler.ValidationManager,System.Object)">
+			<summary>
+Verifies that the specified activity is valid.
+</summary>
+			<returns>
+A ValidationErrorCollection object that contains a collection of ValidationError objects. Any errors or warnings encountered during the validation of the workflow activity are stored in the collection.
+</returns>
+			<param name="obj">
+The workflow activity that must be validated.
+</param>
+			<param name="manager">
+A ValidationManager object that contains contextual information such as property validation, parent and child activity relationships, and so on.
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.CollectDataTask">
+			<summary>
+Assigns a simple task to a user. 
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.CompleteTask">
+			<summary>
+Marks a Windows SharePoint Services task as completed.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.CompleteTask.TaskIdProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.CompleteTask.TaskId"></see> property. 
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.CompleteTask.TaskOutcomeProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.CompleteTask.TaskOutcome"></see> property. 
+</summary>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.CompleteTask.MethodName">
+			<summary>
+Gets the interface method this activity implements.
+</summary>
+			<returns>
+A String representing the interface method name.
+</returns>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.ConvertActivity">
+			<summary>
+Converts the specified object to the specified type.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.ConvertActivity.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<param name="provider">
+  
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.ConvertActivityValidator">
+			<summary>
+Provides the <see cref="T:Microsoft.SharePoint.WorkflowActions.ConvertActivity"></see> class with a validator that can be used to check for and prevent invalid input values and also to prevent potential unhandled exceptions.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.ConvertActivityValidator.#ctor">
+			<summary>
+Initializes a new instance of the <see cref="T:Microsoft.SharePoint.WorkflowActions.ConvertActivityValidator"></see> class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.ConvertActivityValidator.Validate(System.Workflow.ComponentModel.Compiler.ValidationManager,System.Object)">
+			<summary>
+Verifies that the specified activity is valid.
+</summary>
+			<returns>
+A ValidationErrorCollection object that contains a collection of ValidationError objects. Any errors or warnings encountered during the validation of the workflow activity are stored in the collection.
+</returns>
+			<param name="obj">
+The workflow activity that must be validated.
+</param>
+			<param name="manager">
+A ValidationManager object that contains contextual information such as property validation, parent and child activity relationships, and so on.
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.CopyItemActivity">
+			<summary>
+Copies the specified item from its document library to the specified destination document library.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.CopyItemActivity.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<param name="context">
+  
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.CopyItemActivityValidator">
+			<summary>
+Provides the <see cref="T:Microsoft.SharePoint.WorkflowActions.CopyItemActivity"></see> class with a validator that can be used to check for and prevent invalid input values and also to prevent potential unhandled exceptions.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.CopyItemActivityValidator.#ctor">
+			<summary>
+Initializes a new instance of the <see cref="T:Microsoft.SharePoint.WorkflowActions.CopyItemActivityValidator"></see> class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.CopyItemActivityValidator.Validate(System.Workflow.ComponentModel.Compiler.ValidationManager,System.Object)">
+			<summary>
+Verifies that the specified activity is valid.
+</summary>
+			<returns>
+A ValidationErrorCollection object that contains a collection of ValidationError objects. Any errors or warnings encountered during the validation of the workflow activity are stored in the collection.
+</returns>
+			<param name="obj">
+The workflow activity that must be validated.
+</param>
+			<param name="manager">
+A ValidationManager object that contains contextual information such as property validation, parent and child activity relationships, and so on.
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.CreateItemActivity">
+			<summary>
+Creates a new item in the specified list or document library.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.CreateItemActivity.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<param name="context">
+  
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.CreateItemActivity.Initialize(System.IServiceProvider)">
+			<param name="serviceProvider">
+  
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.CreateItemActivityValidator">
+			<summary>
+Provides the <see cref="T:Microsoft.SharePoint.WorkflowActions.CreateItemActivity"></see> class with a validator that can be used to check for and prevent invalid input values and also to prevent potential unhandled exceptions.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.CreateItemActivityValidator.#ctor">
+			<summary>
+Initializes a new instance of the <see cref="T:Microsoft.SharePoint.WorkflowActions.CreateItemActivityValidator"></see> class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.CreateItemActivityValidator.Validate(System.Workflow.ComponentModel.Compiler.ValidationManager,System.Object)">
+			<summary>
+Verifies that the specified activity is valid.
+</summary>
+			<returns>
+A ValidationErrorCollection object that contains a collection of ValidationError objects. Any errors or warnings encountered during the validation of the workflow activity are stored in the collection.
+</returns>
+			<param name="obj">
+The workflow activity that must be validated.
+</param>
+			<param name="manager">
+A ValidationManager object that contains contextual information such as property validation, parent and child activity relationships, and so on.
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.CreateTask">
+			<summary>
+Creates a Windows SharePoint Services task for your workflow, with the task properties that you specify. 
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.CreateTask.ListItemIdProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.CreateTask.ListItemId"></see> property. 
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.CreateTask.SpecialPermissionsProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.CreateTask.SpecialPermissions"></see> property. 
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.CreateTask.TaskIdProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.CreateTask.TaskId"></see> property. 
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.CreateTask.TaskPropertiesProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.CreateTask.TaskProperties"></see> property. 
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.CreateTaskWithContentType">
+			<summary>
+Creates a task item in a Microsoft Windows SharePoint Services 3.0 task list, using a specified Windows SharePoint Services 3.0 content type.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.CreateTaskWithContentType.#ctor">
+			<summary>
+Initializes a new instance of the CreateTaskWithContentType class.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.CreateTaskWithContentType.ContentTypeIdProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.CreateTaskWithContentType.ContentTypeId"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.CreateTaskWithContentType.ListItemIdProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.CreateTaskWithContentType.ListItemId"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.CreateTaskWithContentType.SpecialPermissionsProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.CreateTaskWithContentType.SpecialPermissions"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.CreateTaskWithContentType.TaskIdProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.CreateTaskWithContentType.TaskId"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.CreateTaskWithContentType.TaskPropertiesProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.CreateTaskWithContentType.TaskProperties"></see> property.
+</summary>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.CreateTaskWithContentType.ContentTypeId">
+			<summary>
+The identity of the <see cref="T:Microsoft.SharePoint.SPContentType"></see> property that should be associated with the task list item.
+</summary>
+			<returns>
+The ContentTypeId property that is associated with the task list item.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.CreateTaskWithContentType.InterfaceType">
+			<summary>
+Gets the declaring interface type of the external method.
+</summary>
+			<returns>
+The interface type of the service that is used to communicate between the workflow host and the runtime environment.
+
+The value will always return an <see cref="ITaskService"></see>property.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.CreateTaskWithContentType.ListItemId">
+			<summary>
+Gets or sets the ListItemId of the newly created task list item.
+</summary>
+			<returns>
+The identifier (ID) of the newly created task list item.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.CreateTaskWithContentType.MethodName">
+			<summary>
+Gets the name of the method to call on the local service that is registered with the ExternalDataExchangeServicehttp://msdn2.microsoft.com/en-us/library/ms608799.aspx.
+</summary>
+			<returns>
+This value always returns the <see cref="CreateTaskWithContentType"></see> activity for this activity.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.CreateTaskWithContentType.SpecialPermissions">
+			<summary>
+Gets or sets any special permissions that should be associated with the new task list item.
+</summary>
+			<returns>
+A list of special permissions that are associated with the newly created task list item.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.CreateTaskWithContentType.TaskId">
+			<summary>
+Gets or sets the TaskId of the task list item that is being created. 
+</summary>
+			<returns>
+The GUID of the newly created task list item.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.CreateTaskWithContentType.TaskProperties">
+			<summary>
+Gets or sets the workflow task properties that are associated with the task list item that is being created.
+</summary>
+			<returns>
+A collection of workflow task properties that are contained in a <see cref="T:Microsoft.SharePoint.Workflow.SPWorkflowTaskProperties"></see> object.
+</returns>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.CurrentDateActivity">
+			<summary>
+Returns the current date.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.CurrentDateActivity.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<param name="provider">
+  
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.DelayForActivity">
+			<summary>
+Pauses the workflow for the specified duration.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.DelayUntilActivity">
+			<summary>
+Pauses the workflow until the specified date.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.DeleteItemActivity">
+			<summary>
+Deletes the specified item from its list or document library.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.DeleteItemActivity.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<param name="context">
+  
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.DeleteItemActivityValidator">
+			<summary>
+Provides the <see cref="T:Microsoft.SharePoint.WorkflowActions.DeleteItemActivity"></see> class with a validator that can be used to check for and prevent invalid input values and also to prevent potential unhandled exceptions.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.DeleteItemActivityValidator.#ctor">
+			<summary>
+Initializes a new instance of the <see cref="T:Microsoft.SharePoint.WorkflowActions.DeleteItemActivityValidator"></see> class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.DeleteItemActivityValidator.Validate(System.Workflow.ComponentModel.Compiler.ValidationManager,System.Object)">
+			<summary>
+Verifies that the specified activity is valid.
+</summary>
+			<returns>
+A ValidationErrorCollection object that contains a collection of ValidationError objects. Any errors or warnings encountered during the validation of the workflow activity are stored in the collection.
+</returns>
+			<param name="obj">
+The workflow activity that must be validated.
+</param>
+			<param name="manager">
+A ValidationManager object that contains contextual information such as property validation, parent and child activity relationships, and so on.
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.DeleteTask">
+			<summary>
+Deletes a Windows SharePoint Services task.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.DeleteTask.TaskIdProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.DeleteTask.TaskId"></see> property.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.EmailActivity">
+			<summary>
+Sends an email message to the specified users.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.EmailActivity.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<param name="context">
+  
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.EmailActivityValidator">
+			<summary>
+Provides the <see cref="T:Microsoft.SharePoint.WorkflowActions.EmailActivity"></see> class with a validator that can be used to check for and prevent invalid input values and also to prevent potential unhandled exceptions.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.EmailActivityValidator.#ctor">
+			<summary>
+Initializes a new instance of the <see cref="T:Microsoft.SharePoint.WorkflowActions.EmailActivityValidator"></see> class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.EmailActivityValidator.Validate(System.Workflow.ComponentModel.Compiler.ValidationManager,System.Object)">
+			<summary>
+Verifies that the specified activity is valid.
+</summary>
+			<returns>
+A ValidationErrorCollection object that contains a collection of ValidationError objects. Any errors or warnings encountered during the validation of the workflow activity are stored in the collection.
+</returns>
+			<param name="obj">
+The workflow activity that must be validated.
+</param>
+			<param name="manager">
+A ValidationManager object that contains contextual information such as property validation, parent and child activity relationships, and so on.
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.EnableWorkflowModification">
+			<summary>
+Enables a workflow modification form, so that the modification can be listed as an available workflow modification in the Windows SharePoint Services user interface.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.EnableWorkflowModification.ContextDataProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.EnableWorkflowModification.ContextData"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.EnableWorkflowModification.ModificationIdProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.EnableWorkflowModification.ModificationId"></see> property.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.FindActivity">
+			<summary>
+Finds a list item by matching a value in the item on which the workflow instance is running with a value of an item in a list.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.FindActivity.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<param name="context">
+  
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.FindActivityValidator">
+			<summary>
+Provides the <see cref="T:Microsoft.SharePoint.WorkflowActions.FindActivity"></see> class with a validator that can be used to check for and prevent invalid input values and also to prevent potential unhandled exceptions.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.FindActivityValidator.#ctor">
+			<summary>
+Initializes a new instance of the <see cref="T:Microsoft.SharePoint.WorkflowActions.FindActivityValidator"></see> class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.FindActivityValidator.Validate(System.Workflow.ComponentModel.Compiler.ValidationManager,System.Object)">
+			<summary>
+Verifies that the specified activity is valid.
+</summary>
+			<returns>
+A ValidationErrorCollection object that contains a collection of ValidationError objects. Any errors or warnings encountered during the validation of the workflow activity are stored in the collection.
+</returns>
+			<param name="obj">
+The workflow activity that must be validated.
+</param>
+			<param name="manager">
+A ValidationManager object that contains contextual information such as property validation, parent and child activity relationships, and so on.
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.FindValueActivity">
+			<summary>
+Used to find the Microsoft Windows SharePoint Services 3.0 list item where a specified value is found. 
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.FindValueActivity.#ctor">
+			<summary>
+Initializes a new instance of the FindValueActivity class.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.FindValueActivity.__ContextProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.FindValueActivity.__Context"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.FindValueActivity.ExternalFieldNameProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.FindValueActivity.ExternalFieldName"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.FindValueActivity.ExternalListIdProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.FindValueActivity.ExternalListId"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.FindValueActivity.FindValueProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.FindValueActivity.FindValue"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.FindValueActivity.ReturnValueProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.FindValueActivity.ReturnValue"></see> property.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.FindValueActivity.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<summary>
+Called by the workflow runtime to execute the activity.
+</summary>
+			<returns>
+The ActivityExecutionStatushttp://msdn2.microsoft.com/en-us/library/ms609982.aspx of the active workflow task, which determines whether the workflow activity continues to be executed or transitions to the closed state.
+</returns>
+			<param name="context">
+The ActivityExecutionContexthttp://msdn2.microsoft.com/en-us/library/ms609771.aspx that is associated with this Activityhttp://msdn2.microsoft.com/en-us/library/ms609744.aspx and execution.
+</param>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.FindValueActivity.__Context">
+			<summary>
+Gets or sets the <see cref="WorkflowContext"></see> from which the FindValueActivity property can extract information about the active workflow instance.
+</summary>
+			<returns>
+A WorkflowContext object that contains information and properties about the active workflow instance.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.FindValueActivity.ExternalFieldName">
+			<summary>
+Gets or sets the ExternalFieldName of the Microsoft Windows SharePoint Services 3.0 list from which the value will be retrieved.
+</summary>
+			<returns>
+The Microsoft Windows SharePoint Services 3.0 field name.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.FindValueActivity.ExternalListId">
+			<summary>
+Gets or sets the ExternalListId from which the field and value will be retrieved.
+</summary>
+			<returns>
+The Microsoft Windows SharePoint Services 3.0 list identifier (ID).
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.FindValueActivity.FindValue">
+			<summary>
+Gets or sets the object that contains the value that the <see cref="FindValue"></see> method will search for.
+</summary>
+			<returns>
+The value to find in the Microsoft Windows SharePoint Services 3.0 list.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.FindValueActivity.ReturnValue">
+			<summary>
+Gets or sets the Microsoft Windows SharePoint Services 3.0 list item identifier (ID) that indicates where the <see cref="FindValue"></see> property was located.
+</summary>
+			<returns>
+The ID of the list item where the stated value was found.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.FindValueActivity.ValueType">
+			<summary>
+Gets or set the property type of the <see cref="FindValue"></see> property.
+</summary>
+			<returns>
+The type of property that is set in the <see cref="FindValue"></see> class.
+</returns>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.FindValueActivityValidator">
+			<summary>
+Provides the <see cref="T:Microsoft.SharePoint.WorkflowActions.FindValueActivity"></see> class with a validator that can be used to check for and prevent invalid input values and also to prevent potential unhandled exceptions.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.FindValueActivityValidator.#ctor">
+			<summary>
+Initializes a new instance of the <see cref="T:Microsoft.SharePoint.WorkflowActions.FindValueActivityValidator"></see> class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.FindValueActivityValidator.Validate(System.Workflow.ComponentModel.Compiler.ValidationManager,System.Object)">
+			<summary>
+Verifies that the specified activity is valid.
+</summary>
+			<returns>
+A ValidationErrorCollection object that contains a collection of ValidationError objects. Any errors or warnings encountered during the validation of the workflow activity are stored in the collection.
+</returns>
+			<param name="obj">
+The workflow activity that must be validated.
+</param>
+			<param name="manager">
+A ValidationManager object that contains contextual information such as property validation, parent and child activity relationships, and so on.
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.GroupAssignedTask">
+			<summary>
+Assigns a simple task to users in parallel.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.Helper">
+			<summary>
+The members of the Helper class are used by Microsoft Windows SharePoint Services 3.0 to provide functionality to declarative, code-free, rules-based workflow editors such as Microsoft Office SharePoint Designer 2007.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.#ctor">
+			<summary>
+Initializes a new instance of the Helper class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.Compare(System.String,System.Object,System.Object)">
+			<summary>
+Compares two objects by using a string that represents an evaluation operator and the WorkflowContext, in order to retrieve properties from the active workflow instance.
+</summary>
+			<returns>
+true if values are equal; otherwise the value is false.
+</returns>
+			<param name="rhsValue">
+The value on the right side of the equation that is evaluated during the execution of the Compare method.
+</param>
+			<param name="comparison">
+A string that represents a comparison operator.
+
+
+
+
+
+Operator
+
+
+Description
+
+
+
+
+
+Equal
+
+
+Compares lhsValue and rhsValue, matching their case, and using culture-specific information to determine equality (exact match).
+
+
+
+
+EqualNoCase
+
+
+Compares lhsValue and rhsValue, ignoring their case, and using culture-specific information to determine equality (exact match).
+
+
+
+
+NotEqual
+
+
+Compares lhsValue and rhsValue, matching their case, and using culture-specific information to determine if they are not equal.
+
+
+
+
+NotEqualNoCase
+
+
+Compares lhsValue and rhsValue, ignoring their case, and using culture-specific information to determine if they are not equal.
+
+
+
+
+StartsWith
+
+
+Compares lhsValue and rhsValue to determine whether the beginning of lhsValue matches rhsValue when compared by using current culture information.
+
+
+
+
+NotStartsWith
+
+
+Compares lhsValue and rhsValue to determine whether the beginning of lhsValue does not match rhsValue when compared by using current culture information.
+
+
+
+
+EndsWith
+
+
+Compares lhsValue and rhsValue to determine whether the end of the lhsValue matches the string that is on the right side of the comparison operator. These are compared by using current culture information.
+
+
+
+
+NotEndsWith
+
+
+Compares lhsValue and rhsValue to determine whether the end of the lhsValue does not match the string that is on the right side of the comparison operator. These are compared by using current culture information.
+
+
+
+
+Contains
+
+
+Compares lhsValue and rhsValue to determine if lhsValue contains any or all of the rhsValue.
+
+
+
+
+NotContains
+
+
+Compares lhsValue and rhsValue to determine if lhsValue does not contain any or all of the rhsValue.
+
+
+
+
+ContainsNoCase
+
+
+Compares lhsValue and rhsValue to determine if lhsValue contains any or all of the rhsValue. Uses the invariant culture and ignores the case of the strings that are being compared.
+
+
+
+
+Matches
+
+
+Determines whether the two supplied values contain a pattern match.
+
+
+
+
+IsEmpty
+
+
+Returns true if lhsValue is found to be null, or its length is zero.
+
+
+
+
+</param>
+			<param name="lhsValue">
+The value on the left side of the equation that is evaluated during the execution of the Compare method.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.Compare(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.Object,System.Object)">
+			<summary>
+Compares two objects by using a string that represents an evaluation operator and the WorkflowContext, in order to retrieve properties from the active workflow instance.
+</summary>
+			<returns>
+true if values are equal; otherwise the value is false.
+</returns>
+			<param name="rhsValue">
+The value on the right side of the equation, which is evaluated during the execution of the Compare method.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="comparison">
+A string that represents a comparison operator.
+
+
+
+
+
+Operator
+
+
+Description
+
+
+
+
+
+Equal
+
+
+Compares lhsValue and rhsValue, matching their case, and using culture-specific information to determine equality (exact match).
+
+
+
+
+EqualNoCase
+
+
+Compares lhsValue and rhsValue, ignoring their case, and using culture-specific information to determine equality (exact match).
+
+
+
+
+NotEqual
+
+
+Compares lhsValue and rhsValue, matching their case, and using culture-specific information to determine if they are not equal.
+
+
+
+
+NotEqualNoCase
+
+
+Compares lhsValue and rhsValue, ignoring their case, and using culture-specific information to determine if they are not equal.
+
+
+
+
+StartsWith
+
+
+Compares lhsValue and rhsValue to determine whether the beginning of lhsValue matches rhsValue when compared by using current culture information.
+
+
+
+
+NotStartsWith
+
+
+Compares lhsValue and rhsValue to determine whether the beginning of lhsValue does not match rhsValue when compared by using current culture information.
+
+
+
+
+EndsWith
+
+
+Compares lhsValue and rhsValue to determine whether the end of the lhsValue matches the string that is on the right side of the comparison operator. These are compared by using current culture information.
+
+
+
+
+NotEndsWith
+
+
+Compares lhsValue and rhsValue to determine whether the end of the lhsValue does not match the string that is on the right side of the comparison operator. These are compared by using current culture information.
+
+
+
+
+Contains
+
+
+Compares lhsValue and rhsValue to determine if lhsValue contains any or all of the rhsValue.
+
+
+
+
+NotContains
+
+
+Compares lhsValue and rhsValue to determine if lhsValue does not contain any or all of the rhsValue.
+
+
+
+
+ContainsNoCase
+
+
+Compares lhsValue and rhsValue to determine if lhsValue contains any or all of the rhsValue. Uses the invariant culture and ignores the case of the strings being compared.
+
+
+
+
+Matches
+
+
+Determines whether the two supplied values contain a pattern match.
+
+
+
+
+IsEmpty
+
+
+Returns true if lhsValue is found to be null, or its length is zero.
+
+
+
+
+</param>
+			<param name="lhsValue">
+The value on the left side of the equation, which is evaluated during the execution of the Compare method.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.CreatedBy(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.Int32,System.String)">
+			<summary>
+Finds the creator of the specified Microsoft Windows SharePoint Services 3.0 list item and compares it to a specified name.
+</summary>
+			<returns>
+true if the name provided matches the creator of the list item; otherwise the value is false.
+</returns>
+			<param name="listId">
+A string that represents the GUID of the Microsoft Windows SharePoint Services 3.0 list identifier (ID). May also be the display name of the list.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="name">
+A name that is compared with the CreatedBy field of the Microsoft Windows SharePoint Services 3.0 list item. The name provided in this field is compared to the SPUser.LoginName property for the user who created the item.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.CreatedInRange(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.Int32,System.DateTime,System.DateTime)">
+			<summary>
+Retrieves a list of Microsoft Windows SharePoint Services 3.0 list items that are created within a range of specified dates.
+</summary>
+			<returns>
+true if the Microsoft Windows SharePoint Services 3.0 list item provided was created within the specified date range; otherwise the value is false.
+</returns>
+			<param name="listId">
+A string that represents the GUID of the Microsoft Windows SharePoint Services 3.0 list identifier (ID). May also be the display name of the list.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="first">
+A DateTime object that specifies the starting date of the date range.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+			<param name="second">
+A DateTime object that specifies the ending date of the date range.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.CurrentDate">
+			<summary>
+Retrieves the current system date and time.
+</summary>
+			<returns>
+A DateTime object that represents the current system date of the server that is hosting Microsoft Windows SharePoint Services 3.0.
+</returns>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.CurrentDate(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.Guid,System.Int32)">
+			<summary>
+Retrieves the current system date of a specified Microsoft Windows SharePoint Services 3.0 list item.
+</summary>
+			<returns>
+The current date of the SPWeb that contains the list item that the workflow instance is running on. This value is expressed in the local server time zone.
+</returns>
+			<param name="listId">
+A GUID that represents the Microsoft Windows SharePoint Services 3.0 list.
+</param>
+			<param name="context">
+A WorkflowContext object.
+</param>
+			<param name="listItem">
+An integer that represents the specific list item.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.CurrentDate(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.Int32)">
+			<summary>
+Retrieves the current system date of a specified Microsoft Windows SharePoint Services 3.0 list item either by its GUID or display name.
+</summary>
+			<returns>
+The current system date of the SPWeb containing the list item that the workflow is running on. This value is expressed in the local server time zone.
+</returns>
+			<param name="Context">
+A WorkflowContext object.
+</param>
+			<param name="listIdOrName">
+A string that represents the Microsoft Windows SharePoint Services 3.0 list GUID or its display name.
+</param>
+			<param name="listItem">
+An integer that represents the specific list item.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.CustomLookupBool(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.Int32,System.String)">
+			<summary>
+Retrieves the Boolean value of a field for a specified Microsoft Windows SharePoint Services 3.0 list and list item.
+</summary>
+			<returns>
+True or false value from the specified field.
+</returns>
+			<param name="fieldName">
+A string that represents the name of the field in the list from which you want to retrieve a Boolean value.
+</param>
+			<param name="listId">
+A string that represents the GUID of the Microsoft Windows SharePoint Services 3.0 list identifier (ID). May also be the display name of the list.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.CustomLookupDateTime(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.Int32,System.String)">
+			<summary>
+Retrieves the DateTime value of a field for a specified Microsoft Windows SharePoint Services 3.0 list and list item.
+</summary>
+			<returns>
+A DateTime value from the specified field.
+</returns>
+			<param name="fieldName">
+A string that represents the name of the field in the list from which you want to retrieve a Boolean value.
+</param>
+			<param name="listId">
+A string that represents the GUID of the Microsoft Windows SharePoint Services 3.0 list identifier (ID). May also be the display name of the list.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.CustomLookupDouble(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.Int32,System.String)">
+			<summary>
+Retrieves the double value from a field for a specified Microsoft Windows SharePoint Services 3.0 list and list item.
+</summary>
+			<returns>
+A double value from the specified field.
+</returns>
+			<param name="fieldName">
+A string that represents the name of the field in the list from which you want to retrieve a Boolean value.
+</param>
+			<param name="listId">
+A string that represents the GUID of the Microsoft Windows SharePoint Services 3.0 list identifier (ID). May also be the display name of the list.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.CustomLookupFriendlyString(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.Int32,System.String)">
+			<summary>
+Retrieves a string value from a field for a specified Microsoft Windows SharePoint Services 3.0 list and list item.
+</summary>
+			<returns>
+A string value from the specified field.
+</returns>
+			<param name="fieldName">
+A string that represents the name of the field in the list from which you want to retrieve a Boolean value.
+</param>
+			<param name="listId">
+A string that representing the GUID of the Microsoft Windows SharePoint Services 3.0 list identifier (ID). May also be the display name of the list.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.CustomLookupInt(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.Int32,System.String)">
+			<summary>
+Retrieves an integer value from a field for a specified Microsoft Windows SharePoint Services 3.0 list item.
+</summary>
+			<returns>
+An integer value from the specified field.
+</returns>
+			<param name="fieldName">
+A string that represents the name of the field in the list from which you want to retrieve a Boolean value.
+</param>
+			<param name="listId">
+A string that represents the GUID of the Microsoft Windows SharePoint Services 3.0 list identifier (ID). May also be the display name of the list.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.CustomLookupString(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.Int32,System.String)">
+			<summary>
+Retrieves a string value from a field for a specified Microsoft Windows SharePoint Services 3.0 list and list item.
+</summary>
+			<returns>
+An integer value from the specified field.
+</returns>
+			<param name="fieldName">
+A string that represents the name of the field in the list from which you want to retrieve a Boolean value.
+</param>
+			<param name="listId">
+A string that represents the GUID of the Microsoft Windows SharePoint Services 3.0 list identifier (ID). May also be the display name of the list.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.CustomLookupUser(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.Int32,System.String)">
+			<summary>
+Retrieves a user logon value for a specified Microsoft Windows SharePoint Services 3.0 list item from a specified field.
+</summary>
+			<returns>
+The value of a specified SPFieldType.User field.
+</returns>
+			<param name="fieldName">
+A string that represents the name of the field in the list from which you want to retrieve a Boolean value.
+</param>
+			<param name="listId">
+A string that represents the GUID of the Microsoft Windows SharePoint Services 3.0 list identifier (ID). May also be the display name of the list.
+</param>
+			<param name="Context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.ExceptionDoesNotDisableWorkflow(System.Exception)">
+			<summary>
+Specifies whether an exception that is encountered during the workflow stops the workflow but does not prohibit it from running again.
+</summary>
+			<returns>
+
+
+
+
+Exception Type
+
+
+Return Value
+
+
+
+
+
+Unauthorized access
+
+
+true
+
+
+
+
+Version conflict
+
+
+true
+
+
+
+
+Document locked
+
+
+true
+
+
+
+
+Document checked out
+
+
+true
+
+
+
+
+Check out required
+
+
+true
+
+
+
+
+All others
+
+
+false
+
+
+</returns>
+			<param name="e">
+An Exception object.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.FileExistInWeb(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String)">
+			<summary>
+Verifies whether a specified file exists in a specified Microsoft Windows SharePoint Services 3.0 Web site.
+</summary>
+			<returns>
+true if the file exists; otherwise the value is false.
+</returns>
+			<param name="strUrl">
+A string that contains the URL for the file.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.FileSizeIs(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.Int32,System.Double,System.Double)">
+			<summary>
+Verifies that a specified Microsoft Windows SharePoint Services 3.0 list item is within a specified size range.
+</summary>
+			<returns>
+true if the file size is within the stated range; otherwise the value is false.
+</returns>
+			<param name="listId">
+A string that represents the GUID of the Microsoft Windows SharePoint Services 3.0 list identifier (ID). May also be the display name of the list.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="lower">
+A double value that represents the lower bound file size, in kilobytes.
+</param>
+			<param name="upper">
+A double value that represents the upper-bound file size, in kilobytes.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.FileTypeIs(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.Int32,System.String)">
+			<summary>
+Checks the DocIcon field of a specified Microsoft Windows SharePoint Services 3.0 list item for a specified document type.
+</summary>
+			<returns>
+true if the file type name matches the DocIcon field value; otherwise the value is false.
+</returns>
+			<param name="listId">
+A string that represents the GUID of the Microsoft Windows SharePoint Services 3.0 list identifier (ID). May also be the display name of the list.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="name">
+A string that represents the document type.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.Find(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.Guid,System.Int32,System.String,System.Guid,System.String)">
+			<summary>
+Finds the field value of an external list that matches an associated field, list, and list item by using the GUID of the associated list identifier (ID).
+</summary>
+			<returns>
+An integer that represents the item ID from the external list.
+</returns>
+			<param name="fieldNameInAssociated">
+A string that represents the field name in the associated list.
+</param>
+			<param name="listId">
+A string that represents the GUID of the Microsoft Windows SharePoint Services 3.0 list ID. May also be the display name of the list.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="fieldNameInExternal">
+A string that represents the field name in the external list
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+			<param name="externalListId">
+A string that represents the GUID that corresponds to the external list ID or the external list display name.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.Find(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.Int32,System.String,System.String,System.String)">
+			<summary>
+Finds the field value of an external list that matches an associated field, list, and list item, by using the list identifier (ID) or list name of the associated list.
+</summary>
+			<returns>
+An integer that represents the item ID from the external list.
+</returns>
+			<param name="fieldNameInAssociated">
+A string that represents the field name in the associated list.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="listIdOrName">
+A string that represents the GUID of the Microsoft Windows SharePoint Services 3.0 list ID or the list display name.
+</param>
+			<param name="fieldNameInExternal">
+A string that represents the field name in the external list.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+			<param name="externalListId">
+A string that represents the GUID that corresponds to the external list or the external list display name.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.FindValue(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.Guid,System.String,System.Object)">
+			<summary>
+Finds an item in a list that contains a field value that matches the specified value.
+</summary>
+			<returns>
+The external list item where the matching value is found.
+</returns>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="fieldNameInExternal">
+A string that represents the field name in the external list.
+</param>
+			<param name="value">
+An object that contains the field value to look for in the external list.
+</param>
+			<param name="externalListId">
+The GUID of the external list identifier (ID).
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.FindValue(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.String,System.Object)">
+			<summary>
+Finds an item in a list that contains a field value that matches the specified value.
+</summary>
+			<returns>
+The external list item where the matching value is found.
+</returns>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="fieldNameInExternal">
+A string that represents the field name in the external list.
+</param>
+			<param name="value">
+An object that contains the field value to find in the external list.
+</param>
+			<param name="externalListId">
+A string that represents the GUID that corresponds to the external list or the external list display name.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.GetFieldDisplayName(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.String)">
+			<summary>
+Retrieves the display name value from a specified field.
+</summary>
+			<returns>
+The field display name.
+</returns>
+			<param name="fieldName">
+A string that represents the field name from which to retrieve the display name.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="listNameOrId">
+A string that represents either the GUID of the Microsoft Windows SharePoint Services 3.0 list identifier (ID) or the list name.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.GetListGuid(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String)">
+			<summary>
+Retrieves a list GUID from a specified list name or list identifier (ID).
+</summary>
+			<returns>
+The list GUID.
+</returns>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="listNameOrId">
+A string that represents either the GUID of the Microsoft Windows SharePoint Services 3.0 list ID or the list name.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.LookupBool(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.Guid,System.Int32,System.String)">
+			<summary>
+Retrieves the Boolean value of a field for a specified Microsoft Windows SharePoint Services 3.0 list item when the list item GUID is known.
+</summary>
+			<returns>
+true or false value from the specified field.
+</returns>
+			<param name="fieldName">
+A string that represents the name of the field in the list from which you want to retrieve a Boolean value.
+</param>
+			<param name="listId">
+The GUID of the Microsoft Windows SharePoint Services 3.0 list.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.LookupBool(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.Int32,System.String)">
+			<summary>
+Retrieves the Boolean value of a field for a specified Microsoft Windows SharePoint Services 3.0 list item when the list item GUID or list name is known.
+</summary>
+			<returns>
+true or false value from the specified field.
+</returns>
+			<param name="fieldName">
+A string that represents the name of the field in the list from which you want to retrieve a Boolean value.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="listIdOrName">
+A string that represents the GUID of the Microsoft Windows SharePoint Services 3.0 list identifier (ID) or the display name of the list.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.LookupDateTime(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.Guid,System.Int32,System.String)">
+			<summary>
+Retrieves the DateTime value of a field for a specified Microsoft Windows SharePoint Services 3.0 list item when the list item GUID is known.
+</summary>
+			<returns>
+A DateTime value from the specified field.
+</returns>
+			<param name="fieldName">
+A string that represents the name of the field in the list from which you want to retrieve a Boolean value.
+</param>
+			<param name="listId">
+The GUID of the Microsoft Windows SharePoint Services 3.0 list.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.LookupDateTime(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.Int32,System.String)">
+			<summary>
+Retrieves the DateTime value of a field for a specified Microsoft Windows SharePoint Services 3.0 list item when the list item GUID is known.
+</summary>
+			<returns>
+A DateTime value from the specified field.
+</returns>
+			<param name="fieldName">
+A string that represents the name of the field in the list from which you want to retrieve a Boolean value.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="listIdOrName">
+A string that represents the GUID of the Microsoft Windows SharePoint Services 3.0 list ID or display name of the list.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.LookupDouble(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.Guid,System.Int32,System.String)">
+			<summary>
+Retrieves the double value from a field for a specified Microsoft Windows SharePoint Services 3.0 list item when the list GUID is known.
+</summary>
+			<returns>
+A double value from the specified field.
+</returns>
+			<param name="fieldName">
+A string that represents the name of the field in the list from which you want to retrieve a double value.
+</param>
+			<param name="listId">
+A string that represents the GUID of the Microsoft Windows SharePoint Services 3.0 list identifier (ID). May also be the display name of the list.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.LookupDouble(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.Int32,System.String)">
+			<summary>
+Retrieves the double value for a specified Microsoft Windows SharePoint Services 3.0 list item from a specified field when the list GUID or the list name is known.
+</summary>
+			<returns>
+A double value from the specified field.
+</returns>
+			<param name="fieldName">
+A string that represents the name of the field in the list from which you want to retrieve a double value.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="listIdOrName">
+A string that represents the GUID of the Microsoft Windows SharePoint Services 3.0 list identifier (ID) or the display name of the list.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.LookupFriendlyString(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.Guid,System.Int32,System.String)">
+			<summary>
+Retrieves a string value from a field for a specified Microsoft Windows SharePoint Services 3.0 list item when the list GUID is known.
+</summary>
+			<returns>
+A string value from the specified field.
+</returns>
+			<param name="fieldName">
+A string that represents the name of the field in the list from which you want to retrieve a string value.
+</param>
+			<param name="listId">
+The GUID of the Microsoft Windows SharePoint Services 3.0 list.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.LookupFriendlyString(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.Int32,System.String)">
+			<summary>
+Retrieves a string value from a field for a specified Microsoft Windows SharePoint Services 3.0 list item when the list GUID is known.
+</summary>
+			<returns>
+A string value from the specified field.
+</returns>
+			<param name="fieldName">
+A string that represents the name of the field in the list from which you want to retrieve a string value.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="listIdOrName">
+A string that represents the GUID of the Microsoft Windows SharePoint Services 3.0 list identifier (ID) or the display name of the list.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.LookupInt(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.Guid,System.Int32,System.String)">
+			<summary>
+Retrieves an integer value from a field for a specified Microsoft Windows SharePoint Services 3.0 list item when the list GUID is known.
+</summary>
+			<returns>
+An integer value from the specified field.
+</returns>
+			<param name="fieldName">
+A string that represents the name of the field in the list from which you want to retrieve a Boolean value.
+</param>
+			<param name="listId">
+The GUID of the Microsoft Windows SharePoint Services 3.0 list.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.LookupInt(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.Int32,System.String)">
+			<summary>
+Retrieves an integer value from a field for a specified Microsoft Windows SharePoint Services 3.0 list item when the list GUID or list name is known.
+</summary>
+			<returns>
+An integer value from the specified field.
+</returns>
+			<param name="fieldName">
+A string that represents the name of the field in the list from which you want to retrieve an integer value.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="listIdOrName">
+A string that represents either the GUID of the Microsoft Windows SharePoint Services 3.0 list or the display name of the list.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.LookupString(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.Guid,System.Int32,System.String)">
+			<summary>
+Retrieves a string value from a field for a specified Microsoft Windows SharePoint Services 3.0 list item when the list GUID is known.
+</summary>
+			<returns>
+A string value from the specified field.
+</returns>
+			<param name="fieldName">
+A string that represents the name of the field in the list from which you want to retrieve a string value.
+</param>
+			<param name="listId">
+The GUID of the Microsoft Windows SharePoint Services 3.0 list.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.LookupString(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.Int32,System.String)">
+			<summary>
+Retrieves a string value from a field for a specified Microsoft Windows SharePoint Services 3.0 list item when the list GUID or list name is known.
+</summary>
+			<returns>
+A string value from the specified field.
+</returns>
+			<param name="fieldName">
+A string that represents the name of the field in the list from which you want to retrieve a string value.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="listIdOrName">
+A string that represents either the GUID of the Microsoft Windows SharePoint Services 3.0 list or the display name of the list.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.LookupUser(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.Guid,System.Int32,System.String)">
+			<summary>
+Retrieves a user logon name from a field for a specified Microsoft Windows SharePoint Services 3.0 list item when the list GUID is known.
+</summary>
+			<returns>
+A user logon name from the specified field.
+</returns>
+			<param name="fieldName">
+A string that represents the name of the field in the list from which you want to retrieve a user logon name.
+</param>
+			<param name="listId">
+The GUID of the Microsoft Windows SharePoint Services 3.0 list.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.LookupUser(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.Int32,System.String)">
+			<summary>
+Retrieves a user logon name from a field for a specified Microsoft Windows SharePoint Services 3.0 list item when the list GUID or list name is known.
+</summary>
+			<returns>
+A user logon name from the specified field.
+</returns>
+			<param name="fieldName">
+A string that represents the name of the field in the list from which you want to retrieve a string value.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="listIdOrName">
+A string that represents either the GUID of the Microsoft Windows SharePoint Services 3.0 list or the display name of the list.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.ModifiedBy(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.Int32,System.String)">
+			<summary>
+Verifies that a specific user was the last person to modify a list item.
+</summary>
+			<returns>
+true if the logon name matches the value of the Editor field; otherwise the value is false.
+</returns>
+			<param name="listId">
+A string that represents the GUID of the Microsoft Windows SharePoint Services 3.0 list identifier (ID). May also be the display name of the list.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="name">
+A string that represents the logon name of the user who must be verified.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.ModifiedInRange(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.Int32,System.DateTime,System.DateTime)">
+			<summary>
+Verifies whether a Microsoft Windows SharePoint Services 3.0 list item has been modified within a specified date range.
+</summary>
+			<returns>
+true if the modified date falls within the specified date range; otherwise the value is false.
+</returns>
+			<param name="listId">
+A string that represents the GUID of the Microsoft Windows SharePoint Services 3.0 list identifier (ID). May also be the display name of the list.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="first">
+A DateTime object that specifies the starting date of the date range.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+			<param name="second">
+A DateTime object that specifies the ending date of the date range.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.ProcessStringField(System.String,System.Workflow.ComponentModel.Activity,Microsoft.SharePoint.WorkflowActions.WorkflowContext)">
+			<summary>
+Retrieves a string that represents the value of a specified workflow variable.
+</summary>
+			<returns>
+The value of the specified workflow variable.
+</returns>
+			<param name="activity">
+A workflow activity.
+</param>
+			<param name="str">
+A string that contains the name of the variable whose value you are retrieving from the active workflow instance.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.ResolveToDisplayName(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.Object)">
+			<summary>
+Retrieves the display name of a user that is contained in a Microsoft Windows SharePoint Services 3.0 user field.
+</summary>
+			<returns>
+The display name of the user.
+</returns>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="userNameObj">
+An object that represents the value of a SPFieldType.User field.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.ResolveToEmailName(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String)">
+			<summary>
+Retrieves an e-mail name or a list of e-mail names of all users associated with the Microsoft Windows SharePoint Services 3.0 web object found in the WorkflowContext.Web property.
+</summary>
+			<returns>
+A list of semicolon delimited e-mail addresses.
+</returns>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="username">
+A string that represents the user logon name.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.ResolveToUserName(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String)">
+			<summary>
+Retrieves the user name of a Microsoft Windows SharePoint Services 3.0 user when the e-mail address is supplied.
+</summary>
+			<returns>
+The logon name of the user with the specified e-mail address.
+</returns>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="emailAddress">
+An e-mail address of a specified user.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.TestListItem(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.Guid,System.Int32,System.String,System.String,System.Object)">
+			<summary>
+Compares a Microsoft Windows SharePoint Services 3.0 list item field value to a specified value when the list GUID is known. 
+</summary>
+			<returns>
+true if value matches that found in the specified field; otherwise the value is false.
+</returns>
+			<param name="fieldName">
+A string that contains the name of the field in the list that you want to retrieve for comparison.
+</param>
+			<param name="listId">
+A string that represents the GUID of the Microsoft Windows SharePoint Services 3.0 list. May also be the display name of the list.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="comparison">
+A string that represents a comparison operator.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+			<param name="value">
+An object that contains the value to compare with the value found in the specified field.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.TestListItem(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.Int32,System.String,System.String,System.Object)">
+			<summary>
+Compares a Microsoft Windows SharePoint Services 3.0 list item field value to a specified value when the list GUID or name is known. 
+</summary>
+			<returns>
+true if value matches that found in the specified field; otherwise the value is false.
+</returns>
+			<param name="fieldName">
+A string that contains the name of the field in the list that you want to retrieve for comparison.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="comparison">
+A string that represents a comparison operator.
+</param>
+			<param name="listIdOrName">
+A string that represents the GUID of the Microsoft Windows SharePoint Services 3.0 list identifier (ID) or the display name of the list.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+			<param name="value">
+An object that contains the value to compare with the value found in the specified field.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.ToDouble(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.Object)">
+			<summary>
+Converts a specified value into a double data type.
+</summary>
+			<returns>
+The specified value converted to a double data type.
+</returns>
+			<param name="val">
+An object that contains the value to be converted.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.ToString(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.Object)">
+			<summary>
+Converts a specified object into a string data type.
+</summary>
+			<param name="val">
+An object that contains the value to be converted.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.Helper.WordsInTitle(Microsoft.SharePoint.WorkflowActions.WorkflowContext,System.String,System.Int32,System.String)">
+			<summary>
+Verifies that a word or words are included in the title of a specified Microsoft Windows SharePoint Services 3.0 list item.
+</summary>
+			<returns>
+true if the word pattern is contained in the title field; otherwise the value is false.
+</returns>
+			<param name="words">
+A string that contains the word or group of words to be verified.
+</param>
+			<param name="listId">
+A string that represents the GUID of the Microsoft Windows SharePoint Services 3.0 list. May also be the display name of the list.
+</param>
+			<param name="context">
+WorkflowContext object that contains properties that are associated with the active workflow instance.
+</param>
+			<param name="listItem">
+An integer that represents the Microsoft Windows SharePoint Services 3.0 list item in a specified list.
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.InitializeWorkflow">
+			<summary>
+Initializes a new instance of the workflow.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.InitializeWorkflow.WorkflowIdProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.InitializeWorkflow.WorkflowId"></see> property.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.LogToHistoryListActivity">
+			<summary>
+Logs information about the execution of a specified workflow to the workflow history list.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.LogToHistoryListActivity.#ctor">
+			<summary>
+Initializes a new instance of the LogToHistoryListActivity class.
+</summary>
+		</member>
+		<member name="E:Microsoft.SharePoint.WorkflowActions.LogToHistoryListActivity.MethodInvoking">
+			<summary>
+An event that occurs immediately before the workflow invokes a specified method.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.LogToHistoryListActivity.DurationProperty">
+			<summary>
+The DependencyPropertyhttp://msdn.microsoft.com/en-us/library/microsoft.sharepoint.administration.spworkitemjobdefinition.processworkitems.aspx object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.LogToHistoryListActivity.Duration"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.LogToHistoryListActivity.EventIdProperty">
+			<summary>
+The DependencyPropertyhttp://msdn.microsoft.com/en-us/library/microsoft.sharepoint.administration.spworkitemjobdefinition.processworkitems.aspx object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.LogToHistoryListActivity.EventId"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.LogToHistoryListActivity.HistoryDescriptionProperty">
+			<summary>
+The DependencyPropertyhttp://msdn.microsoft.com/en-us/library/microsoft.sharepoint.administration.spworkitemjobdefinition.processworkitems.aspx object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.LogToHistoryListActivity.HistoryDescription"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.LogToHistoryListActivity.HistoryOutcomeProperty">
+			<summary>
+The DependencyPropertyhttp://msdn.microsoft.com/en-us/library/microsoft.sharepoint.administration.spworkitemjobdefinition.processworkitems.aspx object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.LogToHistoryListActivity.HistoryOutcome"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.LogToHistoryListActivity.OtherDataProperty">
+			<summary>
+The DependencyPropertyhttp://msdn.microsoft.com/en-us/library/microsoft.sharepoint.administration.spworkitemjobdefinition.processworkitems.aspx object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.LogToHistoryListActivity.OtherData"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.LogToHistoryListActivity.UserIdProperty">
+			<summary>
+The DependencyPropertyhttp://msdn.microsoft.com/en-us/library/microsoft.sharepoint.administration.spworkitemjobdefinition.processworkitems.aspx object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.LogToHistoryListActivity.UserId"></see> property.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.LogToHistoryListActivity.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<summary>
+Called by the workflow run time to execute an activity.
+</summary>
+			<returns>
+The ActivityExecutionStatus of the workflow task that is running, which determines whether the activity continues to be executed or transitions to the closed state.
+</returns>
+			<param name="context">
+An ActivityExecutionStatus object that represents the execution environment of an activity.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.LogToHistoryListActivity.OnMethodInvoking(System.EventArgs)">
+			<summary>
+Provides a hook for derived classes to set ParameterBindings. This method is called immediately before the external method is run.
+</summary>
+			<param name="e">
+An EventArgs object that contains the data for the MethodInvoking event.
+</param>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.LogToHistoryListActivity.Duration">
+			<summary>
+Gets or sets the time that it takes for the workflow action to complete.
+</summary>
+			<returns>
+The amount of time that elapsed during the execution of the workflow action.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.LogToHistoryListActivity.EventId">
+			<summary>
+Gets or sets the type of event that was raised.
+</summary>
+			<returns>
+An identifier (ID) that represents the type of event that was raised.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.LogToHistoryListActivity.HistoryDescription">
+			<summary>
+Gets or sets the description of the workflow event.
+</summary>
+			<returns>
+Text that describes the history of the list event.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.LogToHistoryListActivity.HistoryOutcome">
+			<summary>
+Gets or sets a description of the results of the event.
+</summary>
+			<returns>
+Text that describes the results of the event.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.LogToHistoryListActivity.OtherData">
+			<summary>
+Gets or sets additional information that the user wants to include in the history list entry.
+</summary>
+			<returns>
+Text that describes additional data that is included in the event.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.LogToHistoryListActivity.UserId">
+			<summary>
+Gets or sets the identifier (ID) of the Microsoft Windows SharePoint Services 3.0 user who initiated the workflow action.
+</summary>
+			<returns>
+An integer that represents a user ID.
+</returns>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.LookupActivity">
+			<summary>
+Looks up data from a list, based on the specified parameters.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.LookupActivity.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<param name="provider">
+  
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.LookupActivityValidator">
+			<summary>
+Provides the <see cref="T:Microsoft.SharePoint.WorkflowActions.LookupActivity"></see> class with a validator that can be used to check for and prevent invalid input values and also to prevent potential unhandled exceptions.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.LookupActivityValidator.#ctor">
+			<summary>
+Initializes a new instance of the <see cref="T:Microsoft.SharePoint.WorkflowActions.LookupActivityValidator"></see> class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.LookupActivityValidator.Validate(System.Workflow.ComponentModel.Compiler.ValidationManager,System.Object)">
+			<summary>
+Verifies that the specified activity is valid.
+</summary>
+			<returns>
+A ValidationErrorCollection object that contains a collection of ValidationError objects. Any errors or warnings encountered during the validation of the workflow activity are stored in the collection.
+</returns>
+			<param name="obj">
+The workflow activity that must be validated.
+</param>
+			<param name="manager">
+A ValidationManager object that contains contextual information such as property validation, parent and child activity relationships, and so on.
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.MathActivity">
+			<summary>
+Performs simple arithmetic calculations.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.MathActivity.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<param name="provider">
+  
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.MathActivityValidator">
+			<summary>
+Provides the <see cref="T:Microsoft.SharePoint.WorkflowActions.MathActivity"></see> class with a validator that can be used to check for and prevent invalid input values and also to prevent potential unhandled exceptions.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.MathActivityValidator.#ctor">
+			<summary>
+Initializes a new instance of the <see cref="T:Microsoft.SharePoint.WorkflowActions.MathActivityValidator"></see> class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.MathActivityValidator.Validate(System.Workflow.ComponentModel.Compiler.ValidationManager,System.Object)">
+			<summary>
+Verifies that the specified activity is valid.
+</summary>
+			<returns>
+A ValidationErrorCollection object that contains a collection of ValidationError objects. Any errors or warnings encountered during the validation of the workflow activity are stored in the collection.
+</returns>
+			<param name="obj">
+The workflow activity that must be validated.
+</param>
+			<param name="manager">
+A ValidationManager object that contains contextual information such as property validation, parent and child activity relationships, and so on.
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.OnTaskChanged">
+			<summary>
+Responds to the event Windows SharePoint Services raises when a task associated with the workflow is modified.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.OnTaskChanged.AfterPropertiesProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.OnTaskChanged.AfterProperties"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.OnTaskChanged.BeforePropertiesProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.OnTaskChanged.BeforeProperties"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.OnTaskChanged.ExecutorProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.OnTaskChanged.Executor"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.OnTaskChanged.TaskIdProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.OnTaskChanged.TaskId"></see> property.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.OnTaskCreated">
+			<summary>
+Responds to the event Windows SharePoint Services raises when a task associated with the workflow is created.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.OnTaskCreated.AfterPropertiesProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.OnTaskCreated.AfterProperties"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.OnTaskCreated.ExecutorProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.OnTaskCreated.Executor"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.OnTaskCreated.TaskIdProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.OnTaskCreated.TaskId"></see> property.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.OnTaskDeleted">
+			<summary>
+Responds to the event Windows SharePoint Services raises when a task associated with the workflow is deleted.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.OnTaskDeleted.AfterPropertiesProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.OnTaskDeleted.AfterProperties"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.OnTaskDeleted.ExecutorProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.OnTaskDeleted.Executor"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.OnTaskDeleted.TaskIdProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.OnTaskDeleted.TaskId"></see> property.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.OnWorkflowActivated">
+			<summary>
+Responds to the event Windows SharePoint Services raises when a new workflow instance is initiated for an item. 
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.OnWorkflowActivated.WorkflowIdProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.OnWorkflowActivated.WorkflowId"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.OnWorkflowActivated.WorkflowPropertiesProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.OnWorkflowActivated.WorkflowProperties"></see> property.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.OnWorkflowItemChanged">
+			<summary>
+Occurs when a change is made to a workflow, either through the user interface or programmatically.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.OnWorkflowItemChanged.#ctor">
+			<summary>
+Initializes a new instance of the OnWorkflowItemChanged class.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.OnWorkflowItemChanged.AfterPropertiesProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.OnWorkflowItemChanged.AfterProperties"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.OnWorkflowItemChanged.BeforePropertiesProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.OnWorkflowItemChanged.BeforeProperties"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.OnWorkflowItemChanged.WorkflowIdProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.OnWorkflowItemChanged.WorkflowId"></see> property.
+</summary>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.OnWorkflowItemChanged.AfterProperties">
+			<summary>
+Gets or sets properties of the workflow item after a change has occurred.
+</summary>
+			<returns>
+A list of workflow properties.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.OnWorkflowItemChanged.BeforeProperties">
+			<summary>
+Gets or sets properties of the workflow item before a change has occurred.
+</summary>
+			<returns>
+A list of workflow properties.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.OnWorkflowItemChanged.EventName">
+			<summary>
+Gets the name of the event that invokes this activity.
+</summary>
+			<returns>
+The name of the invoking event.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.OnWorkflowItemChanged.InterfaceType">
+			<summary>
+Gets the interface that is used to implement this activity.
+</summary>
+			<returns>
+The type of interface that is used to implement the activity.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.OnWorkflowItemChanged.WorkflowId">
+			<summary>
+Gets or sets the workflow identifier (ID) that is assigned to the workflow instance by the workflow engine when the workflow is initiated. 
+</summary>
+			<returns>
+The WorkflowId identifier.
+</returns>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.OnWorkflowItemDeleted">
+			<summary>
+Responds to the event Windows SharePoint Services raises when a workflow item is deleted.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.OnWorkflowItemDeleted.AfterPropertiesProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.OnWorkflowItemDeleted.AfterProperties"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.OnWorkflowItemDeleted.BeforePropertiesProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.OnWorkflowItemDeleted.BeforeProperties"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.OnWorkflowItemDeleted.WorkflowIdProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.OnWorkflowItemDeleted.WorkflowId"></see> property.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.OnWorkflowModified">
+			<summary>
+Responds to the event Windows SharePoint Services raises when a user submits a workflow modification form.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.OnWorkflowModified.ContextDataProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.OnWorkflowModified.ContextData"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.OnWorkflowModified.ModificationIdProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.OnWorkflowModified.ModificationId"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.OnWorkflowModified.UserProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.OnWorkflowModified.User"></see> property.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.RollbackTask">
+			<summary>
+Rolls a workflow task back to its last accepted state.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.RollbackTask.#ctor">
+			<summary>
+Initializes a new instance of the RollbackTask class.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.RollbackTask.ReasonProperty">
+			<summary>
+The DependencyPropertyhttp://msdn.microsoft.com/en-us/library/system.workflow.componentmodel.dependencyproperty.aspx object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.RollbackTask.Reason"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.RollbackTask.TaskIdProperty">
+			<summary>
+The DependencyPropertyhttp://msdn.microsoft.com/en-us/library/system.workflow.componentmodel.dependencyproperty.aspx object that promotes the P:Microsoft.SharePoint.WorkflowActions.RollbackTask.TaskId property.
+</summary>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.RollbackTask.InterfaceType">
+			<summary>
+Gets the name of the declaring interface of the external method that is used to implement this activity.
+</summary>
+			<returns>
+An InterfaceType object.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.RollbackTask.MethodName">
+			<summary>
+Gets the name of the method that is called by this activity.
+</summary>
+			<returns>
+The method name that is executed by the activity.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.RollbackTask.Reason">
+			<summary>
+Gets or sets the text that can be used to log the reason why the workflow task was rolled back.
+</summary>
+			<returns>
+The text that contains the reason that the workflow task was rolled back. 
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.RollbackTask.TaskId">
+			<summary>
+Gets or sets the identifier (ID) of the task to roll back.
+</summary>
+			<returns>
+The internal ID of the Microsoft Windows SharePoint Services 3.0 task list item. This ID is expressed as a GUID.
+</returns>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.RootWorkflowActivityWithData">
+			<summary>
+Receives and processes a member of the <see cref="WorkflowDataFieldsCollection"></see> class as provided in the <see cref="WorkflowFields"></see> property.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.RootWorkflowActivityWithData.#ctor">
+			<summary>
+Initializes a new instance of the RootWorkflowActivityWithData class.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.RootWorkflowActivityWithData.WorkflowFieldsProperty">
+			<summary>
+The DependencyPropertyhttp://msdn.microsoft.com/en-us/library/system.workflow.componentmodel.dependencyproperty.aspx object that promotes the WorkflowFields property.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.RootWorkflowActivityWithData.HandleFault(System.Workflow.ComponentModel.ActivityExecutionContext,System.Exception)">
+			<summary>
+Called when an exception is raised during the execution of the active workflow instance.
+</summary>
+			<returns>
+The ActivityExecutionStatus that results from an attempt to cancel this instance of the workflow.
+</returns>
+			<param name="exception">
+The exception that caused this fault.
+</param>
+			<param name="executionContext">
+The ActivityExecutionContext that applies to this instance of the workflow.
+</param>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.RootWorkflowActivityWithData.WorkflowFields">
+			<summary>
+Contains a collection of the name and value pairs of workflow fields that the workflow activity can use at run time. 
+</summary>
+			<returns>
+A collection of WorkflowDataFields.
+</returns>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.RootWorkflowActivityWithDataCodeDomSerializer">
+			<summary>
+Serializes a root workflow activity to a new type.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.RootWorkflowActivityWithDataCodeDomSerializer.#ctor">
+			<summary>
+Initializes a new instance of the RootWorkflowActivityWithDataCodeDomSerializer.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.RootWorkflowActivityWithDataCodeDomSerializer.Deserialize(System.ComponentModel.Design.Serialization.IDesignerSerializationManager,System.CodeDom.CodeTypeDeclaration)">
+			<param name="declaration">
+ 
+</param>
+			<param name="manager">
+ 
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.RootWorkflowActivityWithDataCodeDomSerializer.Serialize(System.ComponentModel.Design.Serialization.IDesignerSerializationManager,System.Object,System.Collections.ICollection)">
+			<param name="obj">
+ 
+</param>
+			<param name="manager">
+ 
+</param>
+			<param name="members">
+ 
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.SendEmail">
+			<summary>
+Creates and sends an e-mail message to the specified users.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.SendEmail.BCCProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.SendEmail.BCC"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.SendEmail.BodyProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.SendEmail.Body"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.SendEmail.CCProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.SendEmail.CC"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.SendEmail.FromProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.SendEmail.From"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.SendEmail.HeadersProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.SendEmail.Headers"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.SendEmail.IncludeStatusProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.SendEmail.IncludeStatus"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.SendEmail.SubjectProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.SendEmail.Subject"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.SendEmail.ToProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.SendEmail.To"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.SendEmail.WorkflowIdProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.SendEmail.WorkflowId"></see> property.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.SetFieldActivity">
+			<summary>
+Sets the specified list field to the specified value.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.SetFieldActivity.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<param name="provider">
+  
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.SetFieldActivityValidator">
+			<summary>
+Provides the <see cref="T:Microsoft.SharePoint.WorkflowActions.SetFieldActivityValidator"></see> class with a validator that can be used to check for and prevent invalid input values and also to prevent potential unhandled exceptions.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.SetFieldActivityValidator.#ctor">
+			<summary>
+Initializes a new instance of the <see cref="T:Microsoft.SharePoint.WorkflowActions.SetFieldActivityValidator"></see> class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.SetFieldActivityValidator.Validate(System.Workflow.ComponentModel.Compiler.ValidationManager,System.Object)">
+			<summary>
+Verifies that the specified activity is valid.
+</summary>
+			<returns>
+A ValidationErrorCollection object that contains a collection of ValidationError objects. Any errors or warnings encountered during the validation of the workflow activity are stored in the collection.
+</returns>
+			<param name="obj">
+The workflow activity that must be validated.
+</param>
+			<param name="manager">
+A ValidationManager object that contains contextual information such as property validation, parent and child activity relationships, and so on.
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.SetModerationStatusActivity">
+			<summary>
+Changes the Content Approval status or a list or document library item.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.SetModerationStatusActivity.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<param name="provider">
+  
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.SetState">
+			<summary>
+Sets the status of the workflow.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.SetState.IndexProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.SetState.Index"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.SetState.StateProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.SetState.State"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.SetState.WorkflowIdProperty">
+			<summary>
+The DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.SetState.WorkflowId"></see> property.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.SetTimeFieldActivity">
+			<summary>
+Sets the time portion of a DateTime object.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.SetTimeFieldActivity.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<param name="provider">
+  
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.SetTimeFieldActivityValidator">
+			<summary>
+Provides the <see cref="T:Microsoft.SharePoint.WorkflowActions.SetTimeFieldActivity"></see> class with a validator that can be used to check for and prevent invalid input values and also to prevent potential unhandled exceptions.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.SetTimeFieldActivityValidator.#ctor">
+			<summary>
+Initializes a new instance of the <see cref="T:Microsoft.SharePoint.WorkflowActions.SetTimeFieldActivityValidator"></see> class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.SetTimeFieldActivityValidator.Validate(System.Workflow.ComponentModel.Compiler.ValidationManager,System.Object)">
+			<summary>
+Verifies that the specified activity is valid.
+</summary>
+			<returns>
+A ValidationErrorCollection object that contains a collection of ValidationError objects. Any errors or warnings encountered during the validation of the workflow activity are stored in the collection.
+</returns>
+			<param name="obj">
+The workflow activity that must be validated.
+</param>
+			<param name="manager">
+A ValidationManager object that contains contextual information such as property validation, parent and child activity relationships, and so on.
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.SetVariableActivity">
+			<summary>
+Sets a workflow variable to the specified value.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.SetVariableActivity.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<param name="provider">
+  
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.SetVariableActivityValidator">
+			<summary>
+Provides the <see cref="T:Microsoft.SharePoint.WorkflowActions.SetVariableActivity"></see> class with a validator that can be used to check for and prevent invalid input values and also to prevent potential unhandled exceptions.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.SetVariableActivityValidator.#ctor">
+			<summary>
+Initializes a new instance of the <see cref="T:Microsoft.SharePoint.WorkflowActions.SetVariableActivityValidator"></see> class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.SetVariableActivityValidator.Validate(System.Workflow.ComponentModel.Compiler.ValidationManager,System.Object)">
+			<summary>
+Verifies that the specified activity is valid.
+</summary>
+			<returns>
+A ValidationErrorCollection object that contains a collection of ValidationError objects. Any errors or warnings encountered during the validation of the workflow activity are stored in the collection.
+</returns>
+			<param name="obj">
+The workflow activity that must be validated.
+</param>
+			<param name="manager">
+A ValidationManager object that contains contextual information such as property validation, parent and child activity relationships, and so on.
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.SharePointSequentialWorkflowActivity">
+			<summary>
+Represents a Microsoft Windows SharePoint Services 3.0 workflow that executes activities sequentially.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.SharePointSequentialWorkflowActivity.#ctor">
+			<summary>
+Initializes a new instance of the SharePointSequentialWorkflowActivity class.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.SharePointSequentialWorkflowDesigner">
+			<summary>
+Exposes the properties and methods of the SequentialWorfklowRootDesigner base class to Windows SharePoint Services.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.SharePointSequentialWorkflowDesigner.#ctor">
+			<summary>
+Initializes a new instance of the SharePointSequentialWorkflowDesigner class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.SharePointSequentialWorkflowDesigner.Initialize(System.Workflow.ComponentModel.Activity)">
+			<summary>
+Initializes the designer with the specified activity
+</summary>
+			<param name="activity">
+The workflow Activity object that is used to initialize the designer.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.SharePointSequentialWorkflowDesigner.IsSupportedActivityType(System.Type)">
+			<summary>
+Returns a value that indicates whether the specified activity type is supported if the activity designer is a root designer.
+</summary>
+			<returns>
+true if activity type is a supported activity; otherwise, the value is false.
+</returns>
+			<param name="activityType">
+The type of the activity to check.
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.TodoItemTask">
+			<summary>
+Assigns a simple to do task to users in parallel.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.UndoCheckOutItemActivity">
+			<summary>
+Undoes the check-out of a document from its document library.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.UndoCheckOutItemActivity.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<param name="context">
+  
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.UndoCheckOutItemActivityValidator">
+			<summary>
+Provides the <see cref="T:Microsoft.SharePoint.WorkflowActions.UndoCheckOutItemActivity"></see> class with a validator that can be used to check for and prevent invalid input values and also to prevent potential unhandled exceptions.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.UndoCheckOutItemActivityValidator.#ctor">
+			<summary>
+Initializes a new instance of the <see cref="T:Microsoft.SharePoint.WorkflowActions.UndoCheckOutItemActivityValidator"></see> class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.UndoCheckOutItemActivityValidator.Validate(System.Workflow.ComponentModel.Compiler.ValidationManager,System.Object)">
+			<summary>
+Verifies that the specified activity is valid.
+</summary>
+			<returns>
+A ValidationErrorCollection object that contains a collection of ValidationError objects. Any errors or warnings encountered during the validation of the workflow activity are  stored in the collection.
+</returns>
+			<param name="obj">
+The workflow activity that must be validated.
+</param>
+			<param name="manager">
+A ValidationManager object that contains contextual information such as property validation, parent and child activity relationships, and so on.
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.UpdateAllTasks">
+			<summary>
+Updates all uncompleted tasks that are associated with a specified workflow.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.UpdateAllTasks.#ctor">
+			<summary>
+Initializes a new instance of the UpdateAllTasks class.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.UpdateAllTasks.TaskPropertiesProperty">
+			<summary>
+A DependencyProperty object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.UpdateAllTasks.TaskProperties"></see> property.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.WorkflowActions.UpdateAllTasks.WorkflowIdProperty">
+			<summary>
+The DependencyPropertyhttp://msdn.microsoft.com/en-us/library/system.workflow.componentmodel.dependencyproperty.aspx object that promotes the <see cref="P:Microsoft.SharePoint.WorkflowActions.UpdateAllTasks.WorkflowId"></see> property.
+</summary>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.UpdateAllTasks.InterfaceType">
+			<summary>
+Gets the name of the interface that is used to implement this activity.
+</summary>
+			<returns>
+The type of the interface that is used to implement this activity.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.UpdateAllTasks.MethodName">
+			<summary>
+Gets the name of the method that is called by the activity.
+</summary>
+			<returns>
+The method name that is called by the activity during run time.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.UpdateAllTasks.TaskProperties">
+			<summary>
+Gets or sets workflow task properties.
+</summary>
+			<returns>
+An SPWorkflowTaskProperties object that contains properties for the workflow task.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.UpdateAllTasks.WorkflowId">
+			<summary>
+Gets or sets the WorkflowId that has related tasks that must be updated.
+</summary>
+			<returns>
+The identifier (ID) of the workflow, expressed as a GUID.
+</returns>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.UpdateItemActivity">
+			<summary>
+Updates an item is a list or document library.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.UpdateItemActivity.Execute(System.Workflow.ComponentModel.ActivityExecutionContext)">
+			<param name="provider">
+  
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.UpdateItemActivityValidator">
+			<summary>
+Provides the <see cref="T:Microsoft.SharePoint.WorkflowActions.UpdateItemActivity"></see> class with a validator that can be used to check for and prevent invalid input values and also to prevent potential unhandled exceptions.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.UpdateItemActivityValidator.#ctor">
+			<summary>
+Initializes a new instance of the <see cref="T:Microsoft.SharePoint.WorkflowActions.UpdateItemActivityValidator"></see> class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.UpdateItemActivityValidator.Validate(System.Workflow.ComponentModel.Compiler.ValidationManager,System.Object)">
+			<summary>
+Verifies that the specified activity is valid.
+</summary>
+			<returns>
+A ValidationErrorCollection object that contains a collection of ValidationError objects. Any errors or warnings encountered during the validation of the workflow activity are stored in the collection.
+</returns>
+			<param name="obj">
+The workflow activity that must be validated.
+</param>
+			<param name="manager">
+A ValidationManager object that contains contextual information such as property validation, parent and child activity relationships, and so on.
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.UpdateTask">
+			<summary>
+Updates the specified properties of a task.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.WaitForActivity">
+			<summary>
+Pauses the workflow until the specified list field equals the specified value.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.WorkflowCodeTypeReferenceExpression">
+			<summary>
+Represents a reference to a data type.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.WorkflowCodeTypeReferenceExpression.#ctor">
+			<summary>
+Initializes a new instance of the WorkflowCodeTypeReferenceExpression class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.WorkflowCodeTypeReferenceExpression.#ctor(System.String)">
+			<summary>
+Initializes a new instance of the WorkflowCodeTypeReferenceExpression class with the fully qualified .NET assembly name.
+</summary>
+			<param name="qualifiedName">
+A string that represents the fully qualified name of the assembly.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.WorkflowCodeTypeReferenceExpression.#ctor(System.Type)">
+			<summary>
+Initializes a new instance of the WorkflowCodeTypeReferenceExpression class with a specific data type.
+</summary>
+			<param name="type">
+A .NET data type.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.WorkflowCodeTypeReferenceExpression.AnalyzeUsage(System.Workflow.Activities.Rules.RuleAnalysis,System.Boolean,System.Boolean,System.Workflow.Activities.Rules.RulePathQualifier)">
+			<summary>
+Used to analyze how the workflow uses fields and properties in the context type.
+</summary>
+			<param name="isWritten">
+true if the expression is written to; false if the expression is not being written to.
+</param>
+			<param name="qualifier">
+The path of a field or property.
+</param>
+			<param name="analysis">
+The RuleAnalysis method that is used to store fields and properties that are read by a workflow condition or action.
+</param>
+			<param name="isRead">
+true if the expression is being read from; false if the expression is not being read from.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.WorkflowCodeTypeReferenceExpression.Clone">
+			<summary>
+Creates a deep copy of the current WorkflowCodeTypeReferenceExpression. A deep copy copies both the object and the content of all the pointers included in that object (unlike a "shallow" copy, which is a bitwise copy).
+</summary>
+			<returns>
+A deep copy of the current WorkflowCodeTypeReferenceExpression.
+</returns>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.WorkflowCodeTypeReferenceExpression.Decompile(System.Text.StringBuilder,System.CodeDom.CodeExpression)">
+			<summary>
+Decompiles the custom expression into string form.
+</summary>
+			<param name="parentExpression">
+The parent code expression. This can be used to determine operator precedence and whether this subexpression must be expressed in parentheses.
+</param>
+			<param name="stringBuilder">
+A mutable string for the decompiled expression. This method must append the decompiled syntax for this subexpression.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.WorkflowCodeTypeReferenceExpression.Evaluate(System.Workflow.Activities.Rules.RuleExecution)">
+			<summary>
+Initiates the evaluation of the WorkflowCodeTypeReferenceExpression.
+</summary>
+			<returns>
+The RuleExpressionResult that indicates the result of the rule execution.
+</returns>
+			<param name="execution">
+The RuleExecution that is used to execute the expression.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.WorkflowCodeTypeReferenceExpression.Match(System.CodeDom.CodeExpression)">
+			<summary>
+Compares the current expression to another expression to determine whether they are equal.
+</summary>
+			<returns>
+true to show that the expressions are equal; otherwise, the value is false.
+</returns>
+			<param name="expression">
+The expression that is used to compare to the current expression.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.WorkflowCodeTypeReferenceExpression.Validate(System.Workflow.Activities.Rules.RuleValidation,System.Boolean)">
+			<summary>
+Verifies that the WorkflowCodeTypeExpression is configured correctly and has no errors.
+</summary>
+			<returns>
+The RuleExpressionInfo for the expression.
+</returns>
+			<param name="validation">
+The RuleValidation that is used to manage the validation process.
+</param>
+			<param name="isWritten">
+true if the expression is being written to; false if the expression is not being written to.
+</param>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.WorkflowCodeTypeReferenceExpression.QualifiedName">
+			<summary>
+Gets or sets the fully qualified .NET assembly name.
+</summary>
+			<returns>
+A fully qualified .NET assembly name.
+</returns>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.WorkflowContext">
+			<summary>
+Provides detailed information about a specified workflow instance.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.WorkflowContext.#ctor">
+			<summary>
+Initializes a new instance of the WorkflowContext class.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.WorkflowContext.CacheFieldValue(Microsoft.SharePoint.SPList,System.Int32,System.String,System.Object)">
+			<summary>
+Field value that is written to the cache before it is committed to the database.
+</summary>
+			<param name="fieldname">
+A string that represents the name of the field that is cached.
+</param>
+			<param name="theval">
+The value of the specified list, list item, and field that is written to the cache.
+</param>
+			<param name="list">
+An <see cref="SPList"></see> object. Specifies the list where the list item whose value is cached resides.
+</param>
+			<param name="listItem">
+The integer of the list item whose value is cached.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.WorkflowContext.CacheNoLongerMatches(Microsoft.SharePoint.SPList,System.Int32,System.String,System.Object)">
+			<summary>
+Used to determine if a cached value is still valid and whether it has been updated in the database.
+</summary>
+			<returns>
+A value that indicates whether a specified cached field value still matches the field value contained in the database.
+</returns>
+			<param name="fieldname">
+A  string that represents the field name of the cached field value that will be verified.
+</param>
+			<param name="list">
+An <see cref="SPList"></see> object. Specifies the list that contains the cached field value to check.
+</param>
+			<param name="listItem">
+The integer of the list item whose cached value will be checked.
+</param>
+			<param name="value">
+The value that is used to verify the cached field value.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.WorkflowContext.CacheUnsavedListItem(Microsoft.SharePoint.SPList,System.Int32,System.Collections.Hashtable)">
+			<summary>
+Caches an unsaved list item before it is committed to the database.
+</summary>
+			<param name="properties">
+A hash table that contains properties that will be cached for the specified list item.
+</param>
+			<param name="list">
+An <see cref="SPList"></see> object. Specifies the containing list of the unsaved list item to cache.
+</param>
+			<param name="listItem">
+The integer of the unsaved list item to cache.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.WorkflowContext.Dispose">
+			<summary>
+Disposes of the Microsoft Windows SharePoint Services 3.0 objects that were created by the workflow.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.WorkflowContext.GetListItem(Microsoft.SharePoint.SPList,System.Int32)">
+			<summary>
+Gets the cached version of a specified <see cref="SPListItem"></see>.
+</summary>
+			<returns>
+An SPListItem object.
+</returns>
+			<param name="list">
+An SPList object. Specifies the list that contains the list item.
+</param>
+			<param name="listItem">
+An integer that represents the list item to retrieve.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.WorkflowContext.GetMatchFromCache(Microsoft.SharePoint.SPList,System.String,System.Object)">
+			<summary>
+Iterates through expired cache values and returns the first match found.
+</summary>
+			<returns>
+The first match that is found.
+</returns>
+			<param name="fieldname">
+A string that represents the field name to check.
+</param>
+			<param name="list">
+An SPList object. Specifies the list that contains the field to check for the specified value.
+</param>
+			<param name="value">
+The value to search for in the expired cache field values. This value is an object.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.WorkflowContext.Initialize(Microsoft.SharePoint.Workflow.SPWorkflowActivationProperties)">
+			<summary>
+Initializes the <see cref="WorkflowContext"></see> with the values that are found in the specified SPWorkflowActivationProperties object.
+</summary>
+			<param name="inProps">
+Properties of a workflow instance.
+</param>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.WorkflowContext.Site">
+			<summary>
+The <see cref="SPSite"></see> object that is associated with a specified workflow.
+</summary>
+			<returns>
+An SPSite object.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.WorkflowContext.Web">
+			<summary>
+The <see cref="SPWeb"></see> that is associated with a specified workflow.
+</summary>
+			<returns>
+An SPWeb object.
+</returns>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.WorkflowDataField">
+			<summary>
+Stores workflow field names and their values as name and value pairs.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.WorkflowDataField.#ctor">
+			<summary>
+Initializes a new instance of the WorkflowDataField class
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.WorkflowDataField.#ctor(System.String,System.String)">
+			<summary>
+Initializes a new instance of the WorkflowDataField class.
+</summary>
+			<param name="type">
+The type of workflow data field.
+</param>
+			<param name="name">
+The name of the workflow data field.
+</param>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.WorkflowDataField.Name">
+			<summary>
+Stores the name of the workflow field variable.
+</summary>
+			<returns>
+The name of the workflow field.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.WorkflowActions.WorkflowDataField.Type">
+			<summary>
+The .NET data type that is associated with a workflow field.
+</summary>
+			<returns>
+A string that represents a .NET data type.
+</returns>
+		</member>
+		<member name="T:Microsoft.SharePoint.WorkflowActions.WorkflowDataFieldsCollection">
+			<summary>
+Stores a collection WorkflowDataField objects.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.WorkflowDataFieldsCollection.#ctor(System.Workflow.ComponentModel.Activity)">
+			<summary>
+Initializes a new instance of the WorkflowDataFieldsCollection class.
+</summary>
+			<param name="ownerActivity">
+The workflow activity that uses this collection.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.WorkflowDataFieldsCollection.GetItem(System.String)">
+			<summary>
+Gets the key value for a specified form.
+</summary>
+			<returns>
+The key value for a specified item.
+</returns>
+			<param name="key">
+The key that corresponds to the WorkflowDataField. 
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.WorkflowActions.WorkflowDataFieldsCollection.GetKeyForItem(Microsoft.SharePoint.WorkflowActions.WorkflowDataField)">
+			<summary>
+Gets the key value for a specified WorkflowDataField item.
+</summary>
+			<returns>
+The key or identifier that is associated with the specified WorkflowDataField.
+</returns>
+			<param name="item">
+A WorkflowDataField item.
+</param>
+		</member>
+	</members>
+</doc>

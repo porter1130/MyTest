@@ -1,0 +1,16 @@
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\MyTest\ConsoleApp\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\MyTest\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\MyTest\ConsoleApp\bin\Debug\ConsoleApp.exe
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\MyTest\ConsoleApp\bin\Debug\ConsoleApp.pdb
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\MyTest\ConsoleApp\obj\x86\Debug\ConsoleApp.exe
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\MyTest\ConsoleApp\obj\x86\Debug\ConsoleApp.pdb
+D:\WorkShop\MyTest\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+D:\WorkShop\MyTest\ConsoleApp\obj\x86\Debug\ConsoleApp.exe
+D:\WorkShop\MyTest\ConsoleApp\obj\x86\Debug\ConsoleApp.pdb
+D:\WorkShop\MyTest\ConsoleApp\bin\Debug\ConsoleApp.exe
+D:\WorkShop\MyTest\ConsoleApp\bin\Debug\ConsoleApp.pdb
+D:\WorkShop\MyTest\ConsoleApp\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\WorkShop\MyTest\ConsoleApp\bin\Debug\CA.SAP.APP.dll
+D:\WorkShop\MyTest\ConsoleApp\bin\Debug\sapnco.dll
+D:\WorkShop\MyTest\ConsoleApp\bin\Debug\sapnco_utils.dll
+D:\WorkShop\MyTest\ConsoleApp\bin\Debug\CA.SAP.APP.pdb

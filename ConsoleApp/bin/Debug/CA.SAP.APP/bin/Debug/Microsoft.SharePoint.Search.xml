@@ -1,0 +1,792 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+	<assembly>
+		<name>Microsoft.SharePoint.Search</name>
+	</assembly>
+	<members>
+		<member name="T:Microsoft.SharePoint.Search.Administration.SPSearchService">
+			<summary>
+Represents a search service installed on one or more servers in the server farm.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Administration.SPSearchService.Microsoft.SharePoint.Administration.Backup.IBackupRestore.AddBackupObjects(Microsoft.SharePoint.Administration.Backup.SPBackupRestoreObject)">
+			<summary>
+This member is reserved for internal use and is not intended to be used directly from your code. 
+</summary>
+			<param name="parent">
+ This member is reserved for internal use and is not intended to be used directly from your code. 
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Administration.SPSearchService.Microsoft.SharePoint.Administration.Backup.IBackupRestore.OnAbort(System.Object,Microsoft.SharePoint.Administration.Backup.SPBackupRestoreInformation)">
+			<summary>
+This member is reserved for internal use and is not intended to be used directly from your code. 
+</summary>
+			<param name="sender">
+ This member is reserved for internal use and is not intended to be used directly from your code. 
+</param>
+			<param name="info">
+ This member is reserved for internal use and is not intended to be used directly from your code. 
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Administration.SPSearchService.Microsoft.SharePoint.Administration.Backup.IBackupRestore.OnBackup(System.Object,Microsoft.SharePoint.Administration.Backup.SPBackupInformation)">
+			<summary>
+This member is reserved for internal use and is not intended to be used directly from your code. 
+</summary>
+			<param name="sender">
+ This member is reserved for internal use and is not intended to be used directly from your code. 
+</param>
+			<param name="info">
+ This member is reserved for internal use and is not intended to be used directly from your code. 
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Administration.SPSearchService.Microsoft.SharePoint.Administration.Backup.IBackupRestore.OnBackupComplete(System.Object,Microsoft.SharePoint.Administration.Backup.SPBackupInformation)">
+			<summary>
+This member is reserved for internal use and is not intended to be used directly from your code.
+</summary>
+			<param name="sender">
+ This member is reserved for internal use and is not intended to be used directly from your code. 
+</param>
+			<param name="info">
+ This member is reserved for internal use and is not intended to be used directly from your code. 
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Administration.SPSearchService.Microsoft.SharePoint.Administration.Backup.IBackupRestore.OnPostRestore(System.Object,Microsoft.SharePoint.Administration.Backup.SPRestoreInformation)">
+			<summary>
+This member is reserved for internal use and is not intended to be used directly from your code. 
+</summary>
+			<param name="sender">
+ This member is reserved for internal use and is not intended to be used directly from your code. 
+</param>
+			<param name="info">
+ This member is reserved for internal use and is not intended to be used directly from your code. 
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Administration.SPSearchService.Microsoft.SharePoint.Administration.Backup.IBackupRestore.OnPrepareBackup(System.Object,Microsoft.SharePoint.Administration.Backup.SPBackupInformation)">
+			<summary>
+This member is reserved for internal use and is not intended to be used directly from your code. 
+</summary>
+			<param name="sender">
+ This member is reserved for internal use and is not intended to be used directly from your code. 
+</param>
+			<param name="info">
+ This member is reserved for internal use and is not intended to be used directly from your code. 
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Administration.SPSearchService.Microsoft.SharePoint.Administration.Backup.IBackupRestore.OnPreRestore(System.Object,Microsoft.SharePoint.Administration.Backup.SPRestoreInformation)">
+			<summary>
+This member is reserved for internal use and is not intended to be used directly from your code. 
+</summary>
+			<param name="sender">
+ This member is reserved for internal use and is not intended to be used directly from your code. 
+</param>
+			<param name="info">
+ This member is reserved for internal use and is not intended to be used directly from your code. 
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Administration.SPSearchService.Microsoft.SharePoint.Administration.Backup.IBackupRestore.OnRestore(System.Object,Microsoft.SharePoint.Administration.Backup.SPRestoreInformation)">
+			<summary>
+This member is reserved for internal use and is not intended to be used directly from your code. 
+</summary>
+			<param name="sender">
+ This member is reserved for internal use and is not intended to be used directly from your code. 
+</param>
+			<param name="info">
+ This member is reserved for internal use and is not intended to be used directly from your code. 
+</param>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Administration.SPSearchService.CrawlAccount">
+			<summary>
+Gets or sets a string containing the crawl account name.
+</summary>
+			<returns>
+A string containing the crawl account name.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Administration.SPSearchService.MaxBackupDuration">
+			<summary>
+Gets or sets the interval, in minutes, from the time the backup operation started for the Search in Microsoft Windows SharePoint Services content index, and when the Search services will resume.
+</summary>
+			<returns>
+A 32-bit integer representing the duration, in minutes.
+</returns>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Administration.SPSearchServiceInstance.Delete">
+			<summary>
+Removes the object from the collection and the server farm.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Administration.SPSearchServiceInstance.Update">
+			<summary>
+Causes the service instance to save its state and propagate changes to all machines in the farm.
+</summary>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Administration.SPSearchServiceInstance.Description">
+			<summary>
+Gets the description of the service that is used in the Administration user interface.
+</summary>
+			<returns>
+A string that contains a description of the service.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Administration.SPSearchServiceInstance.DisplayName">
+			<summary>
+Gets the display name that describes the persisted object instance within the administrative user interface.
+</summary>
+			<returns>
+A string that contains the name.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Administration.SPSearchServiceInstance.ManageLink">
+			<summary>
+Gets a link object that represents the action that manages the service on the Services on Server page in SharePoint Central Administration.
+</summary>
+			<returns>
+An <see cref="T:Microsoft.SharePoint.Administration.SPActionLink"></see> object that represents the action.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Administration.SPSearchServiceInstance.Microsoft.SharePoint.Administration.Backup.IBackupRestore.Name">
+			<summary>
+Gets or sets the name that identifies a particular instance of the object.
+</summary>
+			<returns>
+A string that contains the name of the object.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Administration.SPSearchServiceInstance.ProvisionLink">
+			<summary>
+Gets a link object that represents the action that starts the service on the Services on Server page in SharePoint Central Administration.
+</summary>
+			<returns>
+An <see cref="T:Microsoft.SharePoint.Administration.SPActionLink"></see> object that represents the action.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Administration.SPSearchServiceInstance.Roles">
+			<summary>
+Gets a list of the roles to which the service instance belongs, for classification on the Services on Server page in SharePoint Central Administration.
+</summary>
+			<returns>
+A System.Collections.Generic.ICollection&lt;string&gt; that contains the list of roles, which, by default, includes SingleServer and WebFrontEnd.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Administration.SPSearchServiceInstance.SystemService">
+			<summary>
+Gets a Boolean value that indicates whether the service is a system service.
+</summary>
+			<returns>
+true if the service is a system service; otherwise, false.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Administration.SPSearchServiceInstance.TypeName">
+			<summary>
+Gets the display name that describes the service instance in the Administration user interface.
+</summary>
+			<returns>
+A string that contains the name of the service instance.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Administration.SPSearchServiceInstance.UnprovisionLink">
+			<summary>
+Gets a link object that represents the action that stops the service on the Services on Server page in SharePoint Central Administration.
+</summary>
+			<returns>
+An <see cref="T:Microsoft.SharePoint.Administration.SPActionLink"></see> object that represents the action.
+</returns>
+		</member>
+		<member name="T:Microsoft.SharePoint.Search.Query.AllNoiseQueryException">
+			<summary>
+Represents the exception that is thrown when a search query's terms are all noise words.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.Search.Query.CollapsingStatus">
+			<summary>
+Defines whether duplicate results are collapsed for Search queries results.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.Search.Query.CollapsingStatus.DuplicatesCollapsed">
+			<summary>
+Specifies that duplicate items in search results are collapsed, meaning that they are grouped together and only the most relevant item is returned in the search results set.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.Search.Query.FullTextSqlQuery">
+			<summary>
+Represents a search query using the Search SQL Syntax.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Query.FullTextSqlQuery.#ctor(Microsoft.SharePoint.SPSite)">
+			<summary>
+Initializes a new instance of the <see cref="T:Microsoft.SharePoint.Search.Query.FullTextSqlQuery"></see> class, based on the specified site.
+</summary>
+			<param name="site">
+A <see cref="T:Microsoft.SharePoint.SPSite"></see> object representing the context for the Shared Services Provider.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Query.FullTextSqlQuery.#ctor(System.String)">
+			<summary>
+Initializes a new instance of the <see cref="T:Microsoft.SharePoint.Search.Query.FullTextSqlQuery"></see> class, based on the specified application name.
+</summary>
+			<param name="strApplication">
+A string specifying the application name.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Query.FullTextSqlQuery.Execute">
+			<summary>
+Executes the SQL syntax search query.
+</summary>
+			<returns>
+A <see cref="T:Microsoft.SharePoint.Search.Query.ResultTableCollection"></see> object.
+</returns>
+		</member>
+		<member name="T:Microsoft.SharePoint.Search.Query.InvalidPropertyException">
+			<summary>
+Represents the exception that is thrown when the search query contains a property that is not valid.
+</summary>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.InvalidPropertyException.Property">
+			<summary>
+Gets the property name that triggered the <see cref="T:Microsoft.SharePoint.Search.Query.InvalidPropertyException"></see> exception.
+</summary>
+			<returns>
+A string containing the property name.
+</returns>
+		</member>
+		<member name="T:Microsoft.SharePoint.Search.Query.KeywordInclusion">
+			<summary>
+Defines the keyword inclusion values.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.Search.Query.KeywordInclusion.AllKeywords">
+			<summary>
+Indicates that the query returns only the search results that contain all of the query terms.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.Search.Query.KeywordInclusion.AnyKeyword">
+			<summary>
+Indicates that the query returns search results that contain any of the query terms.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.Search.Query.KeywordInformation">
+			<summary>
+Contains information about a keyword.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Query.KeywordInformation.#ctor">
+			<summary>
+Initializes a new instance of the <see cref="T:Microsoft.SharePoint.Search.Query.KeywordInformation"></see> class.
+</summary>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.KeywordInformation.Definition">
+			<summary>
+Gets or sets the keyword's definition.
+</summary>
+			<returns>
+A string containing the definition text.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.KeywordInformation.Keyword">
+			<summary>
+Gets or sets the keyword term.
+</summary>
+			<returns>
+A string containing the keyword term.
+</returns>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Query.KeywordQuery.Execute">
+			<summary>
+Executes the search query.
+</summary>
+			<returns>
+A <see cref="T:Microsoft.SharePoint.Search.Query.ResultTableCollection"></see> object.
+</returns>
+		</member>
+		<member name="T:Microsoft.SharePoint.Search.Query.PropertyConstraintCollection">
+			<summary>
+Represents a collection of <see cref="T:Microsoft.SharePoint.Search.Query.PropertyConstraint"></see> objects.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Query.PropertyConstraintCollection.GetEnumerator">
+			<summary>
+Returns an enumerator that can be used to access the items in the crawl rule collection.
+</summary>
+			<returns>
+A System.Collections.IEnumerator object.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.PropertyConstraintCollection.Count">
+			<summary>
+Gets the number of <see cref="T:Microsoft.SharePoint.Search.Query.PropertyConstraint"></see> objects in the collection.
+</summary>
+			<returns>
+A 32-bit integer representing the number of property constraints in the collection.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.PropertyConstraintCollection.Item(System.Int32)">
+			<summary>
+Gets the property constraint at the specified index in the collection.
+</summary>
+			<returns>
+A <see cref="T:Microsoft.SharePoint.Search.Query.PropertyConstraint"></see> object.
+</returns>
+			<param name="index">
+A 32-bit integer that specifies the position in the index.
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.Search.Query.PropertyInformation">
+			<summary>
+Provides information about a managed property.
+</summary>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.PropertyInformation.Description">
+			<summary>
+Gets the property description.
+</summary>
+			<returns>
+A string containing the description.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.PropertyInformation.FullTextQueriable">
+			<summary>
+Gets a Boolean value indicating whether the property can be used in full-text SQL syntax queries.
+</summary>
+			<returns>
+true if the property can be used in SQL syntax queries; otherwise, false.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.PropertyInformation.Name">
+			<summary>
+Gets the property name.
+</summary>
+			<returns>
+A string containing the name.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.PropertyInformation.Retrievable">
+			<summary>
+Gets a Boolean value indicating whether the property value can be retrieved.
+</summary>
+			<returns>
+true if the property can be retrieved; otherwise, false.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.PropertyInformation.Type">
+			<summary>
+Gets the property data type.
+</summary>
+			<returns>
+An object of type System.Type representing the managed property type.
+</returns>
+		</member>
+		<member name="T:Microsoft.SharePoint.Search.Query.Query">
+			<summary>
+The base class for executing search queries using the Search query object model.  Defines the properties and methods that are shared by the <see cref="T:Microsoft.SharePoint.Search.Query.FullTextSqlQuery"></see> and <see cref="T:Microsoft.SharePoint.Search.Query.KeywordQuery"></see> classes.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Query.Query.Execute">
+			<summary>
+Executes the search query.
+</summary>
+			<returns>
+A <see cref="T:Microsoft.SharePoint.Search.Query.ResultTableCollection"></see> object.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.Query.Application">
+			<summary>
+Gets the application name for the query request.
+</summary>
+			<returns>
+A string that contains the application name.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.Query.AuthenticationType">
+			<summary>
+Gets or sets the authentication type for the query.
+</summary>
+			<returns>
+A value from the <see cref="T:Microsoft.SharePoint.Search.Query.QueryAuthenticationType"></see> enumeration.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.Query.Culture">
+			<summary>
+Gets or sets the locale for the query.
+</summary>
+			<returns>
+A System.Globalization.CultureInfo object that specifies the locale ID.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.Query.EnableStemming">
+			<summary>
+Gets or sets a Boolean value that specifies whether stemming is enabled. 
+</summary>
+			<returns>
+true if the stemming is enabled; otherwise, false.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.Query.HighlightedSentenceCount">
+			<summary>
+Gets or sets the number of sentences to include in the hit-highlighted summary.
+</summary>
+			<returns>
+A 32-bit integer representing the number of sentences. The default value is 3.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.Query.Hint">
+			<summary>
+Gets or sets a value that specifies xxx
+</summary>
+			<returns>
+A value from the <see cref="T:Microsoft.SharePoint.Search.Query.QueryHint"></see> enumeration.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.Query.IgnoreAllNoiseQuery">
+			<summary>
+Gets or sets a Boolean value that specifies whether the search query should execute if the query text contains only noise words.
+</summary>
+			<returns>
+true if search queries containing only noise words are executed; otherwise, false.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.Query.KeywordInclusion">
+			<summary>
+Gets or sets a value that specifies whether the query returns results that contain all or any of the specified search terms. 
+</summary>
+			<returns>
+A value from the <see cref="T:Microsoft.SharePoint.Search.Query.KeywordInclusion"></see> enumeration.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.Query.QueryText">
+			<summary>
+Gets or sets the text for the search query.
+</summary>
+			<returns>
+A string containing the query text.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.Query.ResultTypes">
+			<summary>
+Gets or sets a value that specifies the search result type.
+</summary>
+			<returns>
+A value from the <see cref="T:Microsoft.SharePoint.Search.Query.ResultType"></see> enumeration.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.Query.RowLimit">
+			<summary>
+Gets or sets the maximum number of rows returned in the search results.
+</summary>
+			<returns>
+A 32-bit integer representing the maximum number of rows that will be returned in search results.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.Query.SiteContext">
+			<summary>
+Gets or sets the site URL for the search query.
+</summary>
+			<returns>
+A System.Uri object that represents the site's URL.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.Query.StartRow">
+			<summary>
+Gets or sets first row included in the search results. 
+</summary>
+			<returns>
+A 32-bit integer representing the row index. The default value is 1.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.Query.Timeout">
+			<summary>
+Gets or sets the amount of time, in milliseconds, before the query request times out.   
+</summary>
+			<returns>
+A 32-bit integer representing the number of milliseconds. 
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.Query.TrimDuplicates">
+			<summary>
+Gets or sets a Boolean value that specifies whether duplicate items should be removed from the search results. 
+</summary>
+			<returns>
+true if duplicate items are removed from the search results; otherwise, false.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.Query.UrlZone">
+			<summary>
+Gets the originating URL zone for the query request.
+</summary>
+			<returns>
+A value from the Microsoft.SharePoint.Administration.SPUrlZone enumeration specifying the URL zone.
+</returns>
+		</member>
+		<member name="T:Microsoft.SharePoint.Search.Query.QueryAuthenticationType">
+			<summary>
+Defines the query authentication types supported in Search.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.Search.Query.QueryAuthenticationType.NtAuthenticatedQuery">
+			<summary>
+Specifies that the query uses Windows authentication.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.Search.Query.QueryAuthenticationType.PluggableAuthenticatedQuery">
+			<summary>
+Specifies that the query uses pluggable authentication.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.Search.Query.QueryContainsOnlyExcludedTermsException">
+			<summary>
+Represents the exception that is thrown when the search query contains only excluded terms.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.Search.Query.QueryMalformedException">
+			<summary>
+Represents the exception that is thrown when a search query is not formed correctly.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.Search.Query.ResultTable">
+			<summary>
+Represents a distinct collection of search results returned for a query.
+</summary>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.ResultTable.FieldCount">
+			<summary>
+Gets the number of columns returned in the search results.
+</summary>
+			<returns>
+A 32-bit integer representing the number of fields.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.ResultTable.IsClosed">
+			<summary>
+Gets a Boolean value indicating if the ResultTable is closed.
+</summary>
+			<returns>
+true if the ResultTable is closed; otherwise, false.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.ResultTable.Item(System.Int32)">
+			<summary>
+Gets a search result from the collection, based on the specified index.
+</summary>
+			<param name="i">
+A 32-bit integer specifying the row index. 
+</param>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.ResultTable.Item(System.String)">
+			<summary>
+Gets a search result from the collection, based on the name of the row to return.
+</summary>
+			<param name="name">
+A string containing the name of the individual result row to return.
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.Search.Query.ResultTableCollection">
+			<summary>
+Represents a collection of <see cref="T:Microsoft.SharePoint.Search.Query.ResultTable"></see> objects.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Query.ResultTableCollection.Exists(Microsoft.SharePoint.Search.Query.ResultType)">
+			<summary>
+Returns a Boolean value that indicates whether the specified ResultTable object exists in the collection.
+</summary>
+			<returns>
+true if the specified ResultTable object exists; otherwise, false.
+</returns>
+			<param name="requestedType">
+A value from the <see cref="T:Microsoft.SharePoint.Search.Query.ResultType"></see> enumeration.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Query.ResultTableCollection.GetEnumerator">
+			<summary>
+Returns an enumerator that can be used to access the items in the ResultTable collection.
+</summary>
+			<returns>
+A System.Collections.IEnumerator object.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.ResultTableCollection.Count">
+			<summary>
+Gets the number of <see cref="T:Microsoft.SharePoint.Search.Query.ResultTable"></see> objects in the collection.
+</summary>
+			<returns>
+A 32-bit integer indicating the number of <see cref="T:Microsoft.SharePoint.Search.Query.ResultTable"></see> objects in the collection.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.ResultTableCollection.DatabaseTime">
+			<summary>
+Gets or sets the duration of query execution on the database server.
+</summary>
+			<returns>
+A 32-bit integer indicating how long the query ran, in milliseconds.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.ResultTableCollection.Definition">
+			<summary>
+Gets the <see cref="T:Microsoft.SharePoint.Search.Query.ResultDefinition"></see> structures for the results of the query.
+</summary>
+			<returns>
+An array of <see cref="T:Microsoft.SharePoint.Search.Query.ResultDefinition"></see> structures whose fields provide details on the query's keyword definitions.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.ResultTableCollection.ElapsedTime">
+			<summary>
+Gets or sets the total duration of the query, combining the time spent executing the query on the database server with the time spent in the  object model.
+</summary>
+			<returns>
+A 32-bit integer indicating how long the query ran, in milliseconds.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.ResultTableCollection.IgnoredNoiseWords">
+			<summary>
+Gets or sets the list of ignored noise words. 
+</summary>
+			<returns>
+A string array containing the ignored noise words.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.ResultTableCollection.Item(Microsoft.SharePoint.Search.Query.ResultType)">
+			<summary>
+Gets a <see cref="T:Microsoft.SharePoint.Search.Query.ResultTable"></see> object from the collection, based on the result type.
+</summary>
+			<returns>
+A <see cref="T:Microsoft.SharePoint.Search.Query.ResultTable"></see> object containing only the requested result types.
+</returns>
+			<param name="requestedType">
+A value from the <see cref="T:Microsoft.SharePoint.Search.Query.ResultType"></see> enumeration.
+</param>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.ResultTableCollection.KeywordInformation">
+			<summary>
+Gets a <see cref="T:Microsoft.SharePoint.Search.Query.KeywordInformation"></see> object that provides information about a matched special term and its definition for a keyword search.
+</summary>
+			<returns>
+A <see cref="T:Microsoft.SharePoint.Search.Query.KeywordInformation"></see> object.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.ResultTableCollection.QueryTerms">
+			<summary>
+Gets or sets a list of the search terms used by the query.
+</summary>
+			<returns>
+A string array containing the search query terms.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.ResultTableCollection.SpellingSuggestion">
+			<summary>
+Gets or sets an alternate spelling for a search term that is not recognized.
+</summary>
+			<returns>
+A string containing the suggested term.
+</returns>
+		</member>
+		<member name="T:Microsoft.SharePoint.Search.Query.ResultType">
+			<summary>
+Defines the result types for Search results.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.Search.Query.ResultType.None">
+			<summary>
+No result type is specified.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.Search.Query.ResultType.RelevantResults">
+			<summary>
+Specifies the results set that contains the main search results from the content index that matches the search query.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.Search.Query.ScopeNotFoundException">
+			<summary>
+Represents the exception that is thrown when the scope name specified for a search query does not exist.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.Search.Query.SearchQueryException">
+			<summary>
+Provides the base class for Search query exceptions.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.Search.Query.SearchServiceNotFoundException">
+			<summary>
+Represents the exception that is thrown when the search service is unavailable.
+</summary>
+		</member>
+		<member name="T:Microsoft.SharePoint.Search.Query.Sort">
+			<summary>
+Defines how the search results are sorted.
+</summary>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.Sort.Direction">
+			<summary>
+Gets the direction in which the search results are ordered.
+</summary>
+			<returns>
+A value from the <see cref="T:Microsoft.SharePoint.Search.Query.SortDirection"></see> enumeration specifying the sort direction for search results.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.Sort.Property">
+			<summary>
+Gets the name for a property by which the search results are ordered.
+</summary>
+			<returns>
+A string containing the property name.
+</returns>
+		</member>
+		<member name="T:Microsoft.SharePoint.Search.Query.SortCollection">
+			<summary>
+Represents a collection of <see cref="T:Microsoft.SharePoint.Search.Query.Sort"></see> structures.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Query.SortCollection.Add(System.String,Microsoft.SharePoint.Search.Query.SortDirection)">
+			<summary>
+Adds a new <see cref="T:Microsoft.SharePoint.Search.Query.Sort"></see> structure to the collection.
+</summary>
+			<param name="direction">
+A value from the <see cref="T:Microsoft.SharePoint.Search.Query.SortDirection"></see> enumeration.
+</param>
+			<param name="strProperty">
+A string that specifies the name of the property to sort the results by.
+</param>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Query.SortCollection.Clear">
+			<summary>
+Removes all <see cref="T:Microsoft.SharePoint.Search.Query.Sort"></see> structures from the collection.
+</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Query.SortCollection.GetEnumerator">
+			<summary>
+Returns an enumerator that can be used to access the items in the crawl rule collection.
+</summary>
+			<returns>
+A System.Collections.IEnumerator object.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.SortCollection.Count">
+			<summary>
+Gets the number of <see cref="T:Microsoft.SharePoint.Search.Query.Sort"></see> structures in the collection.
+</summary>
+			<returns>
+A 32-bit integer representing the number of Sort structures.
+</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Query.SortCollection.Item(System.Int32)">
+			<summary>
+Gets the specified Sort structure from the collection.
+</summary>
+			<param name="index">
+A 32-bit integer that specifies the index position. 
+</param>
+		</member>
+		<member name="T:Microsoft.SharePoint.Search.Query.SortDirection">
+			<summary>
+Defines the sort direction values for ordering search results.
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.Search.Query.SortDirection.Ascending">
+			<summary>
+Specifies that the search results are ordered in ascending order. 
+</summary>
+		</member>
+		<member name="F:Microsoft.SharePoint.Search.Query.SortDirection.Descending">
+			<summary>
+Specifies that the search results are ordered in descending order.
+</summary>
+		</member>
+	</members>
+</doc>

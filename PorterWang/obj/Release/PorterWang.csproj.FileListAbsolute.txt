@@ -1,0 +1,5 @@
+D:\WorkShop\MyTest\PorterWang\bin\Release\PorterWang.dll
+D:\WorkShop\MyTest\PorterWang\bin\Release\PorterWang.pdb
+D:\WorkShop\MyTest\PorterWang\obj\Release\ResolveAssemblyReference.cache
+D:\WorkShop\MyTest\PorterWang\obj\Release\PorterWang.dll
+D:\WorkShop\MyTest\PorterWang\obj\Release\PorterWang.pdb

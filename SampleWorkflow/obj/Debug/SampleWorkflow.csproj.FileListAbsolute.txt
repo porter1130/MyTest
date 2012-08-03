@@ -1,0 +1,7 @@
+D:\WorkShop\MyTest\SampleWorkflow\bin\Debug\feature.xml
+D:\WorkShop\MyTest\SampleWorkflow\bin\Debug\workflow.xml
+D:\WorkShop\MyTest\SampleWorkflow\bin\Debug\SampleWorkflow.dll
+D:\WorkShop\MyTest\SampleWorkflow\bin\Debug\SampleWorkflow.pdb
+D:\WorkShop\MyTest\SampleWorkflow\obj\Debug\ResolveAssemblyReference.cache
+D:\WorkShop\MyTest\SampleWorkflow\obj\Debug\SampleWorkflow.dll
+D:\WorkShop\MyTest\SampleWorkflow\obj\Debug\SampleWorkflow.pdb

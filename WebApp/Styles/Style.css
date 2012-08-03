@@ -1,0 +1,20 @@
+﻿div.v_content
+{
+    position: relative;
+    overflow:scroll;
+    width: 500px;
+    height:200px;
+}
+div.v_content_list
+{
+    position: absolute;
+    width: 900px;
+}
+div.v_content_list table tr th
+{
+    width: 100px;
+}
+div.v_content_list td
+{
+    width: 100px;
+}

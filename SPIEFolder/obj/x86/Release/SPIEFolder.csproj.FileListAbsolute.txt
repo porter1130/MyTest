@@ -1,0 +1,5 @@
+D:\WorkShop\MyTest\SPIEFolder\bin\Release\SPIEFolder.exe
+D:\WorkShop\MyTest\SPIEFolder\bin\Release\SPIEFolder.pdb
+D:\WorkShop\MyTest\SPIEFolder\obj\x86\Release\ResolveAssemblyReference.cache
+D:\WorkShop\MyTest\SPIEFolder\obj\x86\Release\SPIEFolder.exe
+D:\WorkShop\MyTest\SPIEFolder\obj\x86\Release\SPIEFolder.pdb

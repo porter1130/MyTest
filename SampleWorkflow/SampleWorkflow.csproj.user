@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{F8810EC1-6754-47FC-A15F-DFABD2E3FA90}">
+        <DisplayName>SampleWorkflow</DisplayName>
+        <SiteURL>http://porter:1130/workflowcenter</SiteURL>
+        <ListURL>http://porter:1130/WorkFlowCenter/Demo2/Forms/AllItems.aspx</ListURL>
+        <TargetList Id="{30a3ce1b-d95f-4f89-b4b5-43713f98afb2}">Demo2</TargetList>
+        <HistoryList Id="{c21ff319-5243-4b9f-bf75-1f7563173fad}">Workflow History</HistoryList>
+        <TaskList Id="{0411fa7b-a251-429a-ac43-c5d21057934c}">Tasks</TaskList>
+        <AutoAssociate>true</AutoAssociate>
+        <ManualStart>true</ManualStart>
+        <StartOnCreate>true</StartOnCreate>
+        <StartOnChange>false</StartOnChange>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

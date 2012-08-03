@@ -1,0 +1,193 @@
+
+Log written at : 12/27/2011 5:22:56 PM
+ContractID/BlockName : GetWorkflowInfo
+Friendly Message : Task XML
+
+Info Details 
+------------------------------
+Message : <xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema"><rs:data ItemCount="2"><z:row ows_ContentTypeId='0x01080100B46A15499317437594DC283203F9F639004E5029679E2C4B4BB7870AD4FD38C2C9' ows_Title='Apple Yao&#39;s Purchase Request  &quot;PR000156&quot; needs check' ows_Priority='(2) Normal' ows_Status='Completed' ows_PercentComplete='1.00000000000000' ows_AssignedTo='476;#Shining Xu' ows_StartDate='2011-12-26 14:55:47' ows_WorkflowLink='https://portal.c-and-a.cn/WorkFlowCenter/Lists/PurchaseRequestWorkflow/DispForm.aspx?ID=153, PR000156' ows_WorkflowOutcome='Confirm' ows_WorkflowName='Purchase Request Workflow' ows_TaskType='-1' ows_EmailBody='&lt;HTML&gt;
+  &lt;HEAD&gt;
+    &lt;STYLE&gt;
+TABLE.mail
+{
+    border-collapse:collapse; width:100%;
+    font: 8pt Tahoma;
+}
+
+TD.header { background:#F8F8F9; border:1px solid #E8EAEC;              padding: 12pt 10px 20px 10px; font: 16pt Verdana}
+TD.body { border-top:1px solid #E8EAEC; border-bottom:1px solid #E8EAEC; padding: 12pt 10px 24pt 10px; }
+TD.footer { border-top:1px solid #E8EAEC; border-bottom:1px solid #9CA3AD; padding: 4pt 10px 4pt 10px; }
+A { color:#003399; text-decoration:none; }
+A:visited { color:#aa00aa; }.bodytext
+{
+    font: 8pt Tahoma;
+    color: #000000;
+}
+
+    &lt;/STYLE&gt;
+  &lt;/HEAD&gt;
+  &lt;BODY class=bodytext&gt;
+    &lt;TABLE class=mail cellspacing=0 dir=ltr&gt;
+      &lt;TR class=header&gt;
+        &lt;TD class=header&gt;Task assigned by Apple Yao on 12/26/2011.&lt;br&gt;&lt;/TD&gt;
+      &lt;/TR&gt;
+      &lt;TR class=body&gt;
+        &lt;TD class=body&gt;&lt;/TD&gt;
+      &lt;/TR&gt;
+      &lt;TR class=footer&gt;&lt;TD class=footer&gt;To complete this task:&lt;br&gt;&lt;ol&gt;&lt;li&gt;Review &lt;a href=&quot;https://portal.c-and-a.cn/WorkFlowCenter/Lists/PurchaseRequestWorkflow/DispForm.aspx?ID=153&quot;&gt;PR000156&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;Perform the specific activities required for this task.&lt;/li&gt;&lt;li&gt;&lt;!--[if gte mso 12]&gt;Use the &lt;b&gt;Edit this task&lt;/b&gt; button to mark the task as completed. (If you cannot update this task, you might not have access to it. Click &lt;a href=&quot;https://portal.c-and-a.cn/WorkFlowCenter/Lists/Tasks/DispForm.aspx?ID=16740&quot;&gt;here&lt;/a&gt; to request access.)&lt;![endif]--&gt;&lt;![if !(gte mso 12)]&gt;&lt;a href=&quot;https://portal.c-and-a.cn/WorkFlowCenter/Lists/Tasks/DispForm.aspx?ID=16740&quot;&gt;Edit this task&lt;/a&gt; to mark the task as completed.&lt;![endif]&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/TD&gt;&lt;/TR&gt;
+
+    &lt;/TABLE&gt;
+    
+  &lt;/BODY&gt;
+&lt;/HTML&gt;' ows_HasCustomEmailBody='0' ows_SendEmailNotification='0' ows_PendingModTime='2011-12-26 16:51:00' ows_Completed='1' ows_WorkflowListId='{127F1D0E-490C-47DF-A3E9-A274503F766E}' ows_WorkflowItemId='153' ows___TaskActions='Confirm;Reject' ows___TaskOutcome='Confirm' ows_TaskStep='CheckTask' ows___TaskActionsDescription='Confirm;Reject' ows_TaskFormURL='/_Layouts/CA/WorkFlows/PurchaseRequest/CheckForm.aspx' ows___Action='Commit' ows___WorkflowVaribales='&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&lt;Data&gt;&lt;item type=&quot;QuickFlow.NameCollection, QuickFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ec1e0fe6e1745628&quot;&gt;&lt;key&gt;&lt;string&gt;ApproveTaskUsers&lt;/string&gt;&lt;/key&gt;&lt;value&gt;&lt;ArrayOfString xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;string&gt;CNAIDC\john.zhang&lt;/string&gt;&lt;/ArrayOfString&gt;&lt;/value&gt;&lt;/item&gt;&lt;/Data&gt;' ows___Body='' ows_ContentType='QuickFlowTaskContentType' ows_ID='16740' ows_Modified='2011-12-27 16:06:40' ows_Created='2011-12-26 14:55:50' ows_Author='94;#Apple Yao' ows_Editor='1073741823;#System Account' ows_owshiddenversion='6' ows_WorkflowVersion='1' ows__UIVersion='2048' ows__UIVersionString='4.0' ows_Attachments='0' ows__ModerationStatus='0' ows_LinkTitleNoMenu='Apple Yao&#39;s Purchase Request  &quot;PR000156&quot; needs check' ows_LinkTitle='Apple Yao&#39;s Purchase Request  &quot;PR000156&quot; needs check' ows_SelectTitle='16740' ows_Order='1674000.00000000' ows_GUID='{F7EA2EBD-F4F7-4908-B120-17E875EFC427}' ows_WorkflowInstanceID='{AD6BF3C1-4962-4133-8DA4-8DA1BF5CF1FF}' ows_FileRef='16740;#WorkFlowCenter/Lists/Tasks/16740_.000' ows_FileDirRef='16740;#WorkFlowCenter/Lists/Tasks' ows_Last_x0020_Modified='16740;#2011-12-26 14:55:51' ows_Created_x0020_Date='16740;#2011-12-26 14:55:51' ows_FSObjType='16740;#0' ows_PermMask='0x7fffffffffffffff' ows_FileLeafRef='16740;#16740_.000' ows_UniqueId='16740;#{9CD101C0-8DA2-4B9B-B442-6BBAEF725743}' ows_ProgId='16740;#' ows_ScopeId='16740;#{2337F68A-86B3-461C-B562-81F21A4B1BD2}' ows__EditMenuTableStart='16740_.000' ows__EditMenuTableEnd='16740' ows_LinkFilenameNoMenu='16740_.000' ows_LinkFilename='16740_.000' ows_ServerUrl='/WorkFlowCenter/Lists/Tasks/16740_.000' ows_EncodedAbsUrl='https://portal.c-and-a.cn/WorkFlowCenter/Lists/Tasks/16740_.000' ows_BaseName='16740_' ows__Level='1' ows__IsCurrentVersion='1' ows_MetaInfo_vti_versionhistory='0411fa7ba251429aac43c5d21057934c:6' ows_MetaInfo_WorkflowCreationPath='2b4a51e2-336d-4cd7-a46e-e756347416e5;' ows_TaskListId='0411fa7b-a251-429a-ac43-c5d21057934c' ows_EditFormURL='_layouts/QuickFlow/TaskForm.aspx' />
+<z:row ows_ContentTypeId='0x01080100B46A15499317437594DC283203F9F639004E5029679E2C4B4BB7870AD4FD38C2C9' ows_Title='Apple Yao&#39;s Purchase Request  &quot;PR000156&quot; needs approval' ows_Priority='(2) Normal' ows_Status='Not Started' ows_AssignedTo='86;#John Zhang' ows_StartDate='2011-12-26 16:51:04' ows_WorkflowLink='https://portal.c-and-a.cn/WorkFlowCenter/Lists/PurchaseRequestWorkflow/DispForm.aspx?ID=153, PR000156' ows_WorkflowOutcome='Approve' ows_WorkflowName='Purchase Request Workflow' ows_TaskType='-1' ows_EmailBody='&lt;HTML&gt;
+  &lt;HEAD&gt;
+    &lt;STYLE&gt;
+TABLE.mail
+{
+    border-collapse:collapse; width:100%;
+    font: 8pt Tahoma;
+}
+
+TD.header { background:#F8F8F9; border:1px solid #E8EAEC;              padding: 12pt 10px 20px 10px; font: 16pt Verdana}
+TD.body { border-top:1px solid #E8EAEC; border-bottom:1px solid #E8EAEC; padding: 12pt 10px 24pt 10px; }
+TD.footer { border-top:1px solid #E8EAEC; border-bottom:1px solid #9CA3AD; padding: 4pt 10px 4pt 10px; }
+A { color:#003399; text-decoration:none; }
+A:visited { color:#aa00aa; }.bodytext
+{
+    font: 8pt Tahoma;
+    color: #000000;
+}
+
+    &lt;/STYLE&gt;
+  &lt;/HEAD&gt;
+  &lt;BODY class=bodytext&gt;
+    &lt;TABLE class=mail cellspacing=0 dir=ltr&gt;
+      &lt;TR class=header&gt;
+        &lt;TD class=header&gt;Task assigned by Apple Yao on 12/26/2011.&lt;br&gt;&lt;/TD&gt;
+      &lt;/TR&gt;
+      &lt;TR class=body&gt;
+        &lt;TD class=body&gt;&lt;/TD&gt;
+      &lt;/TR&gt;
+      &lt;TR class=footer&gt;&lt;TD class=footer&gt;To complete this task:&lt;br&gt;&lt;ol&gt;&lt;li&gt;Review &lt;a href=&quot;https://portal.c-and-a.cn/WorkFlowCenter/Lists/PurchaseRequestWorkflow/DispForm.aspx?ID=153&quot;&gt;PR000156&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;Perform the specific activities required for this task.&lt;/li&gt;&lt;li&gt;&lt;!--[if gte mso 12]&gt;Use the &lt;b&gt;Edit this task&lt;/b&gt; button to mark the task as completed. (If you cannot update this task, you might not have access to it. Click &lt;a href=&quot;https://portal.c-and-a.cn/WorkFlowCenter/Lists/Tasks/DispForm.aspx?ID=16755&quot;&gt;here&lt;/a&gt; to request access.)&lt;![endif]--&gt;&lt;![if !(gte mso 12)]&gt;&lt;a href=&quot;https://portal.c-and-a.cn/WorkFlowCenter/Lists/Tasks/DispForm.aspx?ID=16755&quot;&gt;Edit this task&lt;/a&gt; to mark the task as completed.&lt;![endif]&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/TD&gt;&lt;/TR&gt;
+
+    &lt;/TABLE&gt;
+    
+  &lt;/BODY&gt;
+&lt;/HTML&gt;' ows_HasCustomEmailBody='0' ows_SendEmailNotification='0' ows_PendingModTime='2011-12-27 16:08:28' ows_Completed='0' ows_WorkflowListId='{127F1D0E-490C-47DF-A3E9-A274503F766E}' ows_WorkflowItemId='153' ows___TaskActions='Approve;Reject' ows___TaskOutcome='Approve' ows_TaskStep='ApproveTask' ows___TaskActionsDescription='Approve;Reject' ows_TaskFormURL='/_Layouts/CA/WorkFlows/PurchaseRequest/ApproveForm.aspx' ows___Action='Commit' ows___WorkflowVaribales='&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&lt;Data&gt;&lt;item type=&quot;QuickFlow.NameCollection, QuickFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ec1e0fe6e1745628&quot;&gt;&lt;key&gt;&lt;string&gt;ConfirmTaskUsers&lt;/string&gt;&lt;/key&gt;&lt;value&gt;&lt;ArrayOfString xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;string&gt;CNAIDC\Shining.Xu&lt;/string&gt;&lt;/ArrayOfString&gt;&lt;/value&gt;&lt;/item&gt;&lt;item type=&quot;System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&lt;key&gt;&lt;string&gt;IsContinue&lt;/string&gt;&lt;/key&gt;&lt;value&gt;&lt;boolean&gt;false&lt;/boolean&gt;&lt;/value&gt;&lt;/item&gt;&lt;/Data&gt;' ows___Body='' ows_ContentType='QuickFlowTaskContentType' ows_ID='16755' ows_Modified='2011-12-27 16:08:40' ows_Created='2011-12-26 16:53:12' ows_Author='94;#Apple Yao' ows_Editor='1073741823;#System Account' ows_owshiddenversion='26' ows_WorkflowVersion='5120' ows__UIVersion='5632' ows__UIVersionString='11.0' ows_Attachments='0' ows__ModerationStatus='0' ows_LinkTitleNoMenu='Apple Yao&#39;s Purchase Request  &quot;PR000156&quot; needs approval' ows_LinkTitle='Apple Yao&#39;s Purchase Request  &quot;PR000156&quot; needs approval' ows_SelectTitle='16755' ows_Order='1675500.00000000' ows_GUID='{60F816AD-9BD6-4009-ACAD-7ADCAA2FEA76}' ows_WorkflowInstanceID='{AD6BF3C1-4962-4133-8DA4-8DA1BF5CF1FF}' ows_FileRef='16755;#WorkFlowCenter/Lists/Tasks/16755_.000' ows_FileDirRef='16755;#WorkFlowCenter/Lists/Tasks' ows_Last_x0020_Modified='16755;#2011-12-26 16:53:13' ows_Created_x0020_Date='16755;#2011-12-26 16:53:13' ows_FSObjType='16755;#0' ows_PermMask='0x7fffffffffffffff' ows_FileLeafRef='16755;#16755_.000' ows_UniqueId='16755;#{80891DCE-414C-43DF-A02E-DA67E4C9CB01}' ows_ProgId='16755;#' ows_ScopeId='16755;#{856EE7CF-3D76-4A61-A40C-A53167A76C4A}' ows__EditMenuTableStart='16755_.000' ows__EditMenuTableEnd='16755' ows_LinkFilenameNoMenu='16755_.000' ows_LinkFilename='16755_.000' ows_ServerUrl='/WorkFlowCenter/Lists/Tasks/16755_.000' ows_EncodedAbsUrl='https://portal.c-and-a.cn/WorkFlowCenter/Lists/Tasks/16755_.000' ows_BaseName='16755_' ows__Level='1' ows__IsCurrentVersion='1' ows_MetaInfo_vti_versionhistory='0411fa7ba251429aac43c5d21057934c:26' ows_MetaInfo_WorkflowCreationPath='2b4a51e2-336d-4cd7-a46e-e756347416e5,2;2b4a51e2-336d-4cd7-a46e-e756347416e5;' ows_TaskListId='0411fa7b-a251-429a-ac43-c5d21057934c' ows_EditFormURL='_layouts/QuickFlow/TaskForm.aspx' />
+</rs:data></xml>
+==========================================
+
+Log written at : 12/27/2011 5:22:56 PM
+ContractID/BlockName : GetWorkflowInfo
+Friendly Message : Task XML
+
+Info Details 
+------------------------------
+Message : <xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema"><rs:data ItemCount="3"><z:row ows_ContentTypeId='0x01080100B46A15499317437594DC283203F9F639004E5029679E2C4B4BB7870AD4FD38C2C9' ows_Title='Anita Hu&#39;s Purchase Request  &quot;PR000151&quot; needs check' ows_Priority='(2) Normal' ows_Status='Completed' ows_PercentComplete='1.00000000000000' ows_AssignedTo='476;#Shining Xu' ows_StartDate='2011-12-21 11:15:10' ows_WorkflowLink='https://portal.c-and-a.cn/WorkFlowCenter/Lists/PurchaseRequestWorkflow/DispForm.aspx?ID=148, PR000151' ows_WorkflowOutcome='Confirm' ows_WorkflowName='Purchase Request Workflow' ows_TaskType='-1' ows_EmailBody='&lt;HTML&gt;
+  &lt;HEAD&gt;
+    &lt;STYLE&gt;
+TABLE.mail
+{
+    border-collapse:collapse; width:100%;
+    font: 8pt Tahoma;
+}
+
+TD.header { background:#F8F8F9; border:1px solid #E8EAEC;              padding: 12pt 10px 20px 10px; font: 16pt Verdana}
+TD.body { border-top:1px solid #E8EAEC; border-bottom:1px solid #E8EAEC; padding: 12pt 10px 24pt 10px; }
+TD.footer { border-top:1px solid #E8EAEC; border-bottom:1px solid #9CA3AD; padding: 4pt 10px 4pt 10px; }
+A { color:#003399; text-decoration:none; }
+A:visited { color:#aa00aa; }.bodytext
+{
+    font: 8pt Tahoma;
+    color: #000000;
+}
+
+    &lt;/STYLE&gt;
+  &lt;/HEAD&gt;
+  &lt;BODY class=bodytext&gt;
+    &lt;TABLE class=mail cellspacing=0 dir=ltr&gt;
+      &lt;TR class=header&gt;
+        &lt;TD class=header&gt;Task assigned by Anita Hu on 12/21/2011.&lt;br&gt;&lt;/TD&gt;
+      &lt;/TR&gt;
+      &lt;TR class=body&gt;
+        &lt;TD class=body&gt;&lt;/TD&gt;
+      &lt;/TR&gt;
+      &lt;TR class=footer&gt;&lt;TD class=footer&gt;To complete this task:&lt;br&gt;&lt;ol&gt;&lt;li&gt;Review &lt;a href=&quot;https://portal.c-and-a.cn/WorkFlowCenter/Lists/PurchaseRequestWorkflow/DispForm.aspx?ID=148&quot;&gt;PR000151&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;Perform the specific activities required for this task.&lt;/li&gt;&lt;li&gt;&lt;!--[if gte mso 12]&gt;Use the &lt;b&gt;Edit this task&lt;/b&gt; button to mark the task as completed. (If you cannot update this task, you might not have access to it. Click &lt;a href=&quot;https://portal.c-and-a.cn/WorkFlowCenter/Lists/Tasks/DispForm.aspx?ID=16425&quot;&gt;here&lt;/a&gt; to request access.)&lt;![endif]--&gt;&lt;![if !(gte mso 12)]&gt;&lt;a href=&quot;https://portal.c-and-a.cn/WorkFlowCenter/Lists/Tasks/DispForm.aspx?ID=16425&quot;&gt;Edit this task&lt;/a&gt; to mark the task as completed.&lt;![endif]&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/TD&gt;&lt;/TR&gt;
+
+    &lt;/TABLE&gt;
+    
+  &lt;/BODY&gt;
+&lt;/HTML&gt;' ows_HasCustomEmailBody='0' ows_SendEmailNotification='0' ows_PendingModTime='2011-12-21 11:23:29' ows_Completed='1' ows_WorkflowListId='{127F1D0E-490C-47DF-A3E9-A274503F766E}' ows_WorkflowItemId='148' ows___TaskActions='Confirm;Reject' ows___TaskOutcome='Confirm' ows_TaskStep='CheckTask' ows___TaskActionsDescription='Confirm;Reject' ows_TaskFormURL='/_Layouts/CA/WorkFlows/PurchaseRequest/CheckForm.aspx' ows___Action='Commit' ows___WorkflowVaribales='&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&lt;Data&gt;&lt;item type=&quot;QuickFlow.NameCollection, QuickFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ec1e0fe6e1745628&quot;&gt;&lt;key&gt;&lt;string&gt;ApproveTaskUsers&lt;/string&gt;&lt;/key&gt;&lt;value&gt;&lt;ArrayOfString xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;string&gt;CNAIDC\john.zhang&lt;/string&gt;&lt;/ArrayOfString&gt;&lt;/value&gt;&lt;/item&gt;&lt;/Data&gt;' ows___Body='' ows_ContentType='QuickFlowTaskContentType' ows_ID='16425' ows_Modified='2011-12-21 11:23:28' ows_Created='2011-12-21 11:15:17' ows_Author='90;#Anita Hu' ows_Editor='1073741823;#System Account' ows_owshiddenversion='3' ows_WorkflowVersion='1' ows__UIVersion='1536' ows__UIVersionString='3.0' ows_Attachments='0' ows__ModerationStatus='0' ows_LinkTitleNoMenu='Anita Hu&#39;s Purchase Request  &quot;PR000151&quot; needs check' ows_LinkTitle='Anita Hu&#39;s Purchase Request  &quot;PR000151&quot; needs check' ows_SelectTitle='16425' ows_Order='1642500.00000000' ows_GUID='{B268BB53-76F5-4443-A79A-00A54B6FE8C1}' ows_WorkflowInstanceID='{BF1FEE30-2E98-48D5-9E9F-F7F9C65C73F2}' ows_FileRef='16425;#WorkFlowCenter/Lists/Tasks/16425_.000' ows_FileDirRef='16425;#WorkFlowCenter/Lists/Tasks' ows_Last_x0020_Modified='16425;#2011-12-21 11:15:17' ows_Created_x0020_Date='16425;#2011-12-21 11:15:17' ows_FSObjType='16425;#0' ows_PermMask='0x7fffffffffffffff' ows_FileLeafRef='16425;#16425_.000' ows_UniqueId='16425;#{39BDF209-1123-46F0-A4AB-919C7944CC26}' ows_ProgId='16425;#' ows_ScopeId='16425;#{C001F2CD-1ECD-4E7C-A5EB-6F5BB10AEA1C}' ows__EditMenuTableStart='16425_.000' ows__EditMenuTableEnd='16425' ows_LinkFilenameNoMenu='16425_.000' ows_LinkFilename='16425_.000' ows_ServerUrl='/WorkFlowCenter/Lists/Tasks/16425_.000' ows_EncodedAbsUrl='https://portal.c-and-a.cn/WorkFlowCenter/Lists/Tasks/16425_.000' ows_BaseName='16425_' ows__Level='1' ows__IsCurrentVersion='1' ows_MetaInfo_vti_versionhistory='0411fa7ba251429aac43c5d21057934c:3' ows_MetaInfo_WorkflowCreationPath='2b4a51e2-336d-4cd7-a46e-e756347416e5;' ows_TaskListId='0411fa7b-a251-429a-ac43-c5d21057934c' ows_EditFormURL='_layouts/QuickFlow/TaskForm.aspx' />
+<z:row ows_ContentTypeId='0x01080100B46A15499317437594DC283203F9F639004E5029679E2C4B4BB7870AD4FD38C2C9' ows_Title='Anita Hu&#39;s Purchase Request  &quot;PR000151&quot; needs approval' ows_Priority='(2) Normal' ows_Status='Completed' ows_PercentComplete='1.00000000000000' ows_AssignedTo='86;#John Zhang' ows_StartDate='2011-12-21 11:23:34' ows_WorkflowLink='https://portal.c-and-a.cn/WorkFlowCenter/Lists/PurchaseRequestWorkflow/DispForm.aspx?ID=148, PR000151' ows_WorkflowOutcome='Approve' ows_WorkflowName='Purchase Request Workflow' ows_TaskType='-1' ows_EmailBody='&lt;HTML&gt;
+  &lt;HEAD&gt;
+    &lt;STYLE&gt;
+TABLE.mail
+{
+    border-collapse:collapse; width:100%;
+    font: 8pt Tahoma;
+}
+
+TD.header { background:#F8F8F9; border:1px solid #E8EAEC;              padding: 12pt 10px 20px 10px; font: 16pt Verdana}
+TD.body { border-top:1px solid #E8EAEC; border-bottom:1px solid #E8EAEC; padding: 12pt 10px 24pt 10px; }
+TD.footer { border-top:1px solid #E8EAEC; border-bottom:1px solid #9CA3AD; padding: 4pt 10px 4pt 10px; }
+A { color:#003399; text-decoration:none; }
+A:visited { color:#aa00aa; }.bodytext
+{
+    font: 8pt Tahoma;
+    color: #000000;
+}
+
+    &lt;/STYLE&gt;
+  &lt;/HEAD&gt;
+  &lt;BODY class=bodytext&gt;
+    &lt;TABLE class=mail cellspacing=0 dir=ltr&gt;
+      &lt;TR class=header&gt;
+        &lt;TD class=header&gt;Task assigned by Anita Hu on 12/21/2011.&lt;br&gt;&lt;/TD&gt;
+      &lt;/TR&gt;
+      &lt;TR class=body&gt;
+        &lt;TD class=body&gt;&lt;/TD&gt;
+      &lt;/TR&gt;
+      &lt;TR class=footer&gt;&lt;TD class=footer&gt;To complete this task:&lt;br&gt;&lt;ol&gt;&lt;li&gt;Review &lt;a href=&quot;https://portal.c-and-a.cn/WorkFlowCenter/Lists/PurchaseRequestWorkflow/DispForm.aspx?ID=148&quot;&gt;PR000151&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;Perform the specific activities required for this task.&lt;/li&gt;&lt;li&gt;&lt;!--[if gte mso 12]&gt;Use the &lt;b&gt;Edit this task&lt;/b&gt; button to mark the task as completed. (If you cannot update this task, you might not have access to it. Click &lt;a href=&quot;https://portal.c-and-a.cn/WorkFlowCenter/Lists/Tasks/DispForm.aspx?ID=16427&quot;&gt;here&lt;/a&gt; to request access.)&lt;![endif]--&gt;&lt;![if !(gte mso 12)]&gt;&lt;a href=&quot;https://portal.c-and-a.cn/WorkFlowCenter/Lists/Tasks/DispForm.aspx?ID=16427&quot;&gt;Edit this task&lt;/a&gt; to mark the task as completed.&lt;![endif]&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/TD&gt;&lt;/TR&gt;
+
+    &lt;/TABLE&gt;
+    
+  &lt;/BODY&gt;
+&lt;/HTML&gt;' ows_HasCustomEmailBody='0' ows_SendEmailNotification='0' ows_PendingModTime='2011-12-21 13:21:27' ows_Completed='1' ows_WorkflowListId='{127F1D0E-490C-47DF-A3E9-A274503F766E}' ows_WorkflowItemId='148' ows___TaskActions='Approve;Reject' ows___TaskOutcome='Approve' ows_TaskStep='ApproveTask' ows___TaskActionsDescription='Approve;Reject' ows_TaskFormURL='/_Layouts/CA/WorkFlows/PurchaseRequest/ApproveForm.aspx' ows___Action='Commit' ows___WorkflowVaribales='&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&lt;Data&gt;&lt;item type=&quot;QuickFlow.NameCollection, QuickFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ec1e0fe6e1745628&quot;&gt;&lt;key&gt;&lt;string&gt;ConfirmTaskUsers&lt;/string&gt;&lt;/key&gt;&lt;value&gt;&lt;ArrayOfString xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;string&gt;CNAIDC\Shining.Xu&lt;/string&gt;&lt;/ArrayOfString&gt;&lt;/value&gt;&lt;/item&gt;&lt;item type=&quot;System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&lt;key&gt;&lt;string&gt;IsContinue&lt;/string&gt;&lt;/key&gt;&lt;value&gt;&lt;boolean&gt;false&lt;/boolean&gt;&lt;/value&gt;&lt;/item&gt;&lt;/Data&gt;' ows___Body='' ows_ContentType='QuickFlowTaskContentType' ows_ID='16427' ows_Modified='2011-12-21 13:21:22' ows_Created='2011-12-21 11:24:03' ows_Author='90;#Anita Hu' ows_Editor='1073741823;#System Account' ows_owshiddenversion='3' ows_WorkflowVersion='1' ows__UIVersion='1536' ows__UIVersionString='3.0' ows_Attachments='0' ows__ModerationStatus='0' ows_LinkTitleNoMenu='Anita Hu&#39;s Purchase Request  &quot;PR000151&quot; needs approval' ows_LinkTitle='Anita Hu&#39;s Purchase Request  &quot;PR000151&quot; needs approval' ows_SelectTitle='16427' ows_Order='1642700.00000000' ows_GUID='{BA72C698-F248-422A-951E-AEBBD6F29488}' ows_WorkflowInstanceID='{BF1FEE30-2E98-48D5-9E9F-F7F9C65C73F2}' ows_FileRef='16427;#WorkFlowCenter/Lists/Tasks/16427_.000' ows_FileDirRef='16427;#WorkFlowCenter/Lists/Tasks' ows_Last_x0020_Modified='16427;#2011-12-21 11:24:04' ows_Created_x0020_Date='16427;#2011-12-21 11:24:04' ows_FSObjType='16427;#0' ows_PermMask='0x7fffffffffffffff' ows_FileLeafRef='16427;#16427_.000' ows_UniqueId='16427;#{07C7AE2A-1DE6-4E7A-8AE7-59C1893C9452}' ows_ProgId='16427;#' ows_ScopeId='16427;#{43DD9218-350D-4517-9EDE-392ABE128999}' ows__EditMenuTableStart='16427_.000' ows__EditMenuTableEnd='16427' ows_LinkFilenameNoMenu='16427_.000' ows_LinkFilename='16427_.000' ows_ServerUrl='/WorkFlowCenter/Lists/Tasks/16427_.000' ows_EncodedAbsUrl='https://portal.c-and-a.cn/WorkFlowCenter/Lists/Tasks/16427_.000' ows_BaseName='16427_' ows__Level='1' ows__IsCurrentVersion='1' ows_MetaInfo_vti_versionhistory='0411fa7ba251429aac43c5d21057934c:3' ows_MetaInfo_WorkflowCreationPath='2b4a51e2-336d-4cd7-a46e-e756347416e5,2;2b4a51e2-336d-4cd7-a46e-e756347416e5;' ows_TaskListId='0411fa7b-a251-429a-ac43-c5d21057934c' ows_EditFormURL='_layouts/QuickFlow/TaskForm.aspx' />
+<z:row ows_ContentTypeId='0x01080100B46A15499317437594DC283203F9F639004E5029679E2C4B4BB7870AD4FD38C2C9' ows_Title='Anita Hu&#39;s Purchase Request  &quot;PR000151&quot; needs generate PO' ows_Priority='(2) Normal' ows_Status='Completed' ows_PercentComplete='1.00000000000000' ows_AssignedTo='476;#Shining Xu' ows_StartDate='2011-12-21 13:21:28' ows_WorkflowLink='https://portal.c-and-a.cn/WorkFlowCenter/Lists/PurchaseRequestWorkflow/DispForm.aspx?ID=148, PR000151' ows_WorkflowOutcome='To PO' ows_WorkflowName='Purchase Request Workflow' ows_TaskType='-1' ows_EmailBody='&lt;HTML&gt;
+  &lt;HEAD&gt;
+    &lt;STYLE&gt;
+TABLE.mail
+{
+    border-collapse:collapse; width:100%;
+    font: 8pt Tahoma;
+}
+
+TD.header { background:#F8F8F9; border:1px solid #E8EAEC;              padding: 12pt 10px 20px 10px; font: 16pt Verdana}
+TD.body { border-top:1px solid #E8EAEC; border-bottom:1px solid #E8EAEC; padding: 12pt 10px 24pt 10px; }
+TD.footer { border-top:1px solid #E8EAEC; border-bottom:1px solid #9CA3AD; padding: 4pt 10px 4pt 10px; }
+A { color:#003399; text-decoration:none; }
+A:visited { color:#aa00aa; }.bodytext
+{
+    font: 8pt Tahoma;
+    color: #000000;
+}
+
+    &lt;/STYLE&gt;
+  &lt;/HEAD&gt;
+  &lt;BODY class=bodytext&gt;
+    &lt;TABLE class=mail cellspacing=0 dir=ltr&gt;
+      &lt;TR class=header&gt;
+        &lt;TD class=header&gt;Task assigned by Anita Hu on 12/21/2011.&lt;br&gt;&lt;/TD&gt;
+      &lt;/TR&gt;
+      &lt;TR class=body&gt;
+        &lt;TD class=body&gt;&lt;/TD&gt;
+      &lt;/TR&gt;
+      &lt;TR class=footer&gt;&lt;TD class=footer&gt;To complete this task:&lt;br&gt;&lt;ol&gt;&lt;li&gt;Review &lt;a href=&quot;https://portal.c-and-a.cn/WorkFlowCenter/Lists/PurchaseRequestWorkflow/DispForm.aspx?ID=148&quot;&gt;PR000151&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;Perform the specific activities required for this task.&lt;/li&gt;&lt;li&gt;&lt;!--[if gte mso 12]&gt;Use the &lt;b&gt;Edit this task&lt;/b&gt; button to mark the task as completed. (If you cannot update this task, you might not have access to it. Click &lt;a href=&quot;https://portal.c-and-a.cn/WorkFlowCenter/Lists/Tasks/DispForm.aspx?ID=16434&quot;&gt;here&lt;/a&gt; to request access.)&lt;![endif]--&gt;&lt;![if !(gte mso 12)]&gt;&lt;a href=&quot;https://portal.c-and-a.cn/WorkFlowCenter/Lists/Tasks/DispForm.aspx?ID=16434&quot;&gt;Edit this task&lt;/a&gt; to mark the task as completed.&lt;![endif]&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/TD&gt;&lt;/TR&gt;
+
+    &lt;/TABLE&gt;
+    
+  &lt;/BODY&gt;
+&lt;/HTML&gt;' ows_HasCustomEmailBody='0' ows_SendEmailNotification='0' ows_PendingModTime='2011-12-21 17:58:36' ows_Completed='1' ows_WorkflowListId='{127F1D0E-490C-47DF-A3E9-A274503F766E}' ows_WorkflowItemId='148' ows___TaskActions='To PO;Confirm;Reject' ows___TaskOutcome='To PO' ows_TaskStep='ConfirmTask' ows___TaskActionsDescription='To PO;Confirm;Reject' ows_TaskFormURL='/_Layouts/CA/WorkFlows/PurchaseRequest/ConfirmForm.aspx' ows___Action='Commit' ows___Body='' ows_ContentType='QuickFlowTaskContentType' ows_ID='16434' ows_Modified='2011-12-21 17:58:41' ows_Created='2011-12-21 13:21:22' ows_Author='90;#Anita Hu' ows_Editor='1073741823;#System Account' ows_owshiddenversion='3' ows_WorkflowVersion='1' ows__UIVersion='1536' ows__UIVersionString='3.0' ows_Attachments='0' ows__ModerationStatus='0' ows_LinkTitleNoMenu='Anita Hu&#39;s Purchase Request  &quot;PR000151&quot; needs generate PO' ows_LinkTitle='Anita Hu&#39;s Purchase Request  &quot;PR000151&quot; needs generate PO' ows_SelectTitle='16434' ows_Order='1643400.00000000' ows_GUID='{8B462C76-C6FB-44CD-BE6D-23E9B67C2137}' ows_WorkflowInstanceID='{BF1FEE30-2E98-48D5-9E9F-F7F9C65C73F2}' ows_FileRef='16434;#WorkFlowCenter/Lists/Tasks/16434_.000' ows_FileDirRef='16434;#WorkFlowCenter/Lists/Tasks' ows_Last_x0020_Modified='16434;#2011-12-21 13:21:22' ows_Created_x0020_Date='16434;#2011-12-21 13:21:22' ows_FSObjType='16434;#0' ows_PermMask='0x7fffffffffffffff' ows_FileLeafRef='16434;#16434_.000' ows_UniqueId='16434;#{5D063F0A-0C2D-448C-9CD1-B22B447B12D8}' ows_ProgId='16434;#' ows_ScopeId='16434;#{973ADFB7-CD81-4A42-AD8D-960C7281F883}' ows__EditMenuTableStart='16434_.000' ows__EditMenuTableEnd='16434' ows_LinkFilenameNoMenu='16434_.000' ows_LinkFilename='16434_.000' ows_ServerUrl='/WorkFlowCenter/Lists/Tasks/16434_.000' ows_EncodedAbsUrl='https://portal.c-and-a.cn/WorkFlowCenter/Lists/Tasks/16434_.000' ows_BaseName='16434_' ows__Level='1' ows__IsCurrentVersion='1' ows_MetaInfo_vti_versionhistory='0411fa7ba251429aac43c5d21057934c:3' ows_MetaInfo_WorkflowCreationPath='2b4a51e2-336d-4cd7-a46e-e756347416e5,2;2b4a51e2-336d-4cd7-a46e-e756347416e5,4;2b4a51e2-336d-4cd7-a46e-e756347416e5;' ows_TaskListId='0411fa7b-a251-429a-ac43-c5d21057934c' ows_EditFormURL='_layouts/QuickFlow/TaskForm.aspx' />
+</rs:data></xml>
+==========================================

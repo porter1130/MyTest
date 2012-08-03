@@ -1,0 +1,8 @@
+D:\WorkShop\MyTest\CA\bin\Release\CA.exe.config
+D:\WorkShop\MyTest\CA\bin\Release\CA.exe
+D:\WorkShop\MyTest\CA\bin\Release\CA.pdb
+D:\WorkShop\MyTest\CA\bin\Release\PorterWang.dll
+D:\WorkShop\MyTest\CA\bin\Release\PorterWang.pdb
+D:\WorkShop\MyTest\CA\obj\x86\Release\ResolveAssemblyReference.cache
+D:\WorkShop\MyTest\CA\obj\x86\Release\CA.exe
+D:\WorkShop\MyTest\CA\obj\x86\Release\CA.pdb
