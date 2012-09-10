@@ -42,6 +42,8 @@ namespace CA
         public override bool FindLockedWorkflow()
         {
             bool hasLockedWF = false;
+
+
             Dictionary<int, string> taskLockDict = new Dictionary<int, string>(), exceptionLockDict = new Dictionary<int, string>();
 
             TypeQueryField<DateTime> queryField = new TypeQueryField<DateTime>("Created");
@@ -52,7 +54,6 @@ namespace CA
                                                 .From(context.CurrList)
                                                 .Where(exp).GetItems();
             SPWorkflowManager wfManager = context.Currweb.Site.WorkflowManager;
-
             #region find Locked workflow list item
             foreach (SPListItem item in items)
             {
@@ -135,6 +136,7 @@ namespace CA
             context.HtmlWriter.RenderEndTag();
             #endregion
 
+
             return hasLockedWF;
         }
 
@@ -157,7 +159,7 @@ namespace CA
 
                     hasLockedWF = FindLockedWorkflow();
                     //UnLockWorkflow();
-                    writer.RenderEndTag();
+                    //writer.RenderEndTag();
                 }
 
                 if (hasLockedWF)
@@ -177,7 +179,6 @@ namespace CA
                 StringCollection recipients = new StringCollection();
                 recipients.Add("wang_jingchao@vanceinfo.com");
                 //recipients.Add("huang_zhigang@vanceinfo.com");
-
                 try
                 {
                     mailService.SendMail("About EWF Locked Workflow", context.MailContent, recipients);

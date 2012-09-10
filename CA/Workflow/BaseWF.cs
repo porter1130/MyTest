@@ -42,5 +42,7 @@ namespace CA
 
         public virtual void CancelWorkflowInstance(int itemId) { }
 
+        public virtual void UnLockSpecificWF(int itemId) { }
+
     }
 }

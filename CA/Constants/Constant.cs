@@ -18,6 +18,7 @@ namespace CA
         internal static string Production_Environment = ConfigurationManager.AppSettings["Production"];
         internal static string Test_Environment = ConfigurationManager.AppSettings["Test"];
         internal static string Localhost_Environment = ConfigurationManager.AppSettings["Localhost"];
+        internal static string LocalTest_Environment = ConfigurationManager.AppSettings["LocalTest"];
     }
 
     static class SPFieldName

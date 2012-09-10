@@ -39,6 +39,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.SharePoint\12.0.0.0__71e9bce111e9429c\Microsoft.SharePoint.dll</HintPath>
     </Reference>
+    <Reference Include="QuickFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ec1e0fe6e1745628, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CATFS\CA\CA_P1\S0 - Source Code\ref\QuickFlow.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
@@ -52,6 +56,7 @@
   <ItemGroup>
     <Compile Include="Constants\Constant.cs" />
     <Compile Include="Context\MOSSContext.cs" />
+    <Compile Include="Factory\CAWorkflowFactory.cs" />
     <Compile Include="Factory\NTVWorkflowFactory.cs" />
     <Compile Include="Factory\PaymentRequestFactory.cs" />
     <Compile Include="Factory\PRWorkflowFactory.cs" />
@@ -66,6 +71,7 @@
     <Compile Include="QuickFlow\WorkflowVarableValues.cs" />
     <Compile Include="TaskStep\BaseTaskStep.cs" />
     <Compile Include="Workflow\BaseWF.cs" />
+    <Compile Include="Workflow\CashAdvanceWF.cs" />
     <Compile Include="Workflow\NonTradeWF.cs" />
     <Compile Include="Workflow\PaymentRequestWF.cs" />
     <Compile Include="Workflow\PurchaseRequestWF.cs" />

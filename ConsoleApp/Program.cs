@@ -83,13 +83,13 @@ namespace ConsoleApp
                         //SharePointEntry.StartWorkflowInstance(web);
                         //SharePointEntry.GetWorkflowInfo(web);
                         //SharePointEntry.FindLockedWorkflow(web);
-                        //SharePointEntry.UnLockWorkflowTasks(web);
+                        SharePointEntry.UnLockWorkflowTasks(web);
                         //SharePointEntry.UpdateReadOnlyField(web);
                         //SharePointEntry.GetTaskListItemInfo(web);
                         //SharePointEntry.InsertListItemToTask(web);
                         //SharePointEntry.UpdateTaskListItem(web);
                         //SharePointEntry.TerminateWorkflowTask(web);
-                        SharePointEntry.ReassignWorkflowTask(web);
+                        //SharePointEntry.ReassignWorkflowTask(web);
                         //SharePointEntry.RetryingWF(web);
 
                         #endregion
