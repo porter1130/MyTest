@@ -4,3 +4,5 @@ D:\WorkShop\MyTest\MyLottery\bin\Debug\HtmlAgilityPack.dll
 D:\WorkShop\MyTest\MyLottery\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\WorkShop\MyTest\MyLottery\obj\x86\Debug\MyLottery.exe
 D:\WorkShop\MyTest\MyLottery\obj\x86\Debug\MyLottery.pdb
+C:\My Projects\MyTest\MyLottery\obj\x86\Debug\MyLottery.exe
+C:\My Projects\MyTest\MyLottery\obj\x86\Debug\MyLottery.pdb
