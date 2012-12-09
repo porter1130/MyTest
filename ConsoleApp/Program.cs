@@ -36,7 +36,7 @@ namespace ConsoleApp
         {
             //siteUrl = "http://cnashsptest.cnaidc.cn:91/WorkflowCenter";
             //siteUrl = "http://172.17.1.45:83/WorkflowCenter";
-            siteUrl = "https://cnshsps.cnaidc.cn/WorkflowCenter";
+            //siteUrl = "https://cnshsps.cnaidc.cn/WorkflowCenter";
             //siteUrl = "http://caserver:9001/WorkflowCenter";
 
             //TypeEntry.ConvertToBool("true");         
@@ -51,7 +51,7 @@ namespace ConsoleApp
                     {
                         #region Common Operations
 
-                        //CommonObjectEntry.TestContain();
+                        CommonObjectEntry.TestContain();
                         //SharePointEntry.GetCEOName(web);
                         //CommonObjectEntry.GetDateInfo(web);
                         //CommonObjectEntry.TestStringFormat(web);
@@ -83,7 +83,7 @@ namespace ConsoleApp
                         //SharePointEntry.StartWorkflowInstance(web);
                         //SharePointEntry.GetWorkflowInfo(web);
                         //SharePointEntry.FindLockedWorkflow(web);
-                        SharePointEntry.UnLockWorkflowTasks(web);
+                        //SharePointEntry.UnLockWorkflowTasks(web);
                         //SharePointEntry.UpdateReadOnlyField(web);
                         //SharePointEntry.GetTaskListItemInfo(web);
                         //SharePointEntry.InsertListItemToTask(web);

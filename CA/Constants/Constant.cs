@@ -64,10 +64,31 @@ namespace CA
         internal const string TravelExpenseClaim = "Travel Expense Claim";
         #endregion
 
+        #region CashAdvanceRequestSAP
+        internal const string CashAdvanceRequestSAP = "CashAdvanceRequestSAP";
+        #endregion
+
+        #region Credit Card Claim SAP Workflow
+        internal const string CreditCardClaimSAP = "Credit Card Claim SAP Workflow";
+        #endregion
+
+        #region Employee Expense Claim SAP WorkFlow
+        internal const string EmployeeExpenseClaimSAP = "Employee Expense Claim SAP WorkFlow";
+        #endregion
+
+        #region Expatriate Benefit Claim SAP Workflow
+        internal const string ExpatriateBenefitClaimSAP = "Expatriate Benefit Claim SAP Workflow";
+        #endregion
+
+        #region Payment Request SAP WorkFlow
+        internal const string PaymentRequestSAP = "Payment Request SAP WorkFlow";
+        #endregion
+
         #region Travel Expense Claim For SAP Workflow
         internal const string TravelExpenseClaimDetailsForSAP = "Travel Expense Claim Details For SAP";
         internal const string TravelExpenseClaimForSAP = "Travel Expense Claim For SAP";
         #endregion
+
         #region Credit Card Claim Workflow
         internal const string CreditCardClaim = "Credit Card Claim Workflow";
         internal const string CreditCardBill = "Credit Card Bill";
@@ -105,6 +126,18 @@ namespace CA
 
         #region Store Sampling Workflow
         internal const string StoreSampling = "Store Sampling Workflow";
+        #endregion
+
+        #region IT Request Workflow
+        internal const string ITRequestWorkflow = "IT Request WorkFlow";
+        #endregion
+
+        #region Supplier Reinspection Workflow
+        internal const string SupplierReinspectionWorkflow = "Supplier Reinspection Workflow";
+        #endregion
+
+        #region AcceleratorWorkflow
+        internal const string AcceleratorWorkflow = "AcceleratorWorkflow";
         #endregion
     }
 

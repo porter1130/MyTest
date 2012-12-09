@@ -50,6 +50,12 @@ namespace ConsoleApp.Module
 
         internal static void TestContain()
         {
+
+            string str = "";
+            List<string> strList = new List<string>(str.Split(';'));
+
+            strList.Add("sdf");
+
             stringList.Add("1");
             stringList.Add("2");
             foreach (string s in stringList)

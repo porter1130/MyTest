@@ -1,0 +1,6 @@
+D:\WorkShop\MyTest\MyLottery\bin\Release\MyLottery.exe
+D:\WorkShop\MyTest\MyLottery\bin\Release\MyLottery.pdb
+D:\WorkShop\MyTest\MyLottery\obj\x86\Release\ResolveAssemblyReference.cache
+D:\WorkShop\MyTest\MyLottery\obj\x86\Release\MyLottery.exe
+D:\WorkShop\MyTest\MyLottery\obj\x86\Release\MyLottery.pdb
+D:\WorkShop\MyTest\MyLottery\bin\Release\HtmlAgilityPack.dll

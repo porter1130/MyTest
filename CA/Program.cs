@@ -21,12 +21,18 @@ namespace CA
                 {
                     try
                     {
-                        IWorkflowFactory workflowFactory = new TEWorkflowFactory();
+                        IWorkflowFactory workflowFactory = new PaymentRequestFactory();
                         MOSSContext context = MOSSContext.GetInstance(web);
                         //BaseWF baseWF = null;
                         //foreach (SPList list in web.Lists)
                         //{
-                        //    if (list.Title.Equals(SPListName.PurchaseRequest))
+                        //    if (list.Title.Equals(SPListName.CashAdvanceRequestSAP)
+                        //        || list.Title.Equals(SPListName.EmployeeExpenseClaimSAP)
+                        //        || list.Title.Equals(SPListName.PaymentRequestSAP)
+                        //        || list.Title.Equals(SPListName.CreditCardClaimSAP)
+                        //        || list.Title.Equals(SPListName.TravelExpenseClaimForSAP)
+                        //        || list.Title.Equals(SPListName.ExpatriateBenefitClaimSAP)
+                        //        )
                         //    {
                         //        context.CurrList = list;
                         //        context.WfName = context.GetLastedWorkflowName();
@@ -42,17 +48,16 @@ namespace CA
                         //    baseWF.SendAlertMail();
                         //}
 
-
-                        context.CurrList = web.Lists[SPListName.TravelExpenseClaim];
+                        context.CurrList = web.Lists[SPListName.StoreSampling];
                         context.WfName = context.GetLastedWorkflowName();
                         //context.WfName = WorkflowName.NonTradeSupplierSetupMaintenanceWF2;
-                        context.ApplicantSPUser = web.AllUsers.GetByID(461);
+                        context.ApplicantSPUser = web.AllUsers.GetByID(526);
                         BaseWF baseWF = workflowFactory.CreateWF(context);
 
-                        //baseWF.StartWorkflowInstance(434);
-                        ////baseWF.CancelWorkflowInstance(1131);
-                        baseWF.RetryingWF(58170);
-                        ////baseWF.ReassignWorkflowTask(68, 42452, 751);
+                        //baseWF.StartWorkflowInstance(454);
+                        //baseWF.CancelWorkflowInstance(1131);
+                        baseWF.RetryingWF(75318);
+                        //baseWF.ReassignWorkflowTask(2926, 66991, 461);
                         //baseWF.UnLockSpecificWF(266);
                     }
                     catch (Exception ex)
